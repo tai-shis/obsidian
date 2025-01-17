@@ -1,0 +1,70 @@
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20I%2FSlides%2FDynamic%20Memory%20Access.pdf)
+#### Run-time Environment
+- High-level languages provides a run-time environment which holds:
+	- Initial program setup (before "main")
+	- final program tear down (after "main")
+	- set of callable library functions
+- Run-Time environment is responsible for:
+	- maintaining a heap
+		- a pool of available memory for dynamic allocation
+	- routines for allocating and deallocating blocks of memory
+#### Heap Management
+- Heap space **must** be set aside at the beginning of the program.
+- e.g. `heap:    ds.b    HEAP_SIZE    ; a pool of available memory for use at run-time`
+- Strategies:
+	- Fixed Size Blocks
+		- One-time allocation:
+			- allocation: 
+				- if free == empty then set address to NULL
+				- else 
+					- set address to next available
+					- increment next available pointer by block size
+					- return address
+			- deallocation: N/A
+				- **Pros:
+					- both operations extremely fast and easy
+				- **Cons:
+					- possible to run out of available memory despite free memory present
+					- possible to recover but time consuming
+		- Reusable Nodes
+			- maintain a free list of blocks: a list of unallocated dynamic memory
+			- allocation:
+				- set address to free list head pointer
+				- if address does not equal NULL then remove head block from free list
+				- return address
+			- deallocation:
+				- insert block back into free list at head
+			- **Pros:
+				- able to reuse nodes
+			- **Cons:
+				- initial setup requires more time/complex
+				- must maintain list - small amount of time for each operation
+	- Variable Size Blocks 
+		- With segregated free list ("bins") for each block size
+		- Block subdivision:
+			- begin with one huge block in the free list
+			- During allocation, subdivide when necessary
+			- Can use first fit strategy:
+				- use 1st block which has size $\ge$ requested
+			- Can use a best fit strategy
+				- search for smallest block which can satisfy the request
+			- if no big enough block is found, allocation request fails
+			- for deallocation, re-insert into free list
+			- during deallocation, coalesce with free neighbours when possible
+#### Fragmentation
+- the gradual loss of **useful** space
+- 2 kinds of fragmentation
+	- internal fragmentation
+		- space is lost within an allocated block (because of minimum block sizes)
+	- external fragmentation
+		- space is lost between allocated blocks
+- excessive fragmentation can result in a failed allocation even if there is enough total memory available
+- **Possible solutions
+	- periodic defragmentation of the heap - *Implementing compaction*
+	- Maintain multiple heaps each for a different block size
+#### Common Dynamic Allocation Errors
+- Not checking if "out of memory"
+- memory leaks
+- using freed memory
+- freeing memory twice
+- overflowing an allocated block

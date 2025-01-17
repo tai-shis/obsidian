@@ -1,0 +1,75 @@
+Read through [Instruction Translation 1](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20I%2FSlides%2FInstruction%20Translation%201.pdf) for baseline information on translating instructions to assembly
+Same for disassembly, read through [Instruction Translation 2](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20I%2FSlides%2FInstruction%20Translation%202.pdf) 
+- Essentially taking first 4 bits to narrow down instructions, then comparing each instruction specification of bits to see which are valid and narrow down to one instruction
+- If Opcode is illegal, most often it is a dc.\<size> of an immediate value
+[Real Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20I%2FSlides%2FExtension%20Words.pdf)
+#### Actual Instruction Translation (With extension words)
+- Extension words:
+	- Words that immediately follow the opcode "word"
+	- Used when operations require extra data 
+		- Immediate Values
+		- External ds.\<type> variables
+	- Always follow the instruction word
+	- *Number of bytes used:*
+		- 0        no extension data
+		- 2        1 word
+		- 4        2 words or 1 long
+		- 6        1 word and 1 long (either order)
+		- 8        2 longs
+	- Immediate Addressing
+		- Immediate data is placed in 1-2 extension words
+		- Byte
+			- Placed in lower byte of word 
+		- Word
+			- Uses whole word (duh)
+		- Long
+			- Low Address - **high order word
+			- High Address - **low order word
+			- ***They are flipped
+- Absolute Addressing Long/Short
+	- absolute long
+		- long address stored in 2 words
+	- absolute short
+		- word address - sign-extended to long
+- Register Indirect with Offset
+	- Displacement is signed 16 bit value, so it is one extension word
+- ##### *Source extension words are always stored first*
+- Indexed Register Indirect with Offset
+	- Register field in the opcode specifies the base address register to use
+	- Must also specify the index register as well as signed 8 bit displacement
+	- Extension word format
+		- d/a 
+			- 0 = data register
+			- 1 = address register
+		- w/l
+			- 0 = word
+			- 1 = long
+- Branches
+	- jmp and jsr load the PC with a new address
+	- other branch instructions add a signed displacement to the PC
+		- signed displacement are in 2s comp binary
+		- see slides for form of opcode + extension word
+	- branches use a word displacement by default
+	- a byte displacement can be used instead
+		- is fast, *no need for extension word*
+		- limited to +126 forwards or -128 backwards
+		- specified with size .s
+	- **Displacement**
+		- Regardless of size, displacement is
+			- $(destination\ address) - (instruction\ address + 2)$
+			- +2 because PC is incremented by 2 at the end of the fetch phase
+	- Decrement Branches
+		- DBRA and DBF are the same
+		- DBT exists but does nothing
+		- no short version
+		- **there is one extension word**
+	- Movem instruction
+		- takes a list of registers
+		- s/d 
+			- 0 - effective address is destination
+			- 1 - effective address is source
+		- w/l
+			- 0 = word
+			- 1 = long
+		- see slides for op + extension layout
+		- for each *rN* in the extension word it has a value of 1 if the register is included in the instruction, 0 otherwise

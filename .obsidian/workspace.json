@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "00fb24419b8bc94d",
+    "type": "split",
+    "children": [
+      {
+        "id": "36b8a0da1e30d7b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0458f4ff66b51a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Digital Logic and Boolean Logic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Logic and Boolean Logic"
+            }
+          },
+          {
+            "id": "12e6efb7f40adeac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Combinatorial Circuits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Combinatorial Circuits"
+            }
+          },
+          {
+            "id": "7f4b5cc70a1a3c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Eng/Computing Careers and Disciplines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computing Careers and Disciplines"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e42ab887da27fda",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d6f75e4a5d67f77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f8b223d1d7b160d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0f2d604e5410aa5b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8bbfd2e9a77180d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "225214850e657a95",
+    "type": "split",
+    "children": [
+      {
+        "id": "3af5c73847c014ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79c043b644d1d38a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Intro to Computer Architecture"
+            }
+          },
+          {
+            "id": "e01b593f5fefd62b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Intro to Computer Architecture"
+            }
+          },
+          {
+            "id": "4a3a6f7ddc3fd7d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fb96eecdab749237",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Intro to Computer Architecture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "12e6efb7f40adeac",
+  "lastOpenFiles": [
+    "Untitled 1.md",
+    "Computing Machinery II/Combinatorial Circuits.md",
+    "Untitled.md",
+    "Computing Machinery II/Digital Logic and Boolean Logic.md",
+    "Computing Machinery II/Computing Machinery II.md",
+    "Software Eng/Software Engineering.md",
+    "Software Eng/Computing Careers and Disciplines.md",
+    "Discrete Mathematics/Tutorial 1 January 9.md",
+    "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
+    "Computing Machinery I/Computing Machinery Final Review/Data Representation.md",
+    "Computing Machinery I/Computing Machinery Final Review/Dynamic Memory Access.md",
+    "Computing Machinery I/Computing Machinery Final Review/Floating Point Numbers.md",
+    "Computing Machinery I/Computing Machinery Final Review/Instruction Translation.md",
+    "Software Eng",
+    "Discrete Mathematics",
+    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
+    "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
+    "Computing Machinery II",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Computing Machinery I/Slides/Array Indexing.pdf",
+    "Computing Machinery I/Slides/Dynamic Memory Access.pdf",
+    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
+    "Computing Machinery I (2).zip",
+    "Computing Machinery I.zip",
+    "Computing Machinery I/Computing Machinery Final Review/Introduction.md",
+    "Computing Machinery I/Slides/Extension Words.pdf",
+    "Computing Machinery I/Computing Machinery - COMP 2655.md",
+    "Computing Machinery I/Slides/Floating Point Numbers.pdf",
+    "Computing Machinery I/Computing Machinery Final Review/Assembly Basics.md",
+    "Computing Machinery I/Slides/Assembler, Linker and Loader - Copy.pdf",
+    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
+    "().md",
+    "Data.md",
+    "Signed Binary Numbers.md",
+    "Signed-Magnitude.md",
+    "Computing Machinery I/Computing Machinery Final Review.md"
+  ]
+}

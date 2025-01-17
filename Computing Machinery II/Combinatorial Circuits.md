@@ -1,0 +1,26 @@
+#### Preface
+- Two types of circuits
+	- *Combinatorial*
+		- outputs are determined exclusively by current inputs
+	- *Sequential*
+		- outputs may be determined with previous outputs
+- Block Diagram
+	- **Diagram**: block diagram of combinational circuits with *m* inputs and *n* outputs
+	- ***Each Output*** may be described by a boolean function with m inputs
+- Any circuit can be built by composing combinational components is also combinational
+	- composition must be without cycles
+- To implement a basic computer, only a small number of fundamental combinational components are needed:
+	- adders
+	- decoders
+	- encoders
+	- multiplexers
+- **Half Adder (HA)**
+	- adds two bits (x, y)
+	- to produce sum and carry bits (s, c)
+	- See diagram in notes
+- **Full Adder (FA)**
+	- full adder adds three bits (x, y, c$_{in}$)
+	- produces sum and carry bits (c$_{out}$, s)
+	- Also in notes
+- An *n-bit* adder can be obtained by combining one HA and **n-1** FA circuits
+- 

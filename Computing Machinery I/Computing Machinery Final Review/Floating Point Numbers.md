@@ -1,0 +1,36 @@
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20I%2FSlides%2FFloating%20Point%20Numbers.pdf)
+#### Floating Points
+- To represent floating point numbers in assembly/binary, we use scientific notation
+- To represent a number in scientific notation:
+	- $\pm M * 2^{\pm E}$ 
+	- where:
+		- M is the Mantissa
+		- E is the Exponent
+		- 2 is the exponent base
+	- To hold the number in binary, we use a 32 bit value (long)
+		- 1st bit: 0/1 to indicate negative
+			- signed magnitude
+		- next 8 bits: biased exponent
+			- the exponent is based so the "bias" is subtracted from the biased exponent to get the true exponent
+			- for **k** bits, the bias is $(2^{k-1} - 1)$
+				- for 8 bits the bias is 127
+				- $e = e' - 127$
+		- last 23 bits: normalized mantissa ("fraction")
+- Exponent Range is:
+	- True:
+		- -126 to +127
+	- Biased:
+		- 1 to 254
+- The normalized form a floating point number in binary is given by:
+	- $\pm1.bbb...b*2^{\pm e}$
+	- To normalize
+		- move the decimal point to be the right of the most significant 1
+		- adjust E accordingly
+	- e.g.
+		- $0.0110 * 2^5 \quad 1.10 * 2^3 \quad \text{shift 2 to the right}$
+		- $101101 * 2^2 \quad 1.01101 * 2^7 \quad \text{shift 5 to the left}$
+		- $101101 * 2^{-2} \quad 1.01101 * 2^3 \quad \text{shift 5 to the left}$
+	- **Shifting left increases exponent by 1, shifting right decreases exponent by 1
+- Since a normalized number always leads with 1, the MS Digit is implied, therefor not stored
+- Review slides for proper practice
+- 

@@ -1,0 +1,39 @@
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20I%2FSlides%2FArray%20Indexing.pdf)
+#### Arrays
+- defined by:
+	- start address
+	- number of elements
+	- size of each element
+- Dope Vectors
+	- Dope vector fields are defined before the array space is defined.
+	- Fields are accessible using negative offset at the array address
+	- For N-Dimension Arrays, an upper bound and lower bound vector is needed for each dimension
+- **1D Arrays 
+	- Indexing Formula
+		- $offset = index - LB*el\_size$
+		- $address = A + (index-LB) * el\_size = address + offset$
+		- $value = dereference(A + (index - LB) * el\_size)$
+	- 1D Arrays contain 3 fields in their dope vectors
+		- lower bound
+		- upper bound
+		- element size
+- **2D Arrays
+	- Indexing Formula
+		- offset for array in **row major order** is
+			- $\#\ of\ rows\ to\ skip * \#\ of\ elements\ in\ a\ row$
+			- $offset = [(row-LBR)*(UBC-LBC+1)+(col-LBC)]*el\_size$
+				- $(row-LBR)*(UBC-LBC+1)$
+					- number of elements in complete rows
+				- $(col-LBC)$
+					- number of prior elements in the *current row*
+	- 2D Arrays contain 5 fields
+		- upper bound row
+		- lower bound row
+		- upper bound column
+		- lower bound column
+		- element size
+	- Stored in two possible orders
+		- *Row Major Order
+			- 1D Array of rows
+		- *Row Column Order*
+			- 1D Array of columns
