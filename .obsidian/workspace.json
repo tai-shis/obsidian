@@ -11,10 +11,31 @@
             "id": "ea91c72f27f43cd3",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
+=======
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "12e6efb7f40adeac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Logic and Boolean Logic"
+>>>>>>> 32e1ee976a5e8a25494060263d2b0d80fa3e933f
             }
           }
         ]
@@ -160,13 +181,28 @@
   },
   "active": "ea91c72f27f43cd3",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Software Eng/Computing Careers and Disciplines.md",
     "Computing Machinery II/Digital Logic and Boolean Logic.md",
     "Computing Machinery II/Combinatorial Circuits.md",
     "Untitled 1.md",
     "Untitled.md",
+=======
+    "Untitled.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "2025-01-21.md",
+>>>>>>> 32e1ee976a5e8a25494060263d2b0d80fa3e933f
     "Computing Machinery II/Computing Machinery II.md",
+    "Computing Machinery II/Slides/Digital Logic & Boolean Algebra.pdf",
     "Software Eng/Software Engineering.md",
+<<<<<<< HEAD
+=======
+    "Software Eng/Computing Careers and Disciplines.md",
+    "Computing Machinery II/Notes/Combinatorial Circuits.md",
+    "Computing Machinery II/Slides",
+    "Computing Machinery II/Notes",
+    "Untitled 1.md",
+>>>>>>> 32e1ee976a5e8a25494060263d2b0d80fa3e933f
     "Discrete Mathematics/Tutorial 1 January 9.md",
     "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
     "Computing Machinery I/Computing Machinery Final Review/Data Representation.md",
@@ -187,11 +223,8 @@
     "Computing Machinery I (2).zip",
     "Computing Machinery I.zip",
     "Computing Machinery I/Computing Machinery Final Review/Introduction.md",
-    "Computing Machinery I/Slides/Extension Words.pdf",
     "Computing Machinery I/Computing Machinery - COMP 2655.md",
-    "Computing Machinery I/Slides/Floating Point Numbers.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Assembly Basics.md",
-    "Computing Machinery I/Slides/Assembler, Linker and Loader - Copy.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
     "().md",
     "Data.md",

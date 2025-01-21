@@ -1,3 +1,4 @@
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20II%2FSlides%2FDigital%20Logic%20%26%20Boolean%20Algebra.pdf)
 #### Charges & Electrons
 - can be positive/negative
 - unit of measurement for a charge is a coulomb
