@@ -1,0 +1,50 @@
+#### Preface
+- Two types of circuits
+	- *Combinatorial*
+		- outputs are determined exclusively by current inputs
+	- *Sequential*
+		- outputs may be determined with previous outputs
+- Block Diagram
+	- **Diagram**: block diagram of combinational circuits with *m* inputs and *n* outputs
+	- ***Each Output*** may be described by a boolean function with m inputs
+- Any circuit can be built by composing combinational components is also combinational
+	- composition must be without cycles
+- To implement a basic computer, only a small number of fundamental combinational components are needed:
+	- adders
+	- decoders
+	- encoders
+	- multiplexers
+- **Half Adder (HA)**
+	- adds two bits (x, y)
+	- to produce sum and carry bits (s, c)
+	- See diagram in notes
+- **Full Adder (FA)**
+	- full adder adds three bits (x, y, c$_{in}$)
+	- produces sum and carry bits (c$_{out}$, s)
+	- Also in notes
+- An *n-bit* adder can be obtained by combining one HA and **n-1** FA circuits
+- A basic method is by ripple carry.
+	- however, ripple carry for larger sizes of arithmetic is too slow
+		- can be done using carry-lookahead
+- **Decoder**
+	- n-bit value represents $2^n$ distinct values
+	- not all output lines are required to be connected
+	- e.g. a 1x2 decoder has one input and two outputs
+		- if the input is zero. the first output is active,
+		- if the input is one, the second output is active
+		- diagram is self-explanatory.
+- **Encoders**
+	- inverse operation of a decoder
+	- has $2^n$ inputs and up to n outputs
+	- *Priority Encoder*
+		- multiple inputs may be active simultaneously
+		- output will correspond to the *highest* numbered input
+		- determined using **Karnaugh maps**
+			- will not be tested
+- **Multiplexer**
+	- if both items try to write to the bus at the first time, *one will get to the line first*
+		- voltage flowing on the wire to the second item is in the wrong direction
+		- can cause shorts and possibly damage components
+		- outputs of two gates must not be connected
+	- the **MUX** or multiplexor is used to decide which input will be used
+	- 

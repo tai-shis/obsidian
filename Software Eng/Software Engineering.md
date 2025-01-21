@@ -13,3 +13,109 @@
 - adoption of IT practices to plan/deploy software smoothly
 - prioritization of secure software design and consistent management/maintenance for long-term reliability
 - requires understanding of IT environments to ensure software compatibility and performance
+#### Discipline vs Field of Study
+- **Discipline**
+	- specific branch of knowledge/area of specialization
+- **Field**
+	- wider scope
+	- includes various sub-disciplines, research areas, practices, and applications
+#### General Information
+- SE is the application of engineering principles to the design, development, testing, and maintenance of software
+- *The application of a systematic, disciplined, and **quantifiable approach** to the development, operation, and maintenance of software*
+- ##### Quantifiable Approach
+	- refers to the *use of measurable and objective methods in the software engineering process*
+	- I.e. Software engineers rely on metrics and data to evaluate the quality, performance, and progress of their work at every stage of development
+	- General Metrics:
+		- Timeliness
+			- measurement of progression according to the schedule
+		- Reliability
+			- how often software crashes/encounters errors
+		- Performance
+			- measuring the speed, memory usage, responsiveness of the software
+		- User Satisfaction
+			- gathering data on how well the software meets expectations
+			- uex
+			- needs, feedback, usability, etc.
+	- *Example of quantifiable approach:*
+		- Timeliness
+			- sets a goal of a timeline
+			- break down development into smaller "milestones"
+				- completing design
+				- making prototype
+				- etc.
+		- Reliability
+			- measuring failure rates
+			- goal of reliability statistic
+			- using statistic **set beforehand** to see when things need to be adjusted
+	- Great to allow teams/groups to **identify problems early** and adjust to ensure product meets expectations/requirements
+#### Importance of Software Engineering
+- Focus is **problem-solving, not puzzle-solving**
+	- puzzle solving emphasizes finding solutions to well-defined *isolated* challenges
+	- problem solving addresses issues to create a broader solution to a problem
+- Software Engineers require more skills than just coding, such as:
+	- *Communicating* with stakeholders
+	- Translate needs into requirements
+	- Design reliable systems
+	- **Test thoroughly**
+- **Meeting User Needs**
+	- Balance of technical skills and user-focused design is required, done by:
+		- Understanding **user needs**
+			- recognizing user interaction and how the user experience can be improved
+		- Iterating with feedback
+			- regularly gathering user feedback to improve/refine the product
+- Ensuring Reliability and **Scalability**
+	- solve current problems and is reliable and ready for **future needs**
+	- create software that can grow/handle more users or data without issues
+- SE will be used to apply a structured scientific/engineering approach to every phase of the software development lifecycle
+	- analysis, design, coding, testing, maintenance, etc.
+#### Systematic Problem Solving in Engineering
+- **Core principles**
+	- breaking down complex problems into manageable parts
+- **Civil engineers**
+	- designing bridges by considering materials, load-bearing capacity, environmental factors
+- **Software Engineers**
+	- dividing software into key components like design, functionality, performance, and scalability
+- Breaking down complex software problems
+	- e.g. e-commerce platform involves breaking it down into key components
+		- user auth
+		- product catalog management
+		- payment tracking
+		- order tracking
+		- etc.
+	- Each component will be solved individually before bringing it together
+- Project Management in Software Engineering
+	- ensures projects are delivered on time, in budget, and to specs
+	- requires more than code quality like effective coordination and resource management
+	- **this is a key factor in building reliable, scalable, and user-centric software solutions**
+	- **Key  Aspects**
+		- Time management
+		- Phased development
+		- Regular Check-Ins
+		- etc.
+- Design and Architecture
+	- creating a plan for how the software should function
+	- Key Goal:
+		- Ensure the system is scalable and maintainable
+	- Well designed architecture lays the foundation for reliable and efficient software
+	- Importance
+		- facilitates easier troubleshooting and modification
+		- clear guidelines for future updates and enhancements 
+- Quality Assurance
+	- *follows design and coding to ensure software quality*
+	- Purpose:
+		- verify if software needs meet user requirements
+		- ensure reliability/performance under conditions/loads
+	- Unit testing
+		- testing individual components
+	- Integration Testing
+		- testing components working together as intended
+	- System Testing
+		- making sure software meets function/performance standards
+	- User Acceptance Testing
+		- making sure software meets end-user need **before** final delivery
+- Maintenance
+	- Continuous Updates
+		- functionality and relevance over time
+	- Patching
+		- fixing bugs/security vulnerabilities
+	- more on notes
