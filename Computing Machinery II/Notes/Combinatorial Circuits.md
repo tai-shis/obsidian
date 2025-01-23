@@ -47,4 +47,21 @@
 		- can cause shorts and possibly damage components
 		- outputs of two gates must not be connected
 	- the **MUX** or multiplexor is used to decide which input will be used
-	- 
+	- Two ways to implement n-input boolean function using a $2^n x 1$ MUX
+- **ROMs**
+	- *Read-Only-Memory*
+	- is a combinational component
+	- a x b means it has
+		- a addresses
+		- with b bit values stored at each location
+	- $log_2a$ inputs -> the address of a memory location
+	- b outputs   -> the value stored at the location
+	- each output bit is a *boolean function* of the address bit
+		- has 1/0 at that specific address
+	- Address and data size are *unrelated*
+	- Can be generalized to $2^n$ to m ROM 
+- **ALUs**
+	- Since we can build an n-bit adder/subtractor out of Full adders.
+	- Can be generalized to $(n+1)-bit$ ALU
+	- *All possible operations in an ALU are performed regardless of what the desired operation is*
+		- *Desired operation is decided by the **MUX***
