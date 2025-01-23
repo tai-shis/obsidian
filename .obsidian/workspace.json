@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Raster Graphics.md",
+                "file": "Computing Machinery II/Notes/Combinatorial Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raster Graphics"
+              "title": "Combinatorial Circuits"
             }
           }
         ]
@@ -179,9 +179,10 @@
   },
   "active": "fb5df8e45aa4691f",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "Computing Machinery II/Notes/Raster Graphics.md",
+    "Computing Machinery II/Slides/Combinatorial Circuits.pdf",
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "Software Eng/Software Engineering Metrics.md",
     "Software Eng/Software Engineering.md",
     "Computing Machinery II/Slides/Digital Logic & Boolean Algebra.pdf",

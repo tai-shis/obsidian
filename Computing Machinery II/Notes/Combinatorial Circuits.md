@@ -1,3 +1,4 @@
+[[Combinatorial Circuits.pdf]]
 #### Preface
 - Two types of circuits
 	- *Combinatorial*
