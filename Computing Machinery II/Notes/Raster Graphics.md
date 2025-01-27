@@ -63,4 +63,22 @@ void plot_pixel(char *base, int row, int col) {
 - **Shifts and bitwise operations are far faster**
 	- compared to div/mod
 	- the speed difference can be seen on the reference card
-- 
+- Trying to plot lines and other large details using plot_pixel is expensive due to the amount of multiplication operations needed.
+- **Vertical Line**
+	- re-calculating pixel positions in the same byte is redundant
+	- vertical line, the pixel position is the *same* for every line
+	- For a *vertical line, (x,y$_1$) to (x, y$_2$)*:
+		- vertical line is a single pixel on a series of consecutive scan lines
+		- Compute the address of the byte for x, y$_1$
+		- compute the bit position for x, y$_1$ in this byte
+		- in byte with one set, shift the pixel to the correct position
+- **Horizontal line**
+	- from (x$_1$, y) to (x$_2$,y)
+	- assuming mod of x$_1$ by 8 is 0 and x$_2$ is 7
+		- compute the start address of the byte for x$_1$,y
+		- compute the end address of the byte for x$_2$,y
+		- loop from start address to the end address writing 0xFF to each byte
+	- without assumption:
+		- from start address+1 to end address-1
+		- shift 0xFF to the *right* the appropriate number of bits based on x$_1$ and write it to the start address
+		- shift 0xFF to the *left* the appropriate number of bits based on x$_2$ and write it to the end address
