@@ -1,0 +1,37 @@
+### Key Ideas/Things
+- CI/CD (Continuous Integration/Continuous Deployment)
+	- Circle CI
+---
+### Waterfall SDLC
+- step-by-step process for developing software
+- each stage *must* be completed before moving to the next
+	- completed to completion
+	- no going back
+- **Advantages:**
+	- Clear Structure
+		- all phases are distinct and well-defined
+	- Documentation
+		- ensures clear communication and understanding of requirements
+	- Predictable Timeline
+		- fixed phases makes it easier to estimate time, cost, and resources
+	- Easy to Manage
+		- progress is easily measurable
+	- *Best for Stable Requirements*
+- **Disadvantages:**
+	- Inflexibility
+		- hard to adapt to changes once a phase is done
+	- Late Testing
+		- testing happens after development
+		- expensive to fix issues discovered late
+	- User Feedback is Delayed
+		- users wont see the product until its nearly finished
+	- Risk of Obsolescence
+		- long cycles can lead to outdated solutions by the time it is done
+	- *Not ideal for complex or evolving projects*
+- **When to use**
+	- Clear and Fixed requirements
+		- when goals are unlikely to change
+	- Short and Simple Projects
+	- High-Risk Situations
+	- Clients Demand a Predictable Plan
+232

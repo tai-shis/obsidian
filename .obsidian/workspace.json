@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Raster Graphics.md",
+                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raster Graphics"
+              "title": "Sequential Circuits"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Machinery II/Notes/Raster Graphics.md",
+                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Raster Graphics"
+              "title": "Backlinks for Sequential Circuits"
             }
           },
           {
@@ -176,14 +176,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53a6b314fa79cb64",
+  "active": "5b0a54b4e7f30e58",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
+    "Software Eng/SDLC Models.md",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Software Eng/Software Development Life Cycle.md",
+    "Computing Machinery II/Notes/Raster Graphics.md",
     "Untitled",
     "Software Eng/Software Engineering Metrics.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
     "Software Eng/Important.md",
-    "Software Eng/Software Development Life Cycle.md",
     "SRS (Software Requirement Specification).md",
     "Software Eng/Software Engineering.md",
     "Discrete Mathematics/Tutorial 1 January 9.md",
