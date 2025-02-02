@@ -34,4 +34,44 @@
 	- Short and Simple Projects
 	- High-Risk Situations
 	- Clients Demand a Predictable Plan
-232
+---
+### Iterative Models
+- Starts with a simple implementation of a small set of the software requirements
+- Incremental development in iterations of waterfall method.
+- **Advantages**
+	- There is a working model of the system at a very early stage
+		- Easier to find functional/design flaws
+	- Allows for corrective measures to be taken within a limited budget
+- **Disadvantages**
+	- Only applicable to *large and bulky* software development projects
+	- Hard to break small software system into chunks
+---
+### Agile Models
+- *Combination of iterative and incremental process models*
+	- Focus on process adaptability and customer satisfaction by rapid delivery of working software product
+- Breaks the product into *small, incremental builds*
+	- builds provided in iterations (called *sprints*)
+- After each sprint, a working product is displayed to the customer/stakeholders
+- Generally, every sprint contains the entirety of a condensed waterfall model
+- Based on **adaptive software development methods**
+- Focus on adaptability with *minimal upfront planning*
+- Frequent testing during sprints reduces major failure risks
+---
+### Scrum Artifacts
+- **Product Backlog**
+	- Ordered list of *everything* that is known *that needs to be done* for the product
+	- Prioritized list
+	- 
+- **Sprint Backlog**
+	- *Set of items from the product backlog selected for the sprint*
+	- Plan for delivering the product increment and realizing the sprint goal
+- **Increment**
+	- Sum of *all the product backlog items that have been completed*
+	- Contains the value of the increments in all previous sprints
+---
+### Scrum Events
+- **The Sprint**
+- **Sprint Planning**
+- **Daily Scrum**
+- **Sprint Review**
+- **Sprint Retrospective**
