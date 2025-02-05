@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "SDLC Models"
             }
+          },
+          {
+            "id": "625be55ebc0b7188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Eng/Software Requirement Analysis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Software Requirement Analysis"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -148,12 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Eng/SDLC Models.md",
+                "file": "Software Eng/Software Requirement Analysis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SDLC Models"
+              "title": "Outgoing links from Software Requirement Analysis"
             }
           },
           {
@@ -212,8 +236,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "974cee66c7204866",
+  "active": "625be55ebc0b7188",
   "lastOpenFiles": [
+    "Software Eng/Software Requirement Analysis.md",
+    "Software Eng/Software Requirement Analysis.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
     "Computing Machinery II/Notes/Raster Graphics.md",
     "Software Eng/Software Development Life Cycle.md",
