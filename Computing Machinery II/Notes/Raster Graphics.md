@@ -1,3 +1,4 @@
+[Slides](obsidian://open?vault=obsidian&file=Computing%20Machinery%20II%2FNotes%2FSlides%2FRaster%20Graphics.pdf)
 ### Raster Graphics
 - raster = a rectangular grind of *pixels*
 - (0,0) refers to the *top left corner*
