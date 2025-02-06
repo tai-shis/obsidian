@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff099758db94a571",
+        "id": "8d27a2a2a19102af",
         "type": "tabs",
         "children": [
           {
-            "id": "a10092f6c23d3bbf",
+            "id": "5b0a54b4e7f30e58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+                "file": "Computing Machinery II/Notes/Raster Graphics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Digital Logic and Boolean Logic"
+              "title": "Raster Graphics"
             }
           },
           {
-            "id": "974cee66c7204866",
+            "id": "f20f143d6918e381",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Eng/SDLC Models.md",
+                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SDLC Models"
+              "title": "Sequential Circuits"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Digital Logic and Boolean Logic"
+              "title": "Backlinks for Sequential Circuits"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Eng/SDLC Models.md",
-                "linksCollapsed": true,
+                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SDLC Models"
+              "title": "Outgoing links from Digital Logic and Boolean Logic"
             }
           },
           {
@@ -195,12 +195,11 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,22 +211,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "974cee66c7204866",
+  "active": "f20f143d6918e381",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Sequential Circuits.md",
     "Computing Machinery II/Notes/Raster Graphics.md",
+    "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
     "Software Eng/Software Development Life Cycle.md",
     "Software Eng/SDLC Models.md",
     "Computing Machinery II/Computing Machinery II.md",
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "Software Eng/Important.md",
-    "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
+    "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "Untitled",
     "Software Eng/Software Engineering Metrics.md",
+    "Software Eng/Important.md",
     "SRS (Software Requirement Specification).md",
     "Software Eng/Software Engineering.md",
     "Discrete Mathematics/Tutorial 1 January 9.md",
-    "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf"
   ]

@@ -69,3 +69,17 @@
 | **1** | **1** | 0         | **0**      | **0**       |
 | **1** | **1** | 1         | **0**      | **0**       |
 - See slides for examples/more specification, bold rows means Q$_{cur}$ does not matter.
+---
+### D Latch
+- To fully avoid the possibility of **S = R = 1**
+- To do this, we take the input *D*, and have one input negated and the other normal entering an SR Latch
+	- *see slides for example*
+- *Q$_{next}$* will **always** follow the value of *D* if the circuit is enabled
+- Due to this, we have lost the error state by the preservation of the hold state
+- We can add an enable input so that D is ignored and Q is held in a stable state until the circuit is told to load D
+- We eliminate the error state as with the enable circuit, it is not possible for both inputs of the SR Latch to be one (as mentioned previously with the D input being opposites)
+- It is useful to add a reset signal so that Q can be reset to 0 independently of enable. (or held values)
+- Boolean functions to the S and R inputs
+	- $S = D * enable * reset'$
+	- $R = D' * enable + reset$
+	- 
