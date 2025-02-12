@@ -1,1 +1,60 @@
-## Part 1
+### Part 1
+- no notes lol
+---
+### Part 2
+- *Key Stages of the Process*
+	- Gathering requirements
+	- Documenting details
+	- Analysis and Modelling 
+	- Validating Requirements 
+- **Stage 1**: Gathering requirements
+	- Engaging with stakeholders
+		- Users/those who will be impacted by the software
+			- I.e.
+				- Customers
+				- Business Owners 
+				- Other Users
+					- (people who interact with the system for maintenance)
+	- Techniques:
+		- Interviews 
+			- with stakeholders to gather information
+		- Workshops 
+			- to engage with key stakeholders to discuss needs
+		- Questionnaires/Surveys
+			- Collecting feedback from stakeholders quickly
+		- Observation
+			- Watching users in their actual environment to understand what is lacking/requires improvements.
+			- *Documenting hidden requirements by observing user behaviour*
+- **Stage 2**: Refining and Documenting
+	- *Elicitation*
+		- refining and clarifying raw requirements
+		- Resolving Ambiguities
+		- Resolving conflicting requirements from different stakeholders
+		- requirements are put into *functional* and *non-functional* types
+	- Stage requirements are formally documented **(SRS)**
+		- This is the blueprint for the development team
+- **Stage 3**: Analyzing and Modelling/Visualizing
+	- Where development team analyzes the documented requirements in detail
+		- Breaking down large requirements into smaller tasks
+	- Questions to ask:
+		- Are the requirements feasible?
+			- In given time frame, resources, technology, etc.
+		- Do any requirements contradict each other?
+			- Ex. one feature conflicts with the business goals of another
+		- Can we break large requirements into smaller tasks?
+			- Makes development easier to manage and plan
+	- Modelling techniques are used in this stage *(UML)*
+		- Case Diagrams
+		- Flowcharts
+		- Wireframes
+		- These tools can help identify potential issues/disagreements early on
+![[38f0e971a4b569a59c7871921b1f5a87.png]]
+- **Stage 4**: Validating Requirements
+	- Stakeholders review the document requirements and ensure if requirements are:
+		- accurate
+		- feasible
+		- complete
+	- Ensures stakeholders agree on requirements *before* development begins
+	- Prevents **scope creep**
+		- where project's requirements keep expanding leading to delays and cost.
+- 
