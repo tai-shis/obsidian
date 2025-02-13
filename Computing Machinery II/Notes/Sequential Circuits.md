@@ -151,3 +151,16 @@
 		- Shifting left
 			- low order bit is 0 for logical shift
 			- high order bit is simply output
+---
+### Serial vs Parallel
+- two ways to transfer data between registers (or units/computers)
+	- Parallel
+		- n outputs of Tx (output reg) reg connected to n inputs of Rx reg
+		- all in one clock signal, asynchronous (all values)
+	- Serial
+		- 1 bit at a time is transferred between Tx and Rx registers
+		- (faster)
+		- 1 input bit, 1 output bit
+		- *Note*:
+			- Can shift both directions (LSB into MSB and vice versa)
+			- The operation is destructive for Tx, unless it rotates.
