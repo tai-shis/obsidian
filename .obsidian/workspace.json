@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f20f143d6918e381",
+            "id": "5b0a54b4e7f30e58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Eng/Software Requirement Analysis.md",
+                "file": "Computing Machinery II/Notes/Raster Graphics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Software Requirement Analysis"
+              "title": "Raster Graphics"
+            }
+          },
+          {
+            "id": "f20f143d6918e381",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Notes/System Calls.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "System Calls"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Eng/Software Requirement Analysis.md",
+                "file": "Computing Machinery II/Notes/System Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Software Requirement Analysis"
+              "title": "Backlinks for System Calls"
             }
           },
           {
@@ -123,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Eng/Software Requirement Analysis.md",
+                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Software Requirement Analysis"
+              "title": "Outgoing links from Digital Logic and Boolean Logic"
             }
           },
           {
@@ -138,9 +163,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -152,13 +175,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Eng/Software Requirement Analysis.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Software Requirement Analysis"
+              "title": "Outline of Digital Logic and Boolean Logic"
             }
           },
           {
@@ -175,13 +195,11 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,17 +213,17 @@
   },
   "active": "f20f143d6918e381",
   "lastOpenFiles": [
-    "38f0e971a4b569a59c7871921b1f5a87.png",
-    "Software Eng/Software Requirement Analysis.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
-    "Software Eng/Software Engineering.md",
-    "Software Eng/Software Engineering Metrics.md",
-    "Software Eng/Computing Careers and Disciplines.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
-    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
+    "Software Eng/Software Requirement Analysis.md",
+    "38f0e971a4b569a59c7871921b1f5a87.png",
+    "Software Eng/Software Engineering.md",
+    "Computing Machinery II/Notes/System Calls.md",
+    "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
+    "Computing Machinery II/Notes/Raster Graphics.md",
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
     "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
@@ -215,8 +233,10 @@
     "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
     "Computing Machinery I/Computing Machinery - COMP 2655.md",
     "Software Eng/Software Development Life Cycle.md",
+    "Software Eng/Software Engineering Metrics.md",
     "Software Eng/SDLC Models.md",
     "Computing Machinery II/Computing Machinery II.md",
+    "Software Eng/Computing Careers and Disciplines.md",
     "Untitled",
     "Software Eng/Important.md",
     "SRS (Software Requirement Specification).md",
