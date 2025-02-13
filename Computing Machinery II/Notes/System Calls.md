@@ -1,0 +1,25 @@
+### Library Functions
+- Compilers usually come with a *standard library* of functions/types to work with
+- Simplifies things like:
+	- I/O
+	- String manipulation
+	- Math
+	- etc.
+- Most Languages come with this
+	- Java has stdlib, C has things like printf, sqrt, etc.
+- These things are commonly used functions that are usually written in their own language. Also usually simplified so using them isn't difficult
+	- Things like malloc and free are library functions
+- Some programs are usually linked to a needed portion of the standard library.
+	- *Usually the runtime environment functions*
+---
+### Operating System Responsibilities
+- Responsibilities include:
+	- *Managing System Hardware*
+		- I/O devices
+	- *Managing System Resources*
+		- CPU time, memory
+	- *Usually providing an environment for users*
+		- GUI
+	- ***Providing an environment for programs***
+		- **A system call interface**
+- 

@@ -1,3 +1,4 @@
+[Slides](obsidian://open?vault=obsidian&file=Computing%20Machinery%20II%2FNotes%2FSlides%2FSequential%20Circuits.pdf)
 ### Sequential Circuit
 - A circuit is sequential if the outputs are determined by its current and *previous* inputs
 - To implement a basic computer, only a small number of fundamental sequential components are needed:
