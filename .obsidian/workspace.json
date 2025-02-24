@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/System Calls.md",
+                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "System Calls"
+              "title": "Sequential Circuits"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Machinery II/Notes/System Calls.md",
+                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for System Calls"
+              "title": "Backlinks for Sequential Circuits"
             }
           },
           {
@@ -213,11 +213,12 @@
   },
   "active": "f20f143d6918e381",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/System Calls.md",
     "Software Eng/Software Requirement Analysis.md",
+    "Software Eng/Software Engineering Metrics.md",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
     "38f0e971a4b569a59c7871921b1f5a87.png",
     "Software Eng/Software Engineering.md",
-    "Computing Machinery II/Notes/System Calls.md",
     "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
@@ -233,7 +234,6 @@
     "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
     "Computing Machinery I/Computing Machinery - COMP 2655.md",
     "Software Eng/Software Development Life Cycle.md",
-    "Software Eng/Software Engineering Metrics.md",
     "Software Eng/SDLC Models.md",
     "Computing Machinery II/Computing Machinery II.md",
     "Software Eng/Computing Careers and Disciplines.md",

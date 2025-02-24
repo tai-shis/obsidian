@@ -57,4 +57,6 @@
 	- Ensures stakeholders agree on requirements *before* development begins
 	- Prevents **scope creep**
 		- where project's requirements keep expanding leading to delays and cost.
-- 
+---
+### Part 3
+missing, is about feedback and gathering data, check slides

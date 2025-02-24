@@ -22,4 +22,41 @@
 		- GUI
 	- ***Providing an environment for programs***
 		- **A system call interface**
-- 
+- Applications will communicate with the Operating System, which will then communicate to the Hardware.
+- Communication is done through *SCIs*, which are doorways between the levels
+- Pros/Cons in of each level:
+	- **Low Level**
+		- Pros:
+			- Total Control
+		- Cons:
+			- Must know all Hardware details specific to the computer
+			- Non-portable, limited to this device
+	- **System Calls**
+		- Pros:
+			- More generic
+			- Les detailed knowledge is needed
+		- Cons:
+			- Less control
+			- Limited to the OS
+	- **Library**
+		- Pros:
+			- Hardware and System *independent
+			- Very portable
+		- Cons:
+			- Limited to what the library provides
+---
+### System Calls in C
+- System calls can be invoked directly from C:
+- **Beware of mixing *stdio library function calls* and *system calls* in the same program**
+	- as it may cause unwanted behaviour
+---
+### TOS Organization
+- TOS has several levels of system call
+	- GEMDOS:         generic, hardware-independent SCI
+		- trap #1, contains basic i/o, file system, date/time, etc.
+	- BIOS and XBIOS: hardware-dependent, ST-specific SCI
+		- trap #13, lower level things
+		- trap #14, low level, and st-specific (like sound)
+	- LINE A:         primitive graphics (and mouse) operations
+		- different technique, can plot pixels, lines, etc.
+	- GEM:            GUI Layer
