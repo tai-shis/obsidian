@@ -1,0 +1,73 @@
+### Software Design
+- *Process of defining architecture components, interfaces, and characteristics of a system/component*
+	- Also is the result of this process
+- **Definition:**
+	- *Software design is the process of planning how a system will work before writing code. Which also involves:*
+		- Breaking a system into parts (components)
+		- Defining how they interact   (interfaces)
+		- Ensuring the system is *efficient, scalable, and easy to maintain*
+	- Example: *Designing an online shopping website, before coding, plan out:*
+		- What pages will exist?       (e.g. Home, Cart, Checkout)
+		- How do the pages connect?    (e.g. Clicking "Add to Cart" updates the cart)
+		- What data is needed?         (e.g. Product Prices, User Login Details)
+---
+### Architecture
+- The *overall structure* of a system
+- Example:
+	- Blueprint of a house, deciding where rooms, doors, windows go.
+- Refers to the *high-level structure* of a software system.
+	- Defines how components are organized, interact, and communicate
+	- Establishes the system's design principles, scalability, security, performance requirements early.
+- *Why is Architecture important?*
+	- well-designed architecture ensures:
+		- scalability, fault tolerance, and efficient communication between components
+	- poorly-designed architecture might result in:
+		- slow performance, difficult maintenance, and system failures under load
+	- Software architecture is the *foundation of a system.*
+- ***Architecture bridges SRS and DDS** ensuring a **structured, scalable, and maintainable** software system*
+---
+### Modelling
+- *A simplified representation of something in the real world*
+	- used for the purpose of understanding and having the features of that reality
+- Models are not just diagrams
+	- Includes:
+		- Text documents                   (SRS, DDS)
+		- Diagrams & Visual Representation (UML diagrams, flowcharts)
+		- Tables, Charts, and structured lists to organize information
+	- **They are text and visual**
+- *Sub-Models*
+	- Complex Systems are often broken into smaller models
+	- Each sub-model focuses on a specific part of a system
+		- e.g. UI design, database structure, etc.
+	- *Each sub-model fits together to make the full system model.
+- Visual Models
+	- Helps teams *see* how the system will work before building it
+	- Makes complex models *easier to understand and explain
+	- Ensures everyone is on the same page
+	- Common Visual Models:
+		- Diagrams
+		- Wire frames
+		- Data Models
+	- **Key Takeaway**
+		- *Good design starts with clear models*
+		- *These help teams plan, communicate, and build better software*
+- SRS and DDS are essentially both models
+	- SRS as a model
+		- Written Components
+			- Client stories
+			- functional/non-functional requirements
+			- system constraints
+		- Visual Components
+			- use case diagrams to show interaction between users and system
+	- DDS as a model
+		- Written Components
+			- Descriptions of architecture, data structure, and interactions
+		- Visual Components
+			- UML Diagrams
+			- Database Schematics
+			- System Workflows
+	- **Key Takeaway**
+		- *SRS and DDS are both models*
+		- *They bridge the gap between system requirements and implementation*
+			- Through **text-based** and **visual representations
+---
