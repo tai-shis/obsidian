@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d27a2a2a19102af",
+        "id": "d9944eeaf26eaf95",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0a54b4e7f30e58",
+            "id": "82921888868c81af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Raster Graphics.md",
+                "file": "Computing Machinery II/Notes/Steve Midterm Review Day.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Raster Graphics"
-            }
-          },
-          {
-            "id": "f20f143d6918e381",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computing Machinery II/Notes/Sequential Circuits.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sequential Circuits"
-            }
-          },
-          {
-            "id": "5b5add23e391a8d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Eng/Software Design, Modelling, and UML.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Software Design, Modelling, and UML"
+              "title": "Steve Midterm Review Day"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Eng/Software Design, Modelling, and UML.md",
+                "file": "Computing Machinery II/Notes/Steve Midterm Review Day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Software Design, Modelling, and UML"
+              "title": "Backlinks for Steve Midterm Review Day"
             }
           },
           {
@@ -235,20 +186,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b5add23e391a8d3",
+  "active": "82921888868c81af",
   "lastOpenFiles": [
-    "Software Eng/Software Requirement Analysis.md",
-    "Software Eng/Software Design, Modelling, and UML.md",
-    "Software Eng/Software Engineering Metrics.md",
-    "Computing Machinery II/Notes/System Calls.md",
+    "Computing Machinery II/Notes/Steve Midterm Review Day.md",
+    "Computing Machinery II/Notes/Raster Graphics.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/System Calls.md",
+    "Computing Machinery II/Notes/Combinatorial Circuits.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Software Eng/Software Design, Modelling, and UML.md",
+    "Software Eng/Software Requirement Analysis.md",
+    "Software Eng/Software Engineering Metrics.md",
     "38f0e971a4b569a59c7871921b1f5a87.png",
     "Software Eng/Software Engineering.md",
     "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
-    "Computing Machinery II/Notes/Combinatorial Circuits.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
     "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
     "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
