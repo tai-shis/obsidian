@@ -1,0 +1,37 @@
+### Main Functional Units
+- **CPU**
+	- executes instructions
+- **Main Memory**
+	- Stores data and instructions
+- **I/O Interfaces**
+	- read from/write to outside world
+- These are all connected by *busses*, and synchronized by a clock
+- So:
+	- CPU controls memory
+	- CPU controls I/O
+	- Memory control I/O
+	- Input and Output control each other
+		- e.g. networking (in directly to out)
+- **I/O interface $\ne$ I/O device**
+	- interface:
+		- *digital circuit* that connects to an I/O device to a computer bus
+	- device:
+		- a device which translates information between the computer and environment
+	- A device connects to a port which is the *interface* that communicates with the computer
+	- A *computer* includes only the parts that communicates through the bus(ses)
+		- CPU
+		- RAM
+		- etc.
+	- A *computer system* is everything that communicates with/within the computer
+		- Hard Drives
+		- USB Devices
+		- etc.
+	- Expansion Card Slots (like PCIe) count as both, as they are interfaces, which connect to an interface
+- Common Input/Output Devices
+	- Keyboard/Mouse
+		- Output from these could be feedback (LEDs/Vibration)
+	- Printers
+	- Modem
+		- multidirectional
+	- Hard Drives are considered I/O devices
+	- Essentially all USB drives

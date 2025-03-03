@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Steve Midterm Review Day"
             }
+          },
+          {
+            "id": "a89f340ff3208dc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Notes/Input Output Interfaces.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Input Output Interfaces"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Machinery II/Notes/Steve Midterm Review Day.md",
+                "file": "Computing Machinery II/Notes/Input Output Interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Steve Midterm Review Day"
+              "title": "Backlinks for Input Output Interfaces"
             }
           },
           {
@@ -186,8 +211,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82921888868c81af",
+  "active": "a89f340ff3208dc6",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Input Output Interfaces.md",
     "Computing Machinery II/Notes/Steve Midterm Review Day.md",
     "Computing Machinery II/Notes/Raster Graphics.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
