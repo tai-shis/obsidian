@@ -113,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ce384748fe20a420",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Machinery II/Notes/Input Output Interfaces.md",
+                "file": "Software Eng/Software Requirement Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Input Output Interfaces"
+              "title": "Backlinks for Software Requirement Analysis"
             }
           },
           {
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,18 +214,22 @@
   },
   "active": "a89f340ff3208dc6",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Input Output Interfaces.md",
-    "Computing Machinery II/Notes/Steve Midterm Review Day.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
+    "Software Eng/Software Design, Modelling, and UML.md",
+    "Software Eng/Computing Careers and Disciplines.md",
+    "Software Eng/Important.md",
+    "Software Eng/SDLC Models.md",
+    "Software Eng/Software Development Life Cycle.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/Steve Midterm Review Day.md",
+    "Software Eng/Software Requirement Analysis.md",
+    "38f0e971a4b569a59c7871921b1f5a87.png",
+    "Computing Machinery II/Notes/Input Output Interfaces.md",
+    "Computing Machinery II/Notes/Raster Graphics.md",
+    "Software Eng/Software Engineering.md",
+    "Software Eng/Software Engineering Metrics.md",
     "Computing Machinery II/Notes/System Calls.md",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "Software Eng/Software Design, Modelling, and UML.md",
-    "Software Eng/Software Requirement Analysis.md",
-    "Software Eng/Software Engineering Metrics.md",
-    "38f0e971a4b569a59c7871921b1f5a87.png",
-    "Software Eng/Software Engineering.md",
     "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
@@ -236,12 +241,8 @@
     "Computing Machinery I/Slides/Assembler, Linker and Loader - Copy.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
     "Computing Machinery I/Computing Machinery - COMP 2655.md",
-    "Software Eng/Software Development Life Cycle.md",
-    "Software Eng/SDLC Models.md",
     "Computing Machinery II/Computing Machinery II.md",
-    "Software Eng/Computing Careers and Disciplines.md",
     "Untitled",
-    "Software Eng/Important.md",
     "SRS (Software Requirement Specification).md",
     "Discrete Mathematics/Tutorial 1 January 9.md"
   ]

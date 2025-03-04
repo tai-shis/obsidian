@@ -32,6 +32,43 @@
 		- Output from these could be feedback (LEDs/Vibration)
 	- Printers
 	- Modem
-		- multidirectional
+		- multi-directional
 	- Hard Drives are considered I/O devices
 	- Essentially all USB drives
+- An I/O interface acts as a *buffer*
+	- A buffer in this context is:
+		- a temporary storage unit
+		- accepts information at one rate and delivers it at another*
+	- [definition](https://www.merriam-webster.com/dictionary/buffer)
+	- e.g. A Storage Device
+		- CPU Clock speeds vs Storage Read/Write speeds
+- *Why is buffering important?*
+	- speed differences
+		- like above, clock speeds vs read/write speeds
+	- data format differences (like serial vs parallel)
+		- transmitting between the two different formats
+	- sound
+		- analog to digital data
+	- etc.
+---
+### I/O Interfaces
+- **Functions
+	- communication with the CPU via a bus
+	- communication with a device
+	- data buffering
+		- syncing faster functions to slower ones (faster reading vs writing)
+	- error detection
+		- so the computer can detect errors in the hardware properly
+	- controlling/monitoring I/O operation/status
+- A typical interface has various *onboard registers*
+	- input/output registers (*essentially buffers*)
+	- status registers
+		- to monitor status (idle/not idle)
+	- control registers
+		- to control operation (disabling error detection when idle)
+- The CPU should be able to *read/write to these registers*
+	- This is how CPU can interact with an I/O interface
+	- Access may be limited
+		- e.g. why write to the input register of a keyboard?
+- There are chip diagrams/examples in the slides. They are important.
+	- Also context-specific details, kinda hard to describe
