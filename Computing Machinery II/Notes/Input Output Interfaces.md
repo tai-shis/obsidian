@@ -71,4 +71,37 @@
 	- Access may be limited
 		- e.g. why write to the input register of a keyboard?
 - There are chip diagrams/examples in the slides. They are important.
-	- Also context-specific details, kinda hard to describe
+---
+### Memory Mapping
+- **How are I/O registers addressed?**
+	- *Solution 1* (MC68k solution)
+		- assign registers to addresses from the CPU's address space
+		- they look like ordinary memory locations but they are not
+		- this is *memory mapped I/O*
+		- in the Atari ST, the I/O reserved memory is contained from 0xFFFF8000 - 0xFFFFFFFF
+	- *Solution 2* (Intel/AMD solution)
+		- have separate address spaces for memory and I/O
+		- called *isolated I/O* or port mapped I/O
+		- the instruction set includes in/out instructions to choose between the two when accessing
+- **There do not need to be two distinct busses physically to handle data?**
+	- No. We can multiplex the address and data lines to pick and choose.
+	- However there does need to be separate I/O and memory R/W lines
+		- To read/write to memory and interfaces (*4 options*)
+- **Memory Mapped I/O**
+	- *Pros*:
+		- simpler CPU design (no specialized I/O instructions or logic)
+		- simpler program logic
+	- *Cons*:
+		- some main memory address space is sacrificed to hold this
+	- *How does an I/O interface know that is is being "addressed"?*
+		- Possibility: Routing all address bus lines to every I/O interface
+			- each interface will listen for it's own address, once theirs is found, they intake the rest of the data
+			- **this is highly inefficient**
+				- each chip would access *ALL* of the address pins on the bus (much more expensive)
+		- Better option: platform specific "system controller"
+			- decodes the address bus and tells the chip to select the proper signal
+- **Programmed I/O**
+	- How can we do this?
+		- By reading/writing to the relevant I/O registers directly
+		- We have an "idle flag" in the status bit, which will allow/not allow us to write to a register when it is set
+	- There is keyword (*volatile*) which tells the compiler to *not* optimize access
