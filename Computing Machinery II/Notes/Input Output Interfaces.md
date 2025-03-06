@@ -105,3 +105,47 @@
 		- By reading/writing to the relevant I/O registers directly
 		- We have an "idle flag" in the status bit, which will allow/not allow us to write to a register when it is set
 	- There is keyword (*volatile*) which tells the compiler to *not* optimize access
+	- Essential Steps:
+		- Wait to exit idle,
+		- do thing
+	- In this method, the CPU *directly controls* the I/O interface
+	- But how is the idle status changed so the loop knows the idle status?
+		- This is done through *polling*
+			- CPU repeatedly queries the I/O interface to determine when the next data value can be read
+			- But this is highly inefficient as the code will most of its time waiting
+				- processor is much faster than the device
+					- *Alternatives to this:*
+						- interrupt driven I/O
+						- DMA
+---
+### Supervisor Mode 
+- What happens if: when dereferencing a 'wild' point accidentally reprograms a register of something important? (like a hard drive)
+```C
+char *ptr*;
+...
+*ptr = 'a';     /* What happens here? */
+```
+- Many CPUs operate in one of *two or more* modes
+	1. **User mode**         (restricts use of certain instructions and addresses)
+		- in MC68k it bombs.
+	2. **Supervisor mode**   (unrestricted address)
+		- But every program can '*elevate*' itself to supervisor mode.
+	- User mode uses a7/sp (USP) as its stack pointer
+	- supervisor mode uses a7' (SSP)
+- There is a "super system call" for switching into supervisor mode in TOS:
+```C
+volatile const char *kybd_status = 0xFFC02; /* Valid address to keyboard status */
+long old_spp; /* this holds an address */
+old_ssp = Super(0); /* Enters supervisor mode, saves old ssp value in old_spp */
+
+/* Now you can do supervisor stuff */
+if (*keybd_status == ...) 
+	...
+
+Super(old_ssp); /* Exits supervisor mode, restores old_ssp value, return is thrown away */
+```
+- but, **how does the CPU (mc68k) know which addresses are protected?**
+	- it doesn't.
+	- there is an external chip on the motherboard to determine this.
+		- i.e. returning an error/proceeding with the given instruction
+	- 
