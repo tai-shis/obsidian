@@ -1,0 +1,103 @@
+### Different Ways to Design Software
+- *Different projects use different approaches*
+	- **Procedural Design**
+		- step-by-step instructions (C programs)
+	- **Object-Oriented Design**
+		- Uses objects, classes, and relationships
+			- e.g. Java, Python, C#
+	- **Functional Design**
+		- Pure functions and *immutability*
+			- e.g. Haskell, Scala
+	- **Event-Driven Design**
+		- Event Handlers and Message Passing
+			- e.g. JavaScript, Node.js
+	- **Micro-services Architecture**
+		- Breaks the system into independent services
+			- e.g. Netflix, Amazon
+- **Key Software Design Approaches**
+	- *Test-Driven Development (TDD)*
+		- Write tests first, then write code to pass the tests
+		- Ensures high code reliability and bug prevention in early development
+		- E.g.
+			- This code shouldn't be able to do this, this this.
+			- Restrictions decided **before** coding
+	- *Event-Driven Architecture (EDA)*
+		- System reacts to **events** rather than following a linear process
+		- Good for real time processing and automation
+		- **Asynchronous events**
+---
+### Object-Oriented Design
+- **Why OOD?**
+	- Widely Used
+	- Encapsulates Complexity
+		- Breaking down large systems into *manageable objects*
+	- Scaleable and Maintainable
+		- Easier to *reuse, extend, and modify*
+	- Standard for UML and Architecture
+- **Key Ideas (IMPORTANT)** 
+	- we can "accurately" describe the real world as a *collection of objects* that interact with each other
+	- Our system is broken down into *objects* that encapsulate both *data/attributes* and *behaviour*
+- **An object can be thought of as a a tangible or abstract entity that exists and has specific *characteristics* (data) and *behaviours* (methods)**
+	- We can encapsulate attributes and behaviours of an entity into an object
+- e.g. *A library management system*
+	- Has objects:
+		- A Librarian
+		- A Borrower
+		- Books
+- e.g. Smart Home System
+	- Smart Thermostat
+		- does temperature stuff
+	- Smart Light
+		- controls lighting
+	- Smart Door Lock
+		- does security stuff
+	- Smart Security Camera
+		- Monitors activity and records
+---
+### Object-Oriented Analysis and Design (OOAD)
+- **Definition**
+	- OOAD is the process of analyzing a system by *identifying objects their interactions and designing a blueprint before implementation*
+- **Two Phases**
+	- Object-Oriented *Analysis* OOA
+		- Identify *key entities* in the system and their interactions
+		- holds objects
+	- Object-Oriented *Design* OOD
+		- Maps object into *read-world architecture*
+		- how the objects interact with each other
+	- Example:
+		- Online Bookstore
+			- Step 1: Find objects
+				- User, book, order, payment, shopping cart
+			- Step 2: Defining Relationships
+				- User places an Order for a Book, and payment is processed
+			- Step 3: System Architecture
+				- Front end
+				- Back end
+				- Database
+			- Step 4: UML Diagrams for Design and Architecture
+	- ***How OOAD Connects to SRS and DDS* (important)
+		- Transforms *high-level requirements (SRS) into structured design (DDS) ensuring a clear blueprint before development*
+		- *Object-Oriented Analysis and Design (OOAD)* acts as the *bridge between requirements and actual implementation*
+- **Steps:**
+	- Step 1: *Start with the Software Requirements Specification (SRS)*
+		- Define Functional Requirements and Non-Functional Requirements
+			- e.g. 
+				- User must be able to browse books, add to cart, place orders
+				- Orders must track book details, prices, user information
+				- Payments must be secure and support multiple methods
+				- System can handle 100,000 concurrent users
+		Step 2: *Identifying Key Objects*
+		- low-level explained objects turn into:
+			- Book
+				- title, author, price, getDetails()
+			- Shopping Cart
+				- items, addItem(), removeItem()
+			- etc.
+	- Step 3: *Structuring the System*
+		- Convert identified objects into classes, define interactions, and establish relationships
+	- Step 4: *Translating OOD into a Design Document Specification (DDS)*
+		- dds defines how the system will be implemented
+		- focuses on architecture, UML diagrams, and technical decisions
+	- Step 5: *Connecting OOAD, SRS, DDS to Software Architecture*
+		- SRS: Defines what the systems must do
+		- etc. he fucking switched it immediately
