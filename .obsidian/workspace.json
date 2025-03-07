@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
+                "file": "Computing Machinery II/Notes/Sound.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Object-Oriented Analysis and Design (OOAD)"
+              "title": "Sound"
             }
           }
         ],
@@ -238,8 +238,9 @@
   },
   "active": "8e2d817f84ce2dca",
   "lastOpenFiles": [
-    "Software Eng/Software Design, Modelling, and UML.md",
     "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
+    "Computing Machinery II/Notes/Sound.md",
+    "Software Eng/Software Design, Modelling, and UML.md",
     "Computing Machinery II/Notes/Input Output Interfaces.md",
     "Software Eng/Computing Careers and Disciplines.md",
     "Software Eng/Important.md",

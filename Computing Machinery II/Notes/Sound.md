@@ -1,0 +1,140 @@
+### Characteristics of Sound
+- **Frequency/Period**
+	- Frequency
+		- Unit of measure is a hertz (*Hz*)
+	- Period
+- **Amplitude**
+	- Size of a the wave (*magnitude*)
+	- Measure by taking peak and bottom and dividing by 2
+- **Phase**
+	- Shift of the starting position
+	- not normally audible
+	- But, *Important for the interactions between waves*
+		- e.g.
+			- sin() and cos() have the same wave form
+			- cos()'s phase is +1 to sin() since it has the value 0 at 90°
+- **Speed**
+	- Not relevant for the course
+	- But sound takes time to travel
+	- *speed is different in different mediums*
+		- e.g. water vs air
+---
+### Analog Audio Signals and Transducers
+- **Transducers**
+	- *converts energy from one form to another*
+		- Speakers convert voltage to sound waves
+		- Microphone convert sound waves to voltage
+---
+### Tone & Music
+- Tone:
+	- Particular frequency that can be heard
+	- A named frequency
+- Music:
+	- combination of tones
+	- each tone is *played* for a set duration
+	- duration for each tone can vary
+---
+### Sound and Computers
+- *Computers must store and process audio signals digitally*
+- Pulse-Code Modulation (PCM)
+	- digital representation of an analog signal
+	- Achieved by repeatedly sampling and quantizing the input signal
+---
+### PCM
+- Amplitude of the analog signal is sampled at uniform intervals
+	- Each sample is quantized to the nearest value within a range of digital steps
+	- There will be a quantization bit depth (# of data bits)
+	- There is an example of a sound wave being converted in the slides.
+- **Headroom**
+	- *difference between the top of the wave and the top increment
+	- In the above example, the headroom is 0.
+	- The amount of headroom can cause a loss of fidelity as not all bits are used.
+		- i.e. accuracy of the sound "representation" to the real sound.
+- The PCM is *not* as faithful reproduction of the analog signal
+	- To increase the fidelity (accuracy), we can:
+		- Increase the sample rate
+		- Increase the quantization bit depth
+- *Quantization Error*
+	- the difference between the analog signal vs the digital representation of the signal
+		- (the gap between the actual line vs the digital line)
+	- the higher the fidelity rate, the smaller the quantization error.
+- *Frequencies above 1/2 the sample rate will be distorted or lost *
+	- So, at 32Hz, any sound above 16Hz will be lost.
+- Encoding examples:
+	- CDs:
+		- 16-bit @ 44.1 kHz
+		- So, the lost frequencies would be frequencies that humans cannot hear
+		- Two channels (left, right)
+		- noise to signal ratio from quantization is (supposedly) below the threshold of human hearing
+	- DVDs:
+		- 24-bit @ 192 kHz
+		- raw data is *not* stored in PCM format
+			- its compressed
+			- *at least* than two channels
+- **Analog-to-digital converter (ADC)**
+	- circuit that converts and input analog signal to an output PCM signal
+	- digital-to-analog converter (*DAC*) performs the reverse
+	- PCM is a standard audio format for computers and digital communications
+	- Examples:
+		- WAV files
+			- multi-format, usually contain uncompressed PCM data
+		- "Lossy" formats
+			- like mp3
+---
+### Sound Cards
+- Sound card could be:
+	- Expansion card, PCI card
+	- Built-in to motherboard
+	- USB device
+	- etc.
+- Includes at least one chip
+	- Always includes a DAC
+	- and sometimes an ADC
+- Card will at least produce an analog audio signal from digital data such as PCM data
+- **Ports/Connectors**
+	- typical ports:
+		- line out
+			- 1/8" connector, maybe headphones or amp
+		- line in
+			- if input is supported
+			- 1/8" jack too
+		- mic in
+			- similar to line in but for lower level signals which need amplification
+		- S/PDIF port
+			- for connecting digital components digitally
+		- MIDI port
+			- music import interface
+			- musical instrument digital interface
+	- typical functions:
+		- playback and recording of PCM data
+		- sound synthesis
+		- mixing audio
+		- effects
+		- recording MIDI
+- **When playing sound:**
+	- outbound data *must often be double buffered*
+		- sound card plays data in current buffer
+		- next buffer of data will be prepared (uncompressing)
+			- without this, it may create drops in sound
+	- Increasing buffer size:
+		- decreases the chance of a drop out
+		- increases latency time
+---
+### Atari PSG Overview
+- **Programmable Sound Generator**
+	- produces analog audio signals
+	- doesn't really play PCM data
+	- has 16 8-bit registers
+		- *mapped through two addresses*
+			- one gives register select
+			- PSG makes the selected register available at the second address
+	- *3 channels A, B, C*
+		- *each has 12-bit tuning (fine to coarse)*
+		- A volume register
+		- Each channel can be enabled/disabled independently
+		- does not mix itself in output pins
+			- this is done through external hardware
+	- *Also a noise channel*
+		- *5-bit tuning on a single register*
+		- can be used for sound effects (like explosions)
+	- find more details on the chip in slides
