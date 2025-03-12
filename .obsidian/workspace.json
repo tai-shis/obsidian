@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Sound.md",
+                "file": "Computing Machinery II/Notes/Serial IO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sound"
+              "title": "Serial IO"
             }
           }
         ],
@@ -238,8 +238,12 @@
   },
   "active": "8e2d817f84ce2dca",
   "lastOpenFiles": [
-    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
     "Computing Machinery II/Notes/Sound.md",
+    "Computing Machinery II/Notes/Serial IO.md",
+    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
+    "Computing Machinery II/Notes/Slides/System Calls.pdf",
+    "Computing Machinery II/Notes/Slides/Sound.pdf",
+    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
     "Software Eng/Software Design, Modelling, and UML.md",
     "Computing Machinery II/Notes/Input Output Interfaces.md",
     "Software Eng/Computing Careers and Disciplines.md",
@@ -268,7 +272,6 @@
     "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
     "Computing Machinery I/Computing Machinery - COMP 2655.md",
     "Computing Machinery II/Computing Machinery II.md",
-    "Untitled",
     "SRS (Software Requirement Specification).md",
     "Discrete Mathematics/Tutorial 1 January 9.md"
   ]
