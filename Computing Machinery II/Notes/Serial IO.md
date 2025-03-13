@@ -77,3 +77,52 @@
 - Sender and receiver clock *are not in sync*
 	- They will drift slowly, and error will accumulate at each sample
 	- As long as the frames are short, the error will not accumulate to the point where bits are being sampled outside their beginning and end times
+---
+### Simple UART
+- **Universal Asynchronous Receiver Transmitter**
+	- I/O interface for asynchronous serial communication
+	- Baud rate is *not fixed* and can be programmable
+		- There may be a command register which will specify how much to divide the master clock
+- Slides contain visual box-diagrams for a UART
+- **Control Register Bits
+	- Master clock divide-down for baud rate generation
+	- Frame Format settings (e.g. $8N1 \space vs \space 7E2$)
+	- Rx interrupt enable
+	- Tx interrupt enable
+- **Status Register Bits**
+	- Tx empty
+	- Rx full
+	- Rx overrun (error)
+	- Parity error
+	- Framing error      (received stop bit not valid)
+	- Interrupt requested
+- A USART is a similar type of interface, capable of both synchronous and asynchronous
+- ACIA (Asynchronous Communications Interface Adapter) is another name for a UART
+	- The Atari ST has two of these
+---
+### Serial Line Codes
+- First we assume that:
+	- to transmit a 0, a low level is placed on the line
+	- to transmit a 1, a high level is placed on the line
+- This is called NRZ (Non Return to Zero)
+- There are other methods (especially for synchronous data)
+- *Digital Phase-Locked Loop (DPLL)*
+	- An analog/digital circuit that can be used to recover a clock signal from a serial data stream
+		- Only works if there is a enough 0-1 or 1-0 transitions in the data to reveal the clock signal
+- Also, *not all storage media stores absolute 0s and 1s 
+	- They store the transitions between bit levels
+	- So, NRZ is not usable in this case
+- See Slides for other common styles of transmission.
+----
+### RS-232
+- *A standard for the serial interconnection of two components*
+	- DTE (Data Terminal Equipment)        e.g. the computer
+	- DCE (Data Communications Equipment)  e.g. the Modem
+- 9 Signal (pins) are commonly used
+	- See slides, i don't want to deal with spellcheck
+	- VGA port mentioned
+- Null modem cables can be used to directly connect two computers via their serial ports
+- Basically gone from any personal computer
+- This is still quite common with micro-controllers 
+---
+### USB
