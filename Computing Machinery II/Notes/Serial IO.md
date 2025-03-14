@@ -1,4 +1,4 @@
-### Overview
+ ### Overview
 - Serial communication (one bit at a time) can allow for any n-bit value to be transmitted serially
 	- (over n clock cycles)
 - Is accomplished using *Transmit (Tx) and Receive (Rx) shift registers*
@@ -126,3 +126,56 @@
 - This is still quite common with micro-controllers 
 ---
 ### USB
+- *USB is now used for almost everything except internal drives, graphics, and PCI cards*
+	- basically internal stuff
+- Much more 'sophisticated' standard (much more detailed)
+	- just makes it easier for users to use it
+- **Goals of the Specification**
+	- Ease of use standard
+		- multi-peripheral connections, so its much more simpler to use for the user
+		- However, *it is not easy for programmers to use*
+	- Low Cost
+	- Small, robust connectors
+	- High Speed
+		- Fast enough for external storage, real-time audio, video, and voice
+	- Dynamic attachment and detachment (hot-swap)
+	- Bandwidth and latency guarantees
+		- don't worry too much about this, only just for examples/frame of reference
+- **System**
+	- Comprised of three components
+		- A USB Host
+			- the host computer
+			- computer has a USB controller (an I/O interface to the USB bus)
+			- even though several USB devices can be serviced through one USB controller, *PCs often ship with 4-5 controllers*
+		- USB Devices
+			- either a *USB Hub* or a *USB Function*
+				- USB device connection point and something like a keyboard respectively.
+			- USB Controller has an *integrated root hub*.
+				- The USB system is arranged in a *tree like structure*
+					- (system -> hubs -> ports -> devices)
+		- The USB Interconnect
+	- USB uses 4-pin connectors
+		- Two pins carry power, the other two carry serial data using *half-duplex differential signalling*
+		- Type A:
+			- the normal one that everyone sees
+		- Type B:
+			- the square one lol
+- **Data is transmitted using NRZI**
+	- invert on 0s with bit stuffing after 5 consecutive 1s to ensure sufficient transitions
+	- Protocol is very sophisticated:
+		- Detection of attach and detach
+		- Negotiation for power requirements
+		- Negotiations for bandwidth and latency
+			- Communication is scheduled by the host controller
+		- Error detection and self-recovery for lost packets
+- The Bus is polled
+	- USB controller schedules and initiates all data transfers
+	- Half-duplex
+- USB controller can easily identify connected devices that are attached
+- **Each device has a device class**
+	- *Every O/S has default drivers for all classes*
+	- The set of classes is standard
+	- this is so the appropriate driver can be loaded when a device is attached
+	- For a unique device, there are reserved device classes for them which require custom drivers
+		- *e.g. For a special mouse or something, when plugged in for the first time, it will work as a normal, basic mouse, but for extra features, specific drivers will be required.*
+- 
