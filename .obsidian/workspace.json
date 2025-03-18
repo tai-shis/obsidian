@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82921888868c81af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computing Machinery II/Notes/Steve Midterm Review Day.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Steve Midterm Review Day"
-            }
-          },
-          {
-            "id": "a89f340ff3208dc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computing Machinery II/Notes/Input Output Interfaces.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Input Output Interfaces"
-            }
-          },
-          {
             "id": "8e2d817f84ce2dca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Serial IO.md",
+                "file": "Computing Machinery II/Notes/Interrupts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Serial IO"
+              "title": "Interrupts"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,8 +189,9 @@
   },
   "active": "8e2d817f84ce2dca",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "Computing Machinery II/Notes/Serial IO.md",
+    "Computing Machinery II/Notes/Interrupts.md",
+    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "Software Eng/Class Stereotype.md",
     "Computing Machinery II/Notes/Sound.md",
     "Computing Machinery II/Notes/Slides/System Calls.pdf",
