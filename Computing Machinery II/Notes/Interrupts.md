@@ -275,3 +275,23 @@ bcc       somewhere
 	- The relevant interrupts should be masked at the start of the critical section and then unmasked at the end.
 	- The CPU can mask all IRQs, but this may be too broad
 	- And interrupts from specific sources can usually be masked individually
+---
+### Interrupt Details
+- **Programmable Interrupt Controller (PIC)**
+	- Manages IRQ sources, offloads CPU burden
+		- The IRQs can be programmatically prioritized, disabled, masked, etc.
+---
+### MFP (Multifunction Peripheral)
+- Manages the IRQ
+- Has 4 onboard timers (A - D)
+- Has 1 onboard USART  (for the serial port)
+- Manages 16 interrupt sources
+	- 8 external (on its GPIP$_{0-7}$ input pins)
+	- 8 internal (timers A - D, USART)
+- Assigns a *relative priority* to each interrupt source
+	- prioritizes the interrupts before the 68000 sees an interrupt request
+- Flow ish:
+	- 68901 MFP <- IRQ senders (peripherals)
+	- GLUE      <- 68901 MFP   (MFPINT)
+	- 68000     <- GLUE        (Forwards IRQ, generates VBL, HBL, IRQ, etcc)
+- 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7fb855b93966bf26",
+        "id": "129f309b7ec4f056",
         "type": "tabs",
         "children": [
           {
-            "id": "c9bc8b46766f8ecf",
+            "id": "b8c760ea831f893c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Eng/Software Development Life Cycle.md",
+                "file": "Computing Machinery II/Notes/Interrupts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Software Development Life Cycle"
-            }
-          },
-          {
-            "id": "62d123da901c69f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GNN/PyTorch/00 PyTorch Fundamentals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "00 PyTorch Fundamentals"
+              "title": "Interrupts"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ce384748fe20a420",
@@ -129,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+                "file": "Software Eng/Software Requirement Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Digital Logic and Boolean Logic"
+              "title": "Backlinks for Software Requirement Analysis"
             }
           },
           {
@@ -148,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GNN/PyTorch/00 PyTorch Fundamentals.md",
-                "linksCollapsed": true,
+                "file": "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 00 PyTorch Fundamentals"
+              "title": "Outgoing links from Digital Logic and Boolean Logic"
             }
           },
           {
@@ -195,12 +170,12 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,44 +187,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62d123da901c69f6",
+  "active": "b8c760ea831f893c",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "GNN/PyTorch/00 PyTorch Fundamentals.md",
-    "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
-    "Computing Machinery I/Computing Machinery Final Review/Data Representation.md",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
-    "Computing Machinery II/Notes/Interrupts.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
-    "Computing Machinery II/Notes/Steve Midterm Review Day.md",
-    "Computing Machinery II/Notes/Sound.md",
-    "Computing Machinery II/Notes/Sequential Circuits.md",
-    "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
+    "GNN/PyTorch/00 PyTorch Fundamentals.md",
     "GNN/PyTorch",
-    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
+    "GNN",
+    "Computing Machinery II/Notes/Interrupts.md",
+    "Computing Machinery II/Notes/Serial IO.md",
+    "Software Eng/Class Diagrams.md",
+    "Computing Machinery II/Notes/Sound.md",
+    "Software Eng/Software Design, Modelling, and UML.md",
+    "Software Eng/Software Engineering Metrics.md",
+    "Software Eng/Software Requirement Analysis.md",
+    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "Software Eng/Class Stereotype.md",
     "Computing Machinery II/Notes/Slides/System Calls.pdf",
     "Computing Machinery II/Notes/Slides/Sound.pdf",
-    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
-    "Computing Machinery II/Notes/Serial IO.md",
+    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
     "Computing Machinery II/Notes/Input Output Interfaces.md",
-    "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
-    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
-    "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
-    "Computing Machinery II/Notes/System Calls.md",
-    "Software Eng/Software Development Life Cycle.md",
-    "Software Eng/Software Engineering.md",
     "Software Eng/Computing Careers and Disciplines.md",
-    "Computing Machinery I/Slides/Error Detection.pdf",
-    "Computing Machinery I/Slides/Extension Words.pdf",
-    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
-    "Computing Machinery I/Computing Machinery Final Review/Floating Point Numbers.md",
-    "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
-    "Software Eng/SDLC Models.md",
-    "Software Eng/Software Design, Modelling, and UML.md",
-    "38f0e971a4b569a59c7871921b1f5a87.png",
     "Software Eng/Important.md",
-    "Software Eng/Software Engineering Metrics.md",
-    "Software Eng/Software Requirement Analysis.md"
+    "Software Eng/SDLC Models.md",
+    "Software Eng/Software Development Life Cycle.md",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/Steve Midterm Review Day.md",
+    "38f0e971a4b569a59c7871921b1f5a87.png",
+    "Computing Machinery II/Notes/Raster Graphics.md",
+    "Software Eng/Software Engineering.md",
+    "Computing Machinery II/Notes/System Calls.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
+    "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
+    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
+    "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
+    "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
+    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
+    "Computing Machinery I/Slides/Binary Operations.pdf",
+    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
+    "Computing Machinery I/Computing Machinery - COMP 2655.md"
   ]
 }
