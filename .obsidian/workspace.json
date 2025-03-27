@@ -11,10 +11,24 @@
             "id": "b8c760ea831f893c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Notes/Interrupts.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Interrupts"
             }
           }
         ]
@@ -175,12 +189,13 @@
   },
   "active": "b8c760ea831f893c",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Serial IO.md",
     "Computing Machinery II/Notes/Interrupts.md",
+    "Software Eng/Class Diagrams.md",
     "Computing Machinery II/Notes/Sound.md",
     "Software Eng/Software Design, Modelling, and UML.md",
     "Software Eng/Software Engineering Metrics.md",
     "Software Eng/Software Requirement Analysis.md",
-    "Computing Machinery II/Notes/Serial IO.md",
     "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "Software Eng/Class Stereotype.md",
     "Computing Machinery II/Notes/Slides/System Calls.pdf",
@@ -210,7 +225,6 @@
     "Computing Machinery I/Slides/Assembler, Linker and Loader - Copy.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
     "Computing Machinery I/Computing Machinery - COMP 2655.md",
-    "Computing Machinery II/Computing Machinery II.md",
-    "SRS (Software Requirement Specification).md"
+    "Computing Machinery II/Computing Machinery II.md"
   ]
 }

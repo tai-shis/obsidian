@@ -257,3 +257,21 @@ bcc       somewhere
 	- Which manages an I/O Interface
 	- And reads/writes the data from/to its registers
 - Examples of such are also on the slides.
+-  *Interrupts are Operating System entry points
+	- O/S hands control off to user processes and then sits in memory until invoked by an interrupt
+	- e.g. an internal interrupt such as a system call or an exception
+	- e.g. an external interrupt due to a timer or I/O
+- Each interrupt vectors (points) to the appropriate O/S routine
+---
+### Concurrency
+- *We now know about interrupts, and we know that two different routines may overlap in terms of execution time.*
+- If they share resources, they *must* be synchronized
+- Example of such concurrency is on the slides.
+- **Critical Section**
+	- A segment of code which accesses a shared resource
+	- These sections *must be protected*, so that they have exclusive access the necessary shared resource(s)
+	- *The access to the critical section does not need to be write access but *
+- How can we do this?
+	- The relevant interrupts should be masked at the start of the critical section and then unmasked at the end.
+	- The CPU can mask all IRQs, but this may be too broad
+	- And interrupts from specific sources can usually be masked individually
