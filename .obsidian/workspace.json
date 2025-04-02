@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Interrupts.md",
+                "file": "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Interrupts"
+              "title": "01 PyTorch Workflow Fundamentals"
             }
           }
         ]
@@ -189,11 +189,12 @@
   },
   "active": "b8c760ea831f893c",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Interrupts.md",
+    "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "GNN/PyTorch/00 PyTorch Fundamentals.md",
     "GNN/PyTorch",
     "GNN",
-    "Computing Machinery II/Notes/Interrupts.md",
     "Computing Machinery II/Notes/Serial IO.md",
     "Software Eng/Class Diagrams.md",
     "Computing Machinery II/Notes/Sound.md",
@@ -224,7 +225,6 @@
     "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Computing Machinery I/Slides/Binary Operations.pdf",
-    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
-    "Computing Machinery I/Computing Machinery - COMP 2655.md"
+    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md"
   ]
 }
