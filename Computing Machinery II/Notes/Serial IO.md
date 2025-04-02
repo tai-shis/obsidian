@@ -1,4 +1,5 @@
- ### Overview
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20II%2FNotes%2FSlides%2FSerial%20I_O.pdf)
+### Overview
 - Serial communication (one bit at a time) can allow for any n-bit value to be transmitted serially
 	- (over n clock cycles)
 - Is accomplished using *Transmit (Tx) and Receive (Rx) shift registers*

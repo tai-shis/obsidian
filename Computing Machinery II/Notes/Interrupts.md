@@ -1,3 +1,4 @@
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20II%2FNotes%2FSlides%2FInterrupts.pdf)
 ### Problem with Programmed I/O
 - It requires busy-wait loop
 - i.e. 

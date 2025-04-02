@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "129f309b7ec4f056",
+        "id": "b1f6f5832f9313f3",
         "type": "tabs",
         "children": [
           {
-            "id": "b8c760ea831f893c",
+            "id": "50f4911cf2c2e658",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Interrupts.md",
+                "file": "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Interrupts"
+              "title": "IO Hardware and Bus Basics"
+            }
+          },
+          {
+            "id": "ea2a7513fda9dc7d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Computing Machinery II/Notes/Slides/Parallel I_O.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Parallel I_O"
             }
           }
         ]
@@ -187,44 +199,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8c760ea831f893c",
+  "active": "50f4911cf2c2e658",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Parallel IO.md",
+    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+    "Computing Machinery II/Notes/Slides/Parallel I_O.pdf",
+    "Computing Machinery II/Notes/Input Output Interfaces.md",
+    "Computing Machinery II/Notes/Slides/Interrupts.pdf",
+    "Computing Machinery II/Notes/Serial IO.md",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/Interrupts.md",
+    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Computing Machinery II/Notes/Slides/Serial I_O.pdf",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "GNN/PyTorch/00 PyTorch Fundamentals.md",
     "GNN/PyTorch",
     "GNN",
-    "Computing Machinery II/Notes/Interrupts.md",
-    "Computing Machinery II/Notes/Serial IO.md",
     "Software Eng/Class Diagrams.md",
     "Computing Machinery II/Notes/Sound.md",
     "Software Eng/Software Design, Modelling, and UML.md",
     "Software Eng/Software Engineering Metrics.md",
     "Software Eng/Software Requirement Analysis.md",
-    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "Software Eng/Class Stereotype.md",
     "Computing Machinery II/Notes/Slides/System Calls.pdf",
     "Computing Machinery II/Notes/Slides/Sound.pdf",
     "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
-    "Computing Machinery II/Notes/Input Output Interfaces.md",
     "Software Eng/Computing Careers and Disciplines.md",
     "Software Eng/Important.md",
     "Software Eng/SDLC Models.md",
     "Software Eng/Software Development Life Cycle.md",
-    "Computing Machinery II/Notes/Sequential Circuits.md",
     "Computing Machinery II/Notes/Steve Midterm Review Day.md",
     "38f0e971a4b569a59c7871921b1f5a87.png",
     "Computing Machinery II/Notes/Raster Graphics.md",
     "Software Eng/Software Engineering.md",
     "Computing Machinery II/Notes/System Calls.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
     "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
-    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
-    "Computing Machinery II/Notes/Slides/Raster Graphics.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
-    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
-    "Computing Machinery I/Slides/Binary Operations.pdf",
-    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
-    "Computing Machinery I/Computing Machinery - COMP 2655.md"
+    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md"
   ]
 }

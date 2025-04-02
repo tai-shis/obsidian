@@ -1,0 +1,33 @@
+### Bus Structuring
+- In our previous examples, we see single bus systems
+- However, for performance reasons *many computers have a hierarchy of busses*
+- For the **data bus:**
+	- There can be more than one reader
+	- There can be more than one writer
+		- *but only one at a time*
+- For the **address bus:**
+	- In a simple system (one CPU/core)
+		- *only one reader/writer*
+		- the CPU drives the address bus and controls all bus transfers
+- For the **control bus lines**
+	- Bus transfers must follow a protocol (controlled by a master)
+	- Bus master:
+		- a component which drives address bus and bus control
+	- IPL Lines:
+		- multiple writers (non-CPU entities) and a single reader (the CPU)
+---
+### Three State Logic
+- **Previously, to allow multiple non-simultaneous writers, we can just use a multiplexer**
+	- However, for a more flexible approach in external system busses, we use three state logic
+- The general idea is to *disconnect gates from the bus when they are not needed*
+	- Three state buffers:
+		- when enable is 1,
+			- out can either be 0 or 1
+		- when enable is 0,
+			- out is unknown and is not used
+	- each bus line writer/reader can be connected to the data bus lines through a three state buffer
+		- a maximum of one writer should be connected at a time
+		- *if no writers are connected, the bus line is floating*
+			- we do not know if it is 0 or 1, it is floating
+			- can be any random value (can be 1)
+---
