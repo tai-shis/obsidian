@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
+                "file": "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 PyTorch Workflow Fundamentals"
+              "title": "IO Hardware and Bus Basics"
             }
           }
         ]
@@ -189,7 +189,13 @@
   },
   "active": "50f4911cf2c2e658",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Input Output Interfaces.md",
     "Computing Machinery II/Notes/Interrupts.md",
+    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+    "Computing Machinery II/Notes/Parallel IO.md",
+    "Computing Machinery II/Notes/Busses.md",
+    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
     "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
     "GNN/PyTorch/00 PyTorch Fundamentals.md",
@@ -217,8 +223,6 @@
     "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
     "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
-    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
-    "Computing Machinery I/Slides/Binary Operations.pdf",
-    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md"
+    "Computing Machinery I/Slides/Binary Operations.pdf"
   ]
 }

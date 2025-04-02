@@ -1,3 +1,4 @@
+[Slides](obsidian://open?vault=Obsidian%20Vault&file=Computing%20Machinery%20II%2FNotes%2FSlides%2FI_O%20Hardware%20%26%20Bus%20Basics.pdf)
 ### Bus Structuring
 - In our previous examples, we see single bus systems
 - However, for performance reasons *many computers have a hierarchy of busses*
@@ -30,4 +31,27 @@
 		- *if no writers are connected, the bus line is floating*
 			- we do not know if it is 0 or 1, it is floating
 			- can be any random value (can be 1)
+- We want *readers to be disconnected* when not reading to *avoid reading an incorrect value due to **propagation delay***
+- Not all connections to the bus(ses) are three-state
+	- Three-state buffers are used for *data busses*
+	- *Control signals* (r/w) are not.
+	- For the *address bus*, this depends on whether there is a single bus master or not
+- There are a few reason why we don't just use a multiplexer to handle this.
+	- *A multiplexer would need to know beforehand how many inputs to the multiplexer we might have*
+		- so, a multiplexer would need to be specifically created for each motherboard
+		- so, we can't really handle adding external interfaces.
+	- *A multiplexer requires select lines*
+		- we would need to add extra pins when adding to the mux (which is basically impossible)
+	- *CS/RS signals are already generated for individual interfaces based on addresses*
+		- i don't know what this means
 ---
+### Simple Input and Output Interfaces
+- Note:
+	- Interfaces are parallel, but with no handshaking
+	- Neither includes status/control registers
+	- Neither supports interrupt-driven I/O
+	- Both assume a synchronous bus
+	- Generation of CS signal for interfaces is discussed
+- We can see specific examples/circuits on the slides.
+	- **Note:**
+		- holy moly what am i looking at

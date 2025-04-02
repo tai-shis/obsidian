@@ -1,0 +1,83 @@
+### Bus Architecture
+- A bus is an *interconnection structure* between units
+	- Like CPU, memory, I/O interfaces (bus connecting them)
+	- Even I/O interfaces and devices
+- We must consider:
+	- Busses may be parallel or serial
+	- More than 2 units can be connected
+		- electrically parallel/daisy chained
+		- serial busses are more likely to be daisy chained
+	- Busses may also be:
+		- Synchronous 
+			- timed by clock signal
+		- Asynchronous 
+			- handled by handshakes
+- *When sending data over busses, the data available signal will come before the actual data comes
+	- This is because of the propagation delay.
+- There are visual diagrams of both synchronous and asynchronous bus signals on the slides.
+- Synchronous busses require that the clock be slow enough to accommodate for the worst case transfer times
+	- due to the propagation delay
+	- **data must be readable by the device on the other end of the line by the next leading edge**
+- On some busses a unit can assert a wait signal to claim extra bus cycles
+- *Asynchronous completely bypasses this issue.*
+- Also, the memory bus may be separate from the I/O bus
+	- both logically or physically
+- *The same bus can be used for multiple purposes.*
+	- i.e. time division multiplexed 
+	- This saves pin and bus lines but, *at the expense of protocol and buffering complexity*
+		- **It takes more time and space**
+- *A bus may support more than one bus master*
+	- bus arbitration must be performed in either a centralized or distributed fashion
+	- in a centralized scheme, a bus controller grants control of the bus to *one master at a time*
+		- **Arbiter: the master of masters (Steve, 2025-04-02, 13:43)**
+- *A bus may support multiple transfer types*
+	- Interrupt acknowledge
+	- Memory read/write
+	- I/O read/write
+	- Atomic read-modify-write operation
+		- Operations that must complete everything at the same time, simultaneously
+			- e.g. *all assembly instructions*
+				- suppose an interrupt happens mid instruction, **the instruction must complete before processing the IRQ.**
+	- "Burst"
+		- a read or write operation where the address is transferred in the first clock cycle, and then a sequence of data values is transferred in subsequent clock cycles.
+- **Systems may employ a multiple-bus hierarchy. Using *bridges*, we can connect the busses**
+	- Bridges decouple the bus architecture from CPU architecture
+		- busses can communicate with each other without going through the CPU
+			- very efficient :)
+	- High priority devices can be *closer* to the CPU and memory
+		- they run faster as the data/signals have less wiring to go through
+	- different busses can operate at different speeds
+		- The bridge manages the different speeds
+	- Bus lengths can be kept short
+		- reduces propagation delay
+	- Reduces bus contention
+		- bridges can buffer data and forward it when possible
+		- ^ this is a little confusing
+		- uses busses for smaller amounts of time more efficiently?
+		- reduces amount of conflict within lower level busses
+			- allows for them to be highly specific to their purposes
+---
+### Sample PC Implementation
+- **Northbridge**
+	- Faster devices
+		- Memory
+		- GPU
+		- PCI
+		- the southbridge bus.
+- **Southbridge** 
+	- IDE, USB, etc.
+	- slow stuff
+- *By doing this, we can allow the faster devices to not be limited by the slower busses.
+	- Remember, in synchronous transmission, it must accommodate for the slowest device
+---
+### PCI Bus
+- *Parallel* (32/64 bit)
+- Synchronous
+- Logically separates memory from I/O addressing
+- Address/data lines multiplexed
+- what is happening
+- centralized arbitration
+- supports many transfer types
+	- like bursts
+- **PCIe is a serial PCI Bus**
+- 
