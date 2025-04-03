@@ -80,4 +80,13 @@
 - supports many transfer types
 	- like bursts
 - **PCIe is a serial PCI Bus**
-- 
+---
+### 68000 Bus
+- **General info:
+	- parallel
+	- Asynchronous
+	- Memory mapped I/O
+	- Dedicated address/data lines
+	- *Supports multiple bus masters*
+		- The CPU can grant bus to another unit
+		- like for DMA

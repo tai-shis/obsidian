@@ -129,4 +129,10 @@ class LinearRegressionModel(nn.Module): # <- almost everything in PyTorch is a n
 		- All `nn.Module` subclasses require a forward method
 		- this defines the computation that will take place on the data passed to the module 
 			- (like the linear regression formula)
-- 
+- **We can check the contents of a PyTorch model easily with the `.parameters()` method**
+- We can also get the state of the model using `.state_dict()`
+	- gets named parameters
+- **We want to initialize our weight and bias tensors using `torch.randn()`**
+	- we essentially want to start from random parameters and get the model to update them towards parameters that fit our data best
+- **Now, we can make predictions using `torch.inference_mode()`**
+	- we pass x-test and see how closely it predicts y-test

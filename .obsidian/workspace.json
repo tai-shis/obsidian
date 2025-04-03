@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+                "file": "Computing Machinery II/Notes/Busses.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IO Hardware and Bus Basics"
+              "title": "Busses"
+            }
+          },
+          {
+            "id": "7bf0eca1d9fbf4b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computing Machinery II/Notes/Direct Memory Access.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Direct Memory Access"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,28 +212,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50f4911cf2c2e658",
+  "active": "7bf0eca1d9fbf4b9",
   "lastOpenFiles": [
+    "Computing Machinery II/Notes/Busses.md",
+    "Computing Machinery II/Notes/Direct Memory Access.md",
+    "Computing Machinery II/Notes/Slides/System Calls.pdf",
+    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+    "Computing Machinery II/Notes/Serial IO.md",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/Raster Graphics.md",
+    "Computing Machinery II/Notes/Parallel IO.md",
     "Computing Machinery II/Notes/Input Output Interfaces.md",
     "Computing Machinery II/Notes/Interrupts.md",
-    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
-    "Computing Machinery II/Notes/Parallel IO.md",
-    "Computing Machinery II/Notes/Busses.md",
-    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
-    "Computing Machinery II/Notes/Sequential Circuits.md",
-    "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
+    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
     "GNN/PyTorch/00 PyTorch Fundamentals.md",
     "GNN/PyTorch",
     "GNN",
-    "Computing Machinery II/Notes/Serial IO.md",
     "Software Eng/Class Diagrams.md",
     "Computing Machinery II/Notes/Sound.md",
     "Software Eng/Software Design, Modelling, and UML.md",
     "Software Eng/Software Engineering Metrics.md",
     "Software Eng/Software Requirement Analysis.md",
     "Software Eng/Class Stereotype.md",
-    "Computing Machinery II/Notes/Slides/System Calls.pdf",
     "Computing Machinery II/Notes/Slides/Sound.pdf",
     "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
     "Software Eng/Computing Careers and Disciplines.md",
@@ -217,12 +245,9 @@
     "Software Eng/Software Development Life Cycle.md",
     "Computing Machinery II/Notes/Steve Midterm Review Day.md",
     "38f0e971a4b569a59c7871921b1f5a87.png",
-    "Computing Machinery II/Notes/Raster Graphics.md",
     "Software Eng/Software Engineering.md",
-    "Computing Machinery II/Notes/System Calls.md",
     "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
-    "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
     "Computing Machinery I/Slides/Binary Operations.pdf"
   ]
 }

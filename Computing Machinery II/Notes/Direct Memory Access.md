@@ -1,0 +1,88 @@
+### Approaches to Data Transfer
+- As data is coming/going between the I/O interfaces and devices, *data needs to be transferred from/to the I/O interface on the computer side*
+- For example, once data has arrived from an input device, the data must be obtained by the CPU
+	- which then will be transferred to main memory.
+---
+### Approaches to I/O
+- Three main approaches:
+	- Programmed I/O
+	- Interrupt Driven I/O
+	- DMA (Direct Memory Access) I/O
+- Approaches to I/O are not mutually exclusive
+	- i.e. systems may use more than one
+- **Programmed I/O**
+	- Main (non-ISR) algorithm manages I/O directly
+	- Continually polls interface
+		- no IRQs
+		- Transfers data when the interface is ready
+	- Requires least-sophisticated hardware
+	- a lot of busy waiting/risk of over/under-run
+	- *we generally don't do this in multi-process machines*
+- **Interrupts**
+	- ISRs are installed which will be invoked upon by the CPU based on the mask
+		- frees up the logic of the main algorithm while increasing responsiveness
+	- ISR transfers data between interface and main memory
+		- e.g. to/from a buffer
+		- *the main algorithm only interacts with data in main memory*
+	- Requires more sophisticated hardware
+		- more complex
+	- less software overhead
+		- don't need to worry about the individual interfaces
+		- much more generalized 
+- **DMA**
+	- solves the problem by allowing *direct I/O interface to memory transfers*
+		- can go from *device to memory/memory to device*
+			- directly read/write to memory
+	- requires the most sophisticated hardware.
+	- DMA controller manages the transfer
+		- becomes a bus master as necessary to carry out the transfer
+	- *CPU is still involved however:*
+		- i.e. it must initiate the DMA transfer
+		- also, it is usually notified of transfer completion via an interrupt
+---
+### Main Issues
+- I/O controller must be provided with:
+	- the operation to perform
+	- a pointer to the main memory buffer
+	- the size of the block
+- I/O controller must maintain additional registers:
+	- index register   (pointer into main memory)
+	- count register   (number of byte transferred to/from main memory)
+- *I/O controller must be able to drive the bus*
+	- *CPU is continually using the bus for transfers to/from main memory*
+	- Simpler I/O interfaces are connected to the system bus via a DMA controller
+---
+### Controller Registers
+- A DMA controller usually has, minimally, a:
+	- control register
+	- status register
+	- address register
+	- data count register
+	- 1 or more data registers for buffering the data to be transferred
+---
+### Transfer Steps
+- **Software:**
+	- Prepares a main memory buffer
+	- requests an I/O operation
+	- leaves the block the be transferred "in the background" without CPU involvement
+		- idk what this means
+	- IRQ signals that the operation was completed
+- **CPU:**
+	- receives a request from the software, then does:
+		- programs the DMA controller for read/write
+		- loads the address register with the start address of the transfer
+		- loads the data count register with the number of bytes to be transferred
+		- Then gives control of the bus to the DMA controller
+	- *By this point, the CPU will no longer be directly involved once the transfer happens*
+		- This is because the DMA controller will communicate directly with memory for data transfers
+- The DMA will periodically request the bus
+	- When the bus is granted, the DMA controller uses it to transfer data
+	- **Two methods it requests data:**
+		- The controller may use *cycle stealing* to transfer a small number of bytes at a time
+		- If it has larger buffers, it may transfer the data in *bursts*
+---
+### Interfaces
+- An interface may have its own built-in DMA controller
+- Usually, a *distinct* DMA controller may manage a set of I/O interfaces which may not themselves be connected directly to the bus
+---
+### Types of I/O Devices
