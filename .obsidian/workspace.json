@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b1f6f5832f9313f3",
+        "id": "129f309b7ec4f056",
         "type": "tabs",
         "children": [
           {
-            "id": "7bf0eca1d9fbf4b9",
+            "id": "b8c760ea831f893c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
+                "file": "GNN/PyTorch/03 PyTorch Computer Vision.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 PyTorch Workflow Fundamentals"
+              "title": "03 PyTorch Computer Vision"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ce384748fe20a420",
@@ -188,44 +187,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bf0eca1d9fbf4b9",
+  "active": "b8c760ea831f893c",
   "lastOpenFiles": [
-    "download 1.png",
-    "download.png",
-    "01-pytorch-training-loop-annotated.png",
-    "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
+    "GNN/PyTorch/00 PyTorch Fundamentals.md",
+    "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
+    "GNN/PyTorch/02 PyTorch Neural Network Classification.md",
+    "GNN/PyTorch/03 PyTorch Computer Vision.md",
+    "GNN/PyTorch/other/02-different-classification-problems.png",
+    "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png",
+    "Untitled.md",
+    "GNN/PyTorch/other/download.png",
+    "GNN/PyTorch/other/download 1.png",
+    "GNN/PyTorch/other/01-pytorch-training-loop-annotated.png",
+    "GNN/PyTorch/other",
     "Computing Machinery II/Notes/Direct Memory Access.md",
-    "Computing Machinery II/Notes/Steve Final Review.md",
-    "Computing Machinery II/Notes/Busses.md",
-    "Computing Machinery II/Notes/Slides/System Calls.pdf",
-    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
-    "Computing Machinery II/Notes/Serial IO.md",
-    "Computing Machinery II/Notes/Sequential Circuits.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Computing Machinery I/Slides/Subroutines.pdf",
+    "Computing Machinery II/Notes/Slides/Serial I_O.pdf",
+    "Computing Machinery II/Notes/Slides/Parallel I_O.pdf",
+    "Computing Machinery II/Notes/Slides/Interrupts.pdf",
+    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
     "Computing Machinery II/Notes/Parallel IO.md",
-    "Computing Machinery II/Notes/Input Output Interfaces.md",
+    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+    "Computing Machinery II/Notes/Busses.md",
+    "Computing Machinery I/Slides/Signed Magnitude Binary Numbers.pdf",
+    "Computing Machinery I/Slides/Stacks.pdf",
+    "Computing Machinery I/Slides/Recursion.pdf",
+    "Computing Machinery I/Slides/Extension Words.pdf",
+    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
+    "Computing Machinery I/Computing Machinery Final Review/Introduction.md",
+    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
+    "Computing Machinery I/Computing Machinery Final Review/Instruction Translation.md",
+    "Computing Machinery I/Computing Machinery Final Review/Data Representation.md",
+    "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
+    "Computing Machinery I/Computing Machinery Final Review/Assembly Basics.md",
+    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
+    "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
     "Computing Machinery II/Notes/Interrupts.md",
     "Computing Machinery II/Notes/Combinatorial Circuits.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
-    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
-    "GNN/PyTorch/00 PyTorch Fundamentals.md",
-    "GNN/PyTorch",
-    "GNN",
+    "Computing Machinery II/Notes/Serial IO.md",
     "Software Eng/Class Diagrams.md",
     "Computing Machinery II/Notes/Sound.md",
     "Software Eng/Software Design, Modelling, and UML.md",
-    "Software Eng/Software Engineering Metrics.md",
-    "Software Eng/Software Requirement Analysis.md",
-    "Software Eng/Class Stereotype.md",
-    "Computing Machinery II/Notes/Slides/Sound.pdf",
-    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
-    "Software Eng/Computing Careers and Disciplines.md",
-    "Software Eng/Important.md",
-    "Software Eng/SDLC Models.md",
-    "Software Eng/Software Development Life Cycle.md",
-    "38f0e971a4b569a59c7871921b1f5a87.png",
-    "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
-    "Computing Machinery I/Slides/Binary Operations.pdf"
+    "Software Eng/Software Engineering Metrics.md"
   ]
 }

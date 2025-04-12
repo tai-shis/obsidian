@@ -1,0 +1,10 @@
+{
+	"id": "spellcheck-toggler",
+	"name": "Spellcheck Toggler",
+	"version": "1.2.1",
+	"minAppVersion": "1.5.3",
+	"description": "Toggle spellchecking for types of text blocks in the editing view.",
+	"author": "Julian Szachowicz",
+	"authorUrl": "https://github.com/julzerinos",
+	"isDesktopOnly": false
+}
