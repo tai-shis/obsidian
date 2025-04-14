@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "129f309b7ec4f056",
+        "id": "42d00b5e1fe0a0a7",
         "type": "tabs",
         "children": [
           {
-            "id": "b8c760ea831f893c",
+            "id": "18924cbbe7a9083c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "GNN/PyTorch/03 PyTorch Computer Vision.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Computing Machinery II/Notes/Slides/Busses.pdf"
               },
-              "icon": "lucide-file",
-              "title": "03 PyTorch Computer Vision"
+              "icon": "lucide-file-text",
+              "title": "Busses"
+            }
+          },
+          {
+            "id": "571ff78dfeba00db",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Computing Machinery II/Notes/Slides/DMA.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DMA"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,48 +188,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8c760ea831f893c",
+  "active": "571ff78dfeba00db",
   "lastOpenFiles": [
-    "GNN/PyTorch/00 PyTorch Fundamentals.md",
+    "Computing Machinery II/Notes/Slides/Interrupts.pdf",
+    "Computing Machinery II/Notes/Slides/Busses.pdf",
+    "Computing Machinery II/Notes/Busses.md",
+    "Computing Machinery II/Notes/Interrupts.md",
+    "Computing Machinery II/Notes/Slides/Serial I_O.pdf",
+    "Untitled 1.md",
+    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
-    "GNN/PyTorch/02 PyTorch Neural Network Classification.md",
     "GNN/PyTorch/03 PyTorch Computer Vision.md",
-    "GNN/PyTorch/other/02-different-classification-problems.png",
-    "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png",
+    "Computing Machinery II/Notes/Parallel IO.md",
+    "Computing Machinery II/Notes/Serial IO.md",
+    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+    "Computing Machinery II/Notes/Sound.md",
+    "Computing Machinery II/Notes/Slides/Sound.pdf",
+    "Computing Machinery II/Notes/Slides/DMA.pdf",
+    "Computing Machinery II/Notes/Combinatorial Circuits.md",
+    "Computing Machinery II/Notes/Sequential Circuits.md",
+    "Computing Machinery II/Notes/Slides/System Calls.pdf",
+    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
+    "Computing Machinery II/Notes/Direct Memory Access.md",
+    "Computing Machinery II/Notes/Raster Graphics.md",
+    "Computing Machinery II/Notes/Input Output Interfaces.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
     "Untitled.md",
+    "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png",
     "GNN/PyTorch/other/download.png",
     "GNN/PyTorch/other/download 1.png",
+    "GNN/PyTorch/other/02-different-classification-problems.png",
     "GNN/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "GNN/PyTorch/other",
-    "Computing Machinery II/Notes/Direct Memory Access.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "Computing Machinery I/Slides/Subroutines.pdf",
-    "Computing Machinery II/Notes/Slides/Serial I_O.pdf",
-    "Computing Machinery II/Notes/Slides/Parallel I_O.pdf",
-    "Computing Machinery II/Notes/Slides/Interrupts.pdf",
-    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
-    "Computing Machinery II/Notes/Parallel IO.md",
-    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
-    "Computing Machinery II/Notes/Busses.md",
-    "Computing Machinery I/Slides/Signed Magnitude Binary Numbers.pdf",
-    "Computing Machinery I/Slides/Stacks.pdf",
-    "Computing Machinery I/Slides/Recursion.pdf",
-    "Computing Machinery I/Slides/Extension Words.pdf",
-    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
-    "Computing Machinery I/Computing Machinery Final Review/Introduction.md",
-    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
-    "Computing Machinery I/Computing Machinery Final Review/Instruction Translation.md",
-    "Computing Machinery I/Computing Machinery Final Review/Data Representation.md",
-    "Computing Machinery I/Computing Machinery Final Review/Conversions Between Bases.md",
-    "Computing Machinery I/Computing Machinery Final Review/Assembly Basics.md",
-    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
-    "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
-    "Computing Machinery II/Notes/Interrupts.md",
-    "Computing Machinery II/Notes/Combinatorial Circuits.md",
-    "Computing Machinery II/Notes/Serial IO.md",
+    "GNN/PyTorch/02 PyTorch Neural Network Classification.md",
+    "download 1.png",
+    "download.png",
+    "01-pytorch-training-loop-annotated.png",
+    "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
+    "Computing Machinery II/Notes/Steve Final Review.md",
+    "GNN/PyTorch/00 PyTorch Fundamentals.md",
     "Software Eng/Class Diagrams.md",
-    "Computing Machinery II/Notes/Sound.md",
     "Software Eng/Software Design, Modelling, and UML.md",
-    "Software Eng/Software Engineering Metrics.md"
+    "Software Eng/Software Engineering Metrics.md",
+    "Software Eng/Software Requirement Analysis.md",
+    "Software Eng/Class Stereotype.md",
+    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
+    "38f0e971a4b569a59c7871921b1f5a87.png"
   ]
 }
