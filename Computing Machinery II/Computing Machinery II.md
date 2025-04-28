@@ -1,4 +1,15 @@
-January 8, 2025
-- [[Digital Logic and Boolean Logic]]
-/shrug
-- [[Combinatorial Circuits]]
+Not in order
+[[System Calls]]
+[[Steve Midterm Review Day]]
+[[Sound]]
+[[Serial IO]]
+[[Sequential Circuits]]
+[[Raster Graphics]]
+[[Parallel IO]]
+[[IO Hardware and Bus Basics]]
+[[Interrupts]]
+[[Input Output Interfaces]]
+[[Direct Memory Access]]
+[[Digital Logic and Boolean Logic]]
+[[Combinatorial Circuits]]
+[[Busses]]

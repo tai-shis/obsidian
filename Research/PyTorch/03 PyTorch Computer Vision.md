@@ -107,3 +107,55 @@ Outputs:
 ```
 - There are 10 classes, so our problem is a multi-class classification problem.
 ---
+### Prepare DataLoader
+- After preparing a *dataset*, we now want to prepare it with a *DataLoader*
+- Which, well it loads data into a model
+	- this can be done using `torch.utils.data.DataLoader`
+- A DataLoader turns large data sets into *Python iterable smaller chunks*
+	- Chunks which are called **batches** or **mini-batches** (set by the `batch_size` parameters)
+- We do this since our datasets can be quite large and by doing this, it makes everything more computationally efficient
+- **A good batch size to start with is 32
+	- *The batch size is actually a **hyperparameter** that you can set.*
+	- Generally we use **powers of 2** most often.
+- Here is an example of setting up training and test sets
+```Python
+from torch.utils.data import DataLoader
+
+# Setup the batch size hyperparameter
+BATCH_SIZE = 32
+
+# Turn datasets into iterables (batches)
+train_dataloader = DataLoader(train_data, # dataset to turn into iterable
+    batch_size=BATCH_SIZE, # how many samples per batch? 
+    shuffle=True # shuffle data every epoch?
+)
+
+test_dataloader = DataLoader(test_data,
+    batch_size=BATCH_SIZE,
+    shuffle=False # don't necessarily have to shuffle the testing data
+)
+
+# Let's check out what we've created
+print(f"Dataloaders: {train_dataloader, test_dataloader}") 
+print(f"Length of train dataloader: {len(train_dataloader)} batches of {BATCH_SIZE}")
+print(f"Length of test dataloader: {len(test_dataloader)} batches of {BATCH_SIZE}")
+
+"""
+Outputs:
+
+Dataloaders: (<torch.utils.data.dataloader.DataLoader object at 0x7fc991463cd0>, <torch.utils.data.dataloader.DataLoader object at 0x7fc991475120>)
+Length of train dataloader: 1875 batches of 32
+Length of test dataloader: 313 batches of 32
+"""
+
+# Check out what's inside the training dataloader
+train_features_batch, train_labels_batch = next(iter(train_dataloader))
+print(train_features_batch.shape, train_labels_batch.shape)
+
+"""
+Ouputs:
+
+(torch.Size([32, 1, 28, 28]), torch.Size([32]))
+"""
+
+```

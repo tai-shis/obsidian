@@ -4,35 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "42d00b5e1fe0a0a7",
+        "id": "129f309b7ec4f056",
         "type": "tabs",
         "children": [
           {
-            "id": "18924cbbe7a9083c",
+            "id": "b8c760ea831f893c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Slides/Busses.pdf"
+                "file": "Research/Research Resources.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Busses"
+              "icon": "lucide-file",
+              "title": "Research Resources"
             }
           },
           {
-            "id": "571ff78dfeba00db",
+            "id": "e826eccf718fc2a7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Computing Machinery II/Notes/Slides/DMA.pdf"
+                "file": "Research/pandas/GeeksforGeeks Library.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "DMA"
+              "icon": "lucide-file",
+              "title": "GeeksforGeeks Library"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,59 +203,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "571ff78dfeba00db",
+  "active": "b8c760ea831f893c",
   "lastOpenFiles": [
-    "Computing Machinery II/Notes/Slides/Interrupts.pdf",
-    "Computing Machinery II/Notes/Slides/Busses.pdf",
-    "Computing Machinery II/Notes/Busses.md",
-    "Computing Machinery II/Notes/Interrupts.md",
-    "Computing Machinery II/Notes/Slides/Serial I_O.pdf",
-    "Untitled 1.md",
-    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
-    "GNN/PyTorch/01 PyTorch Workflow Fundamentals.md",
-    "GNN/PyTorch/03 PyTorch Computer Vision.md",
-    "Computing Machinery II/Notes/Parallel IO.md",
-    "Computing Machinery II/Notes/Serial IO.md",
-    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
-    "Computing Machinery II/Notes/Sound.md",
-    "Computing Machinery II/Notes/Slides/Sound.pdf",
-    "Computing Machinery II/Notes/Slides/DMA.pdf",
-    "Computing Machinery II/Notes/Combinatorial Circuits.md",
-    "Computing Machinery II/Notes/Sequential Circuits.md",
-    "Computing Machinery II/Notes/Slides/System Calls.pdf",
-    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
-    "Computing Machinery II/Notes/Direct Memory Access.md",
-    "Computing Machinery II/Notes/Raster Graphics.md",
-    "Computing Machinery II/Notes/Input Output Interfaces.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "Untitled.md",
-    "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png",
-    "GNN/PyTorch/other/download.png",
-    "GNN/PyTorch/other/download 1.png",
-    "GNN/PyTorch/other/02-different-classification-problems.png",
-    "GNN/PyTorch/other/01-pytorch-training-loop-annotated.png",
-    "GNN/PyTorch/other",
-    "GNN/PyTorch/02 PyTorch Neural Network Classification.md",
-    "download 1.png",
-    "download.png",
-    "01-pytorch-training-loop-annotated.png",
-    "Computing Machinery II/Notes/Slides/Sequential Circuits.pdf",
-    "Computing Machinery II/Notes/Steve Final Review.md",
-    "GNN/PyTorch/00 PyTorch Fundamentals.md",
-    "Software Eng/Class Diagrams.md",
-    "Software Eng/Software Design, Modelling, and UML.md",
-    "Software Eng/Software Engineering Metrics.md",
+    "Research/pandas/GeeksforGeeks Library.md",
+    "Research/Research Resources.md",
+    "Research/pandas/DataCamp pandas.md",
+    "Research/PyTorch/03 PyTorch Computer Vision.md",
+    "Research/PyTorch/01 PyTorch Workflow Fundamentals.md",
+    "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
+    "Research/PyTorch/other/02-different-classification-problems.png",
+    "Research/PyTorch/other/download.png",
+    "Research/PyTorch/other/download 1.png",
+    "Computing Machinery II/Computing Machinery II.md",
+    "Software Eng/Software Engineering Class.md",
     "Software Eng/Software Requirement Analysis.md",
-    "Software Eng/Class Stereotype.md",
-    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
-    "38f0e971a4b569a59c7871921b1f5a87.png"
+    "Untitled.md",
+    "Research/pandas/10 minutes to pandas.md",
+    "Research/pandas",
+    "Research/Untitled.md",
+    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
+    "Untitled 1.md",
+    "Computing Machinery II/Notes/Slides/DMA.pdf",
+    "Computing Machinery II/Notes/Slides/Busses.pdf",
+    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
+    "Computing Machinery II/Notes/Input Output Interfaces.md",
+    "Computing Machinery II/Notes/Parallel IO.md",
+    "Computing Machinery II/Notes/Slides/Serial I_O.pdf",
+    "Computing Machinery II/Notes/Serial IO.md",
+    "Computing Machinery II/Notes/Slides/Sound.pdf",
+    "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
+    "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
+    "Research/PyTorch/00 PyTorch Fundamentals.md",
+    "Research/PyTorch/02 PyTorch Neural Network Classification.md",
+    "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png",
+    "Research/PyTorch/other",
+    "Computing Machinery II/Notes/Direct Memory Access.md",
+    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
+    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
+    "Computing Machinery II/Notes/Busses.md",
+    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
+    "Computing Machinery I/Computing Machinery Final Review/Introduction.md",
+    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
+    "Computing Machinery I/Computing Machinery Final Review/Instruction Translation.md",
+    "Computing Machinery I/Computing Machinery Final Review/Data Representation.md"
   ]
 }
