@@ -1,0 +1,11 @@
+### Summary
+- **A lot of this page covers how to manipulate `NaN` values
+- Additionally, how to add values (mapping) without hard coding all values in the dataset
+	- The map function
+- The Cut function
+	- We can categorize a dataset into "buckets" of data that we define
+	- For example, a set of numbers can be put into buckets of a certain range
+	- see [Discretization - Cut Function](https://www.datacamp.com/tutorial/data-preparation-with-pandas)
+- *One-Hot Encoding*
+	- This is probably important for ML applications
+	- Not really sure how to explain it, just see [Dummy Variables and One-Hot Encodings](https://www.datacamp.com/tutorial/data-preparation-with-pandas)

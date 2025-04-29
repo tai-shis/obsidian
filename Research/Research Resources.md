@@ -15,7 +15,12 @@
 #### Notes
 - [[10 minutes to pandas]]
 - [[DataCamp pandas]]
-- [[Research Resources]]
+- [[GeeksforGeeks Library]]
+- [[Data Preparation with pandas]]
+- [[Preparing Data for ML using pandas]]
+- [[Data Manipulation Geeks for Geeks]]
+- [[pandas for Machine Learning]]
+- 
 #### Web Resources
 - [Going through GitHub "tutorial" for pandas in a data science context](https://www.youtube.com/watch?v=2uvysYbKdjM)
 	- Honestly kind of useless for me
@@ -34,6 +39,7 @@
 		- loading/selecting/filtering data + basic operations
 		- **THIS HAS EVERYTHING LMAO**
 			- return to this, for now just 1st section
+			- I think this is all you need for syntax/general use info
 	- [DataCamp pandas Tutorial](https://www.datacamp.com/tutorial/pandas)
 		- import/export, handling missing values, sorting, filtering, *visualization*
 	- [GeeksforGeeks pandas Tutorial](https://www.geeksforgeeks.org/pandas-tutorial/)​

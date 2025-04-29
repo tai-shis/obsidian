@@ -1,0 +1,24 @@
+### Essentials for ML Data Preparation
+- [List of topics](https://medium.com/@HalderNilimesh/a-comprehensive-guide-to-preparing-data-for-machine-learning-using-python-and-pandas-86e8ad65a616)
+- Data Cleaning
+	- finding and correcting errors in the dataset
+- Missing Values
+	- `NaN` values
+- Outliers
+	- stats methods
+- Data Integration
+	- concatenating multiple DataFrames and cleaning up any duplicates/missing values
+- **Data Transformation**
+	- converting data into a format *more appropriate for ML models*
+	- scaling, normalization and standardization, encoding categorical variables, creating features
+- Feature Scaling
+	- dealing with features that have different scales
+	- important for ML algorithms since numerical input on similar scales lead to better results
+		- *scaling features to a range between 0 and 1
+	- `apply()` function to fix it
+- **Encoding Categorical Variables**
+	- *turning non-numerical, "categorical" variables into a numerical format*
+	- `get_dummies()` function for one-hot encoding
+- Data Reduction
+	- reducing large datasets to be resource efficient while preserving its integrity
+	- we can use Scikit-learn to do this

@@ -30,30 +30,6 @@
               "icon": "lucide-file",
               "title": "Research Resources"
             }
-          },
-          {
-            "id": "e826eccf718fc2a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/pandas/GeeksforGeeks Library.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "GeeksforGeeks Library"
-            }
           }
         ]
       }
@@ -213,8 +189,12 @@
   },
   "active": "b8c760ea831f893c",
   "lastOpenFiles": [
-    "Research/pandas/GeeksforGeeks Library.md",
+    "Research/pandas/pandas for Machine Learning.md",
     "Research/Research Resources.md",
+    "Research/pandas/Data Manipulation Geeks for Geeks.md",
+    "Research/pandas/Preparing Data for ML using pandas.md",
+    "Research/pandas/GeeksforGeeks Library.md",
+    "Research/pandas/Data Preparation with pandas.md",
     "Research/pandas/DataCamp pandas.md",
     "Research/PyTorch/03 PyTorch Computer Vision.md",
     "Research/PyTorch/01 PyTorch Workflow Fundamentals.md",
@@ -249,10 +229,6 @@
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
     "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
     "Computing Machinery II/Notes/Busses.md",
-    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md",
-    "Computing Machinery I/Computing Machinery Final Review/Introduction.md",
-    "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
-    "Computing Machinery I/Computing Machinery Final Review/Instruction Translation.md",
-    "Computing Machinery I/Computing Machinery Final Review/Data Representation.md"
+    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md"
   ]
 }

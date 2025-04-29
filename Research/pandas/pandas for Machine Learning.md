@@ -1,0 +1,28 @@
+### Preface
+- This section is interesting for the use case of analyzing pandas datasets
+	- (I've read [this](https://madewithml.com/courses/foundations/pandas/) already before)
+- Contains information on:
+	- Loading data
+		- (we've done this already many times)
+	- Exploratory data analysis (EDA)
+		- analyzing/exploring data to find patterns/interesting information
+		- Do this through  `.describe()` or `.hist()`
+	- Filtering
+		- filtering through data for specific points
+	- Sorting
+		- in this section, just for visualization
+		- in the other sections there is a way to change the data in a sorted fashion
+	- Grouping
+		- also visualization
+	- Indexing
+		- self-explanatory
+	- Preprocessing
+		- this is where we drop `NaN`s and reset the index for iteration
+		- we can also drop unnecessary data before inputting into our model
+	- Feature Engineering
+		- using `.apply()` to create new rows etc. automatically
+			- applies a function to the whole dataset
+	- Saving Data
+		- `.to_csv("filename")`
+	- Scaling
+		- using Dask/cuDF to distribute workloads and run more efficiently
