@@ -1,10 +1,13 @@
 ### PyTorch Online Course
- #### Notes
+#### Notes
 - [[00 PyTorch Fundamentals]]
 - [[01 PyTorch Workflow Fundamentals]]
 - [[02 PyTorch Neural Network Classification]]
 - [[03 PyTorch Computer Vision]]
-- [All which come from here](https://www.learnpytorch.io/)
+#### Web Resources
+- [Learn PyTorch for Deep Learning: Zero to Mastery](https://www.learnpytorch.io/)
+- [Deep Learning 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+- [PyTorch for Deep Learning - (10 Hour YouTube Class)](https://www.youtube.com/watch?v=GIsg-ZUy0MY)
 ---
 ### Monte Carlo Simulation
 #### Web Resources

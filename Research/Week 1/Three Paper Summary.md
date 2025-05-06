@@ -1,0 +1,83 @@
+### #1 Defense Strategies for Epidemic Cyber Security Threats
+[Defense Strategies for Epidemic Cyber Security Threats: Modelling and Analysis by Using a Machine Learning Approach]([https://doi.org/10.1109/ACCESS.2024.3349660](https://doi.org/10.1109/ACCESS.2024.3349660))
+I may repeat a lot of things
+- **From Abstract**
+	- focuses on a multi-device systems targeting cybercrime attacks
+	- *Utilizes a SEIAR compartmental model*
+		- Susceptible(total)
+		- Exposed
+		- Infected
+		- Asymptomatic
+		- Recovered
+	- The differential equations and *numerical solutions* of the models are calculated using *backpropagated Levenberg-Marquardt algorithm (BLMA)* or also known as *damped least-squares* method (DLS)
+	- Optimization algorithm used is the *Levenberg-Marquardt algorithm (LMA)
+	- Compared to other solutions that were obtained using RK-4 algorithm
+		- for sustainability concerns?
+- High artificial neural network (ANN) concentration
+	- A network of interconnected neurons that analyse several inputs to generate one singular output
+	- Integrates multi-layer perceptron to optimize number of hidden units (also known as FNN)
+- Mathematical Model solutions solved using a deep learning-based approach
+- (REPEAT) *High focus on propagation/control of "cybercrime assaults" on multiple devices linked to a server*
+- (this comes up frequently) Relating cybercrime assault behaviour and dynamics to epidemiology (contagious illnesses)
+- **Paper focuses mainly on modelling based on DDoS attacks**
+- Model general info: (may be useful later)
+	- Uses one hidden layer for each input/output
+	- Training data:   (70%)
+	- Validation data: (15%)
+	- Testing data:    (15%)
+	- 10 to 20 hidden neurons
+- In the SEIAR model:
+	- Susceptible devices are Exposed which then can enter a state of being Infected
+	- Once Infected, they are can additionally be asymptomatic which essentially mean they are in a dormant state, i.e. not showing any "symptoms", yet still infected
+- They talk about "previous" model and their solutions using three optimization techniques
+- Here, they focus on ANNs, their deep learning methodization and use of activation functions, alongside their input, hidden, and output layers
+- Backpropagation to refine and minimize error
+	- using `nftool` in MATLAB
+- *Section on COVID-19 relation to malware epidemiology? See **V. Discussion** for details
+- Most likely some more sections that may require more review but this is the general details on the model and how it was created/optimized
+---
+### #2 Modeling self-propagating malware with epidemiological models
+[Modeling self-propagating malware with epidemiological models](https://doi.org/10.1007/s41109-023-00578-z](https://doi.org/10.1007/s41109-023-00578-z)
+- Focus on Self-Propagating Malware (duh) (SPM)
+	- Malware that copies itself onto other systems (viruses and worms)
+- Polymorphic Malware is a kind of self-propagating malware
+- *Utilizes a SSIDR epidemiological model*
+	- In a Non-Linear Dynamical System (NLDS)
+	- Susceptible
+	- Infected
+	- Infected-Dormant
+	- Recovered
+- Hard focus on modelling the *WannaCry* malware and how/why the SSIDR model is the best fit for it compared to other more commonly used epidemiologic models
+	- Also mentions other notable examples like the *Colonial Pipeline* and *Peyta*
+	- This is presented in the context of *modelling SPM propagation*
+- This paper also *relates computer viruses to the behaviour of biological viruses*, leveraging this to build effective epidemiological models
+- Mentions the *graph-like structure exhibited by computer networks*
+	- Where nodes are hosts in the network
+	- Edges are the communication links between them
+- This paper states that *existing work fail to fully capture malware characteristics in their models*
+- This paper is also quite fitted for their specific malware of choice
+- *Based on the real WannaCry malware's behaviour, it showed that consecutive infection attempts from the same hosts are delayed by a variable time interval*
+	- This is the concept behind the existence of a *"dormant" infected state*
+	- Hosts will *temporarily cease to pass infection to their neighbours*
+- In the context of a **network graph representation**:
+	- defenders might be able to use a represented malware model to *configure its network topology by performing edge or node hardening*
+- This model focuses on SPM propagation inside a local network rather than in a global context
+- Assumes a "patient zero" concept, where it all spreads from one source
+- Modeling self-propagating malware with epidemiological **models**
+- ***Assumes that every machine can contact all others***
+	- edge weights?
+	- might actually have it, im not too sure
+- Also assumes that machines cannot be infected twice
+	- once malware is detected, it is immediately recovered
+- *Contains very many other examples of other virus/epidemiological models*
+	- Should read up on these to reference our own models
+	- Also has examples on different malware for not just OS systems (like iOS and Android)
+	- And even for external removable devices
+- Uses these other papers to *directly compare against their own model in capturing self-propagating malware dynamics
+- The infected dormant stat is included to capture the nature the malicious attacks
+	- So, an infected node can become dormant for some period of time and resume its activity later
+- ***Their training and simulation data is something that they produced themselves***
+	- they ran it themselves in a controlled virtual environment
+	- have not checked if this data is publicly available 
+- rest was quite confusing/math/comparing their model to other standard models
+- 

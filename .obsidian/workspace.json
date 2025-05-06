@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Research Resources.md",
+                "file": "Research/Week 1/Three Paper Summary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Research Resources"
+              "title": "Three Paper Summary"
             }
           }
         ]
@@ -189,26 +189,33 @@
   },
   "active": "b8c760ea831f893c",
   "lastOpenFiles": [
-    "Research/pandas/pandas for Machine Learning.md",
-    "Research/Research Resources.md",
-    "Research/pandas/Data Manipulation Geeks for Geeks.md",
+    "Research/pandas/10 minutes to pandas.md",
     "Research/pandas/Preparing Data for ML using pandas.md",
+    "Research/pandas/pandas for Machine Learning.md",
     "Research/pandas/GeeksforGeeks Library.md",
-    "Research/pandas/Data Preparation with pandas.md",
     "Research/pandas/DataCamp pandas.md",
+    "Research/pandas/Data Manipulation Geeks for Geeks.md",
+    "Research/Week 1/Three Paper Summary.md",
+    "Research/Research Resources.md",
+    "Research/Week 1",
+    "Research/Untitled.md",
+    "Software Eng/Software Engineering.md",
+    "Software Eng/Software Design, Modelling, and UML.md",
+    "Research/PyTorch/02 PyTorch Neural Network Classification.md",
+    "Research/PyTorch/00 PyTorch Fundamentals.md",
+    "Research/pandas/Data Preparation with pandas.md",
+    "Research/PyTorch/other/download 1.png",
+    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
     "Research/PyTorch/03 PyTorch Computer Vision.md",
     "Research/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
     "Research/PyTorch/other/download.png",
-    "Research/PyTorch/other/download 1.png",
     "Computing Machinery II/Computing Machinery II.md",
     "Software Eng/Software Engineering Class.md",
     "Software Eng/Software Requirement Analysis.md",
     "Untitled.md",
-    "Research/pandas/10 minutes to pandas.md",
     "Research/pandas",
-    "Research/Untitled.md",
     "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
     "Untitled 1.md",
     "Computing Machinery II/Notes/Slides/DMA.pdf",
@@ -221,14 +228,7 @@
     "Computing Machinery II/Notes/Slides/Sound.pdf",
     "Computing Machinery II/Notes/Slides/Digital Logic & Boolean Algebra.pdf",
     "Computing Machinery II/Notes/Slides/Combinatorial Circuits.pdf",
-    "Research/PyTorch/00 PyTorch Fundamentals.md",
-    "Research/PyTorch/02 PyTorch Neural Network Classification.md",
     "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png",
-    "Research/PyTorch/other",
-    "Computing Machinery II/Notes/Direct Memory Access.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
-    "Computing Machinery II/Notes/Busses.md",
-    "Computing Machinery I/Computing Machinery Final Review/Subroutines.md"
+    "Computing Machinery II/Notes/Direct Memory Access.md"
   ]
 }
