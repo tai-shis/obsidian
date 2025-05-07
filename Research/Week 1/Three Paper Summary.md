@@ -117,4 +117,7 @@ I may repeat a lot of things
 - Additionally, the *Root Mean Squared Error* (RMSE) is used to compare the prediction errors in the model
 	- The lower the RMSE, the more accurate the model is
 - This is the paper which explains the **asymptomatic state** as a device that is carrying the virus without showing the symptoms (similar to how diseases spread in the human population)
-- 
+---
+### Possible other papers to see (from cited papers)
+This may assist in finding the proper model style
+[See papers cited in pages 5-7: Related Work](https://appliednetsci.springeropen.com/articles/10.1007/s41109-023-00578-z)
