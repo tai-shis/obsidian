@@ -1,5 +1,5 @@
 ### #1 Defense Strategies for Epidemic Cyber Security Threats
-[Defense Strategies for Epidemic Cyber Security Threats: Modelling and Analysis by Using a Machine Learning Approach]([https://doi.org/10.1109/ACCESS.2024.3349660](https://doi.org/10.1109/ACCESS.2024.3349660))
+[Defense Strategies for Epidemic Cyber Security Threats: Modelling and Analysis by Using a Machine Learning Approach](https://ieeexplore.ieee.org/document/10380585)
 I may repeat a lot of things
 - **From Abstract**
 	- focuses on a multi-device systems targeting cybercrime attacks
@@ -37,7 +37,7 @@ I may repeat a lot of things
 - Most likely some more sections that may require more review but this is the general details on the model and how it was created/optimized
 ---
 ### #2 Modeling self-propagating malware with epidemiological models
-[Modeling self-propagating malware with epidemiological models](https://doi.org/10.1007/s41109-023-00578-z](https://doi.org/10.1007/s41109-023-00578-z)
+[Modeling self-propagating malware with epidemiological models](https://appliednetsci.springeropen.com/articles/10.1007/s41109-023-00578-z)
 - Focus on Self-Propagating Malware (duh) (SPM)
 	- Malware that copies itself onto other systems (viruses and worms)
 - Polymorphic Malware is a kind of self-propagating malware
@@ -80,4 +80,41 @@ I may repeat a lot of things
 	- they ran it themselves in a controlled virtual environment
 	- have not checked if this data is publicly available 
 - rest was quite confusing/math/comparing their model to other standard models
+---
+### #3 Combining Epidemic Model and Deep Learning to Study Cyber Attacks
+[Combining Epidemic Model and Deep Learning to Study Cyber Attacks](https://ieeexplore.ieee.org/document/9447497)
+- Uses an SEIAR compartmental model
+	- Susceptible
+	- Exposed
+	- Infected
+	- Asymptomatic
+	- Recovered
+- Set of differential equations which *usually* are solved using:
+	- Euler Method
+	- Crank-Nicolson Method
+	- Runge-Kutta Method
+- Similar to the previous ones, the model's neural network is build using one hidden layer
+	- Advantages include usage of less storage compared to "traditional finite difference methods"
+- Optimization methods mentioned include variations of BFGS:
+	- Conjugate Gradient BFGS
+	- Limited Memory BFGS
+	- BFGS - **Broyden–Fletcher–Goldfarb–Shanno algorithm**
+- Introduction is a large preface to the new space of technology and its space
+	- Introducing malware/malicious software to the reader
+		- examples like trojan horses
+- This paper also takes the *Artificial Neural Network approach
+- Flow of this model is as follows
+	- Susceptible devices enter a state of Exposed, which can now enter a state of being infected.
+	- When it is infected, it can either be just infected or in an asymptomatic state.
+		- Similar to the other papers' model
+	- In this context, they are assumed to be infectious, but just at a reduced transmission rate
+- *There is a theorem which any continuous function can be approximated by a feed-forward neural network with a hidden layer*
+- The "convergence of the neural network" was done with three optimization methods
+	- Conjugate Gradient Method                        (CG)
+	- Broyden-Fretcher-Goldfard-Shanno method          (BFGS)
+	- Limited Memory BFGS for Bound constrained method (L-BFGS-B)
+	- In the paper, the BFGS showed the best results
+- Additionally, the *Root Mean Squared Error* (RMSE) is used to compare the prediction errors in the model
+	- The lower the RMSE, the more accurate the model is
+- This is the paper which explains the **asymptomatic state** as a device that is carrying the virus without showing the symptoms (similar to how diseases spread in the human population)
 - 
