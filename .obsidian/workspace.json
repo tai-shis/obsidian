@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web for CS/Semantic Elements in HTML5.md",
+                "file": "Computability/Language Theory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Semantic Elements in HTML5"
+              "title": "Language Theory"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "5a7372e5ba018379",
   "lastOpenFiles": [
-    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
+    "Computability/Introductory Topics.md",
+    "Computability/Language Theory.md",
     "Web for CS/Semantic Elements in HTML5.md",
+    "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Web for CS",
     "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
     "Computing Machinery II/Notes/Parallel IO.md",
@@ -201,7 +203,6 @@
     "Computing Machinery I/Computing Machinery Final Review/Instruction Translation.md",
     "Computing Machinery I/Computing Machinery Final Review/Intro to Computer Architecture.md",
     "Technology and Society/Computing History.md",
-    "Computability/Introductory Topics.md",
     "Technology and Society",
     "Computing Machinery I/Slides/Array Indexing.pdf",
     "Research/Week 1/Three Paper Summary.md",
@@ -221,7 +222,6 @@
     "Research/PyTorch/00 PyTorch Fundamentals.md",
     "Research/pandas/Data Preparation with pandas.md",
     "Research/PyTorch/other/download 1.png",
-    "Software Eng/Object-Oriented Analysis and Design (OOAD).md",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
     "Research/PyTorch/other/download.png",
