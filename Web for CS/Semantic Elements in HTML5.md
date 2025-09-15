@@ -157,3 +157,60 @@
 		- name - element name
 		- bob - element value
 	- etc. for rest of form values.
+---
+### How Forms Work
+- Submitting a form, like clicking a *hyperlink*, makes a **request**
+	- Similar to all other requests, this requires specifying a resource on a server
+	- This resource may also include a url.
+	- e.g.
+		- `<a href="product.html">` = `<form action="product.php">`
+		- `<a href="https://somewhere/...">` and vice versa
+- Form data is sent to the server packages as a ***querystring***
+	- `name1=value1&name2=value2&etc.`
+	- all in form-value pairs
+	- `name1` could be written as `<input type=text name="name1>`
+	- values in a querystring are **URL encoded**
+		- e.g. spaces are turned to '+'
+- If `method=GET`, the querystring appears *after* the url.
+	- `GET /resource.php?name1=value1&name2=value2`
+- If `method=POST`, the querystring appears after the HTTP request headers 
+```HTTP
+  POST /resource.php http/1.1
+  {http headers} 
+  name1=value1&name2=value2 
+```
+- **Best practice in most forms is to use POST**
+	- However, if there is *state-changing* data in the form, it should definitely use **POST**
+- querystrings can appear in *any* request
+	- for example: 
+		- `<a href="product.php?id=3456">Product 1 Name</a>`
+		- for the server, the two are equivalent
+	```HTML
+	<form method=GET action=product.php>
+		<input type=text name="id" value="3456">
+		<input type=submit>
+	</form>
+	```
+---
+### HTTP (Important**)
+- HTTP, or Hypertext Protocol, is what is used by browsers and web servers
+	- A browser being a program for making HTTP requests and rendering received responses.
+	- A web server being a program that *listens* for HTTP requests and send a response back
+- HTTP is a simple protocol, as in, text based with a small number of commands
+	- These commands are referred to as **verbs**
+	- e.g.
+		- `GET /product.html http/1.1`
+		- verb, resource, and protocol respectively
+	- There are also a variety of additional optional request headers
+- **HTTP Verbs**
+	- GET
+		- all links, forms using `METHOD=GET`
+			- form data is appended to the resource/url
+			- this means the form data is visible to the user in the browser
+	- POST
+		- forms using `METHOD=POST`
+			- this means the form data is in the HTTP header
+	- PUT
+		- requires JS
+	- DELETE
+		- requires JS

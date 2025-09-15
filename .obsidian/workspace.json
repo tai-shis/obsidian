@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computability/Language Theory.md",
+                "file": "Web for CS/CSS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Language Theory"
+              "title": "CSS"
             }
           }
         ]
@@ -190,9 +190,10 @@
   },
   "active": "5a7372e5ba018379",
   "lastOpenFiles": [
-    "Computability/Introductory Topics.md",
-    "Computability/Language Theory.md",
     "Web for CS/Semantic Elements in HTML5.md",
+    "Web for CS/CSS.md",
+    "Computability/Language Theory.md",
+    "Computability/Introductory Topics.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Web for CS",
     "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
@@ -220,7 +221,6 @@
     "Software Eng/Software Design, Modelling, and UML.md",
     "Research/PyTorch/02 PyTorch Neural Network Classification.md",
     "Research/PyTorch/00 PyTorch Fundamentals.md",
-    "Research/pandas/Data Preparation with pandas.md",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
