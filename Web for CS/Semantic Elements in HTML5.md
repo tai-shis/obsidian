@@ -1,4 +1,4 @@
-### Introduction
+ ### Introduction
 - By the 2010's most site's HTML was hard-to-read 'forest' of `<div>` tags
 - To circumvent this, HMTL5 introduced a variety of 'semantic' elements that work like `<div>` but have more meaningful names
 	- Such as:

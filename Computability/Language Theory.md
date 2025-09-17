@@ -78,3 +78,12 @@
 	- so aabb, aaabbb are accepted
 	- and abab, aab, are not
 - We can also write a language of string which length is divisible by 2 as $\dot 2$
+### Grammar Replacement Rules
+- A grammar $G = (V, \Sigma, R, S)$ consists of:
+	- $V$ : Variables (non-terminals)
+	- $\Sigma$ : Terminal Symbols
+	- $R$ : Production rules (e.g. $A \rightarrow aB$)
+	- $S$ : Start symbol
+	- **Derivation**: use rules to generate strings
+### Morphisms and Mappings
+- We will come back to this later in the semester

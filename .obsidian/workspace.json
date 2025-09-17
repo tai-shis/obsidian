@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web for CS/CSS.md",
+                "file": "Web for CS/Semantic Elements in HTML5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "Semantic Elements in HTML5"
             }
           }
         ]
@@ -190,10 +190,11 @@
   },
   "active": "5a7372e5ba018379",
   "lastOpenFiles": [
-    "Web for CS/Semantic Elements in HTML5.md",
     "Web for CS/CSS.md",
     "Computability/Language Theory.md",
     "Computability/Introductory Topics.md",
+    "Computability/Role of Theory in Computer Science.md",
+    "Web for CS/Semantic Elements in HTML5.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Web for CS",
     "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
@@ -220,7 +221,6 @@
     "Software Eng/Software Engineering.md",
     "Software Eng/Software Design, Modelling, and UML.md",
     "Research/PyTorch/02 PyTorch Neural Network Classification.md",
-    "Research/PyTorch/00 PyTorch Fundamentals.md",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
