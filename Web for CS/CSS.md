@@ -130,3 +130,159 @@ div.box { ... }
 span.box { ... }
 div#name1 { ... }
 ```
+---
+### Selectors (Important**)
+- id
+	- `#id`
+- class
+	- `.class`
+- element
+	- `name`
+- contextual
+	- descendant
+- attribute
+	- used for selecting elements by their attributes
+	- e.g.
+		- `-[title]`
+		- `-[title='bob']`
+- We can also combine selectors
+	- e.g.
+		- `a[title]`
+		- This selects all `<a>` elements that have a title attribute
+- There are also 6 *pseudo selectors*
+	- Selectors which select their elements based on 'aspects' of the element
+	- e.g.
+		- `a:link`
+			- anchor elements that contain an `href`
+			- typically used to specify link colour
+		- `a:visited`
+			- links that have been visited
+			- also used to change colour of links that were visited
+		- `ul.menu li:first-child`
+			- selects the first `li` element
+			- as apposed to `ul.menu li` which selects all `li` elements in the list
+		- `table.teams tr:nth-child(2)`
+			- selects every second *t*able *r*ow in a table called teams
+- **Should know the first 5 for exams**
+---
+### Properties
+- there are about a hundred properties, so it is difficult to memorise all of them
+- however, there are about 20 or so that should be memorised (due to frequent use)
+- **They fall under the following categories:**
+	- **fonts**
+		- `font:`
+			- this can be a shorthand for multiple properties in one line
+			- `font: [family] [size] [weight] [etc]`
+				- apparently the order matters sometimes
+		- `font-size:`
+		- `font-weight:`
+		- `font-family:`
+		- etc.
+	- **text**
+	- **box**
+	- **layout**
+	- **effects** (transitions, animations, etc.)
+	- miscellaneous 
+---
+### Values
+- Properties can have different value types and units
+- e.g.
+	- `font-size:`
+		- `12px`
+		- `10pt`
+		- `5in`
+		- `2rem`
+		- etc.
+---
+### Absolute vs Relative Measures
+- in CSS, absolute measures (like in, px, or pt) are easy to use but not *ideal* for web contexts because devices can vary in size 
+- Its better to instead use relative measures
+	- such as em, rem, px, vw, vh
+	- however, these are more complicated to use
+```HTML
+<body>
+<main>
+	<div id='header'>
+		<h1>title</h1>
+		<p>subtext</p>
+	</div>
+	<div class='box'>
+		<article>
+			<div class='box'>
+				<h2>...</h2>
+				<p>...</p>
+			</div>
+			<div class='box'>
+				<h2>...</h2>
+				<p>...</p>
+			</div>
+		</article>
+		<article>
+			...
+		</article>
+	</div>
+</main>
+</body>
+```
+- Take this block of html
+```css
+/* Below is example CSS*/
+/* Changes background color */
+background-color: yellow;
+ 
+/* Changes text color */
+color: brown;
+font-weight: bold;
+
+/* This order matters */
+border: 1pt solid black;
+text-align: left;
+
+/* Now, some real styling */
+/* Set text color and font weight for all p elements within a div */
+div p {
+	color: brown;
+	font-weight: bold;
+}
+
+/* set border and background color for all box class elements 
+within an article */
+article .box {
+	border: 1pt solid black;
+	background-color: yellow;
+}
+
+/* set text align for all h2 elements */
+h2 {
+	text-align: left;
+}
+
+/* set the background color to #FFCC00 for the first div 
+element within an article */
+article div:first-child {
+	background-color: #FFCC00;
+}
+
+/* set the link color to red for any hyperlink within 
+element whose id is header */
+#header a:link {
+	color: red;
+}
+```
+- Suppose we have general and specific styling for an element `<p>`
+	- i.e. `p { color: red; } \\ div p { color: black; }`
+- How does the browser handle rule conflicts?
+	- Styles will interact in different ways:
+		- *inheritance*
+			- some styles are inherited from their ancestor element
+			- some styles will be applied to their children
+				- these include font, colour, list, and text properties
+			- properties that are not inheritable include:
+				- layout, box, effects
+		- *location
+			- the most recent rule replaces earlier rules
+				- recent as in appears later in the document
+		- *specificity*
+			- more 'specific' rules will override less 'specific' rules
+				- inline -> id + selectors -> id -> class + attribute -> descendant -> element
+				- in order from most to least specific

@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ecb670f3c3f26a5b",
+        "id": "f9cf1479658eafec",
         "type": "tabs",
         "children": [
           {
-            "id": "5a7372e5ba018379",
+            "id": "78ac21f41be043a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web for CS/Semantic Elements in HTML5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Semantic Elements in HTML5"
+              "title": "New tab"
             }
           }
         ]
@@ -188,13 +174,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a7372e5ba018379",
+  "active": "78ac21f41be043a1",
   "lastOpenFiles": [
     "Web for CS/CSS.md",
+    "Untitled.md",
+    "Web for CS/Semantic Elements in HTML5.md",
     "Computability/Language Theory.md",
     "Computability/Introductory Topics.md",
     "Computability/Role of Theory in Computer Science.md",
-    "Web for CS/Semantic Elements in HTML5.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Web for CS",
     "Computing Machinery I/Computing Machinery Final Review/Array Indexing.md",
@@ -220,7 +207,6 @@
     "Research/Untitled.md",
     "Software Eng/Software Engineering.md",
     "Software Eng/Software Design, Modelling, and UML.md",
-    "Research/PyTorch/02 PyTorch Neural Network Classification.md",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
