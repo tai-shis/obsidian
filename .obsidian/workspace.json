@@ -11,10 +11,24 @@
             "id": "78ac21f41be043a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Web for CS/CSS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CSS"
             }
           }
         ]
@@ -176,8 +190,8 @@
   },
   "active": "78ac21f41be043a1",
   "lastOpenFiles": [
-    "Web for CS/CSS.md",
     "Untitled.md",
+    "Web for CS/CSS.md",
     "Web for CS/Semantic Elements in HTML5.md",
     "Computability/Language Theory.md",
     "Computability/Introductory Topics.md",
