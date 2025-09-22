@@ -286,3 +286,128 @@ element whose id is header */
 			- more 'specific' rules will override less 'specific' rules
 				- inline -> id + selectors -> id -> class + attribute -> descendant -> element
 				- in order from most to least specific
+---
+### CSS Box Model (Important*)
+- I cant type this out, but its actually in inspect on your browser in layout -> scroll down
+- Essentially it means this:
+	- You have your main *content block* - containing whatever it is in. say your `<div>` element.
+		- This has a height and width defining the size.
+	- Say there is another box around it, lets assume its just a section divider.
+		- This has two kinds of spacing elements
+			- Padding
+			- Margin
+		- Padding is the spacing between whatever is inside of the section box, and the border.
+		- Margin is spacing between the section box's border and whatever is outside of it.
+	- Background will fill within the padding, but not outside of the border into the margin.
+- **The CSS box model only fully applies to *block elements***
+	- For example:
+		- `<p>, <div>, <ul>, <li>, <article>, <section>, <aside>, etc.`
+	-  You can change an element between block/inline via the display property.
+		- `li.menu { display: inline-block; }`
+			- inline-block puts it on a single line, but has full CSS box
+---
+### Margins and Paddings
+- Probably the most commonly set box property
+- There is a browser default CSS style sheet which defines default styling for tags such as `<p>, <div>, <h1>, etc.`
+	- The default styling often sets margins
+	- To *remove* the default styling:
+		- `h1, div, p { margin: 0, padding: 0 }`
+- Margins:
+```css
+.foo {
+	/* 
+	Margins can set either:
+		All four
+		Top and Bottom, Right and Left
+		Top, Right, Bottom, Left
+	Respectively:
+	*/
+
+	margin: __ 
+		or: __ __
+		or: __ __ __ __
+}
+```
+- Margin, padding, width, and height all require values that are a measure.
+	- This measure can be absolute (in, cm, px, etc)
+	- They can also be relative (%, em, rem, vw, vh)
+```css
+.foo {
+	padding: 5px 3px 1em 5%
+}
+```
+- You can also mix and match units like above
+	- **Note:** 
+		- Percentage is the *percentage of its parent*
+		- em is equal to the size of the font box (actually pretty useful)
+			- *This is a reliable one, but may take longer*
+		- px is aight
+			- not ideal since it varies depending on the device
+- Vertical margins *collapse* in the browser.
+	- An element's bottom margin, and the next element below's top margin are **not** additive
+	- The browser will use the largest value.
+	- I.e. 1st elements bottom margin and the next element's top margin wont stack on top of each other.
+---
+### Box Size
+- By default an element's size in the browser is:
+	- `width = margin left + left border size + padding left + width + padding right + right border size + right margin size`
+	- `height = margin top + top border size + top padding + height + bottom padding + bottom border size + bottom margin size`
+	- Note, the are limits to those properties. The browser will, by default, override the width and height if the content of the element is larger (for text content)
+		- This behaviour can be overridden with the `overflow` tag
+			- visible
+			- hidden
+			- scroll
+			- auto
+- You are actually able to change the algorithm used for sizing via the `box-sizing` property
+```css
+.foo: { box-sizing: content-box } /* default */
+/* vs */
+.foo: { box-sizing: border-box }
+```
+- The size of the element will be:
+	- `= margin top/left + width/height + bottom/right margin`
+	- many designers will set box-sizing to border-box universally to make the layout design easier.
+```css
+:root {
+	box-sizing: border-box;  
+}
+```
+---
+### CSS Variables
+ - one of the most important new features of CSS3
+	 - (the current version of CSS which was gradually supported by browsers)
+	 - variables were supported universally by about 2020/2021
+ - Since most designs require consistent values, such as similar colours, similar sizes, etc. CSS Variables are very nice to have
+ - Instead of:
+```css
+.box {
+	margin: 0.5em 0.5em;
+	padding: 0.25em 0.25em;
+	border: 1pt solid #99CCEE;
+}
+
+.menu {
+	margin: 0.5em 0.5em;
+	padding: 0.25em 0.25em;
+	background-color: #99CCEE;
+}
+```
+- We can simplify the process of changing a lot of values being used universally at once like this:
+```css
+:root {
+	--element-color: #99CCEE;
+	--top-size: 0.5em;
+	--side-size: 0.25em;
+}
+
+/* var() to refernce variable */
+.box {
+	margin: var(--top-size) var(--side-size);
+	border: 1pt solid var(--element-color);
+}
+
+/* You can use calc() to perform basic arithmetic on variables */
+header {
+	margin: calc(--top-size * 2);
+}
+```
