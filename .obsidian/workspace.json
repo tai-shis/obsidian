@@ -191,10 +191,11 @@
   "active": "78ac21f41be043a1",
   "lastOpenFiles": [
     "Web for CS/Semantic Elements in HTML5.md",
-    "Computability/Role of Theory in Computer Science.md",
     "Web for CS/CSS.md",
-    "Untitled.md",
+    "Untitled.base",
     "Computability/Language Theory.md",
+    "Computability/Role of Theory in Computer Science.md",
+    "Untitled.md",
     "Computability/Introductory Topics.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Web for CS",
@@ -220,7 +221,6 @@
     "Research/Week 1",
     "Research/Untitled.md",
     "Software Eng/Software Engineering.md",
-    "Software Eng/Software Design, Modelling, and UML.md",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
@@ -229,7 +229,6 @@
     "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
     "Computing Machinery II/Notes/Slides/DMA.pdf",
     "Computing Machinery II/Notes/Slides/Busses.pdf",
-    "Computing Machinery II/Notes/Slides/I_O Interfaces.pdf",
     "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png"
   ]
 }

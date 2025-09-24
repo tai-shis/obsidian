@@ -411,3 +411,57 @@ header {
 	margin: calc(--top-size * 2);
 }
 ```
+---
+### CSS Layout
+- Class Example of wrapping text around a left-aligned `<img>`
+```html
+<p> text ... </p>
+<img ... class='figure'/>
+<p class='second'> more text... </p>
+```
+```css
+.figure {
+	/* This instructs the browser to move image to the left and
+	to flow content around it*/
+	display: block;
+	float: left;
+	
+	/* Need to specify size of image */
+	width: 150px;
+	
+	margin-right: 10px;
+}
+
+p.second {
+	/* Only issue with this is, if the image size changes, 
+	the layout will break*/
+	margin-left:160px
+}
+```
+- Here is an alternative approach using positioning:
+```css
+.figure {
+	display:block;
+	position: relative; /* Relative to its 'normal' position*/
+	top: 0;
+	left: 0;
+}
+
+p.second {
+	position: relative;
+	/* Assuming height = width */
+	top: 160px;
+	left: 160px;
+}
+```
+- **flexbox** lays out items within a container so as to fill its available space
+```css
+.container { display: flex }
+```
+- **grid** lays out items within a container into a number of columns and/or rows
+```css
+.container2 { display: grid }
+```
+- you can use both
+- Its pretty common nowadays to use *grid* to set up columns, and *flexbox* to layout elements within a column or row.
+- See pg. 293 in textbook for an example
