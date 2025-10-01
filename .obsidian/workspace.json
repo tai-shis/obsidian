@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web for CS/CSS.md",
+                "file": "Web for CS/JavaScript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "JavaScript"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "78ac21f41be043a1",
   "lastOpenFiles": [
-    "Web for CS/JavaScript.md",
     "Web for CS/CSS.md",
+    "Web for CS/JavaScript.md",
     "Web for CS/Semantic Elements in HTML5.md",
     "Untitled.base",
     "Computability/Language Theory.md",
