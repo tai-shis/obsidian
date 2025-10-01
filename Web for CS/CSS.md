@@ -465,3 +465,47 @@ p.second {
 - you can use both
 - Its pretty common nowadays to use *grid* to set up columns, and *flexbox* to layout elements within a column or row.
 - See pg. 293 in textbook for an example
+---
+### Responsive Design
+- Essentially, having css respond to different device sizes.
+	- This was done through the following methods:
+		- setting viewport size within the meta tag
+		- media queries
+			- different css rules for different device sizes.
+		- some new tags
+			- e.g. picture
+		- flexible layout methods
+	- **This is probably a midterm question**
+- Most CSS rulesets will have a set of general rules, followed by a few media queries for layout changes
+	- general rules will *usually* contain relative measures.
+- When resizing things like images, there is a `<picture>` tag to fit different image files (large, medium, small) and only download one depending on their device size.
+---
+### CSS Frameworks
+- refers to third-party libraries of css classes
+- greatly simplified the process of creating things like multi-column layouts for non CSS experts
+	- like bootstrap
+- Advantages to this is for a non-css expert to create passable designs.
+	- Since many apps/sites don't require a lot of fancy CSS, so a CSS framework could speed up development
+	- for examaple, mymru.
+- Disadvantages were:
+	- the learning curve of using a new framework/library
+	- very limited customizability; usually just colors/fonts
+	- also, web sites/apps started to look the same
+- Most CSS Frameworks were comprehensive: they provide all your styling needs
+	- but it was difficult to combine custom styling with these pre-packaged styles.
+	- As a result, these started to die down and out comes *utility* based CSS frameworks like TailwindCSS
+- Boostrap style:
+```html
+<div class="card">
+	<img class="card-img-vert">
+	<h2 class="card-title"> <!-- Semantic class names -->
+		etc...
+```
+- While easy to read and maintain, you couldn't really change it
+- Tailwind style:
+```html
+<div class="p-2 m-4 rounded">
+	<img class="m-2 shadowed w-full">
+	<h2 class="text-bold text-xl">
+		etc...
+```
