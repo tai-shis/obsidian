@@ -153,3 +153,144 @@ e[1] = 23
 					 </div>`;
 			```
 ---
+### **Conditionals**
+- if , else, etc.
+- `=, ==, ===, <, >, <=, etc, |, ||, &&`
+- === refers to exact type and value matching
+- everything can be evaluated as a boolean value
+	- everything is true except:
+		- false, nothing, null, undef,"", NaN
+- ternary operatior
+	- `let foo = (num == 3) ? 5 : 8;
+- **loops**
+	- for:
+		- as usual
+		- `for(let p in obj)`
+			- for each property in object (uncommon)
+		- `for(let p of array`
+			- iterates through array
+		- arrayForEach(p)
+			- later
+---
+### **Arrays**
+- as usual
+- mixed variables work
+- nested arrays, as usual
+- `names.push("bruh")` assuming names is an array (end of array)
+- `names.unshift("foo")` adds element to beginning of the array
+- `names.length()` O(n) time
+- Arrays are a type of object
+-  destructing
+	- `const foo = ["a", "b", "c"]`
+	- you can split them easily:
+		- `let char1, char2, char3 = foo`
+		- equal to:
+		- `let char1 = foo[0]; let char2 = foo[1]; let char3 = foo[2]`
+	- spread operator:
+		- `let char1, ...charRest = foo`
+		- `char1 is a, charRest is ["b", "c"]`
+---
+### **Objects**
+- basically everything in js is an object
+- an object is a collection of properties and their vallues
+```js
+const studentList = {
+	name1: foo,
+	name2: bar,
+	name3: john
+}
+
+const class1 = {
+	name: web,
+	id: 3612,
+	students: student
+}
+```
+-  **There are two ways to access properties:** (important**)
+	- dot notation
+		- `class1.id`
+	- bracket notation
+		- `class1["id"]`
+- **Ways of creating objects:** (important*)
+	- object function
+	```js
+	const obj = Object(); obj.propertyName = someValue;
+	```
+- Using Construction functions:
+	- we cover this after functions
+- We also have object destructuring:
+	```js
+	let { name, age } = someObject;
+	```
+---
+### JSON
+- JavaScript Object Notation
+- a way to represent a JS object as a string
+- parsing is available to files/through backend/server
+```js
+const obj = JSON.parse(json_string);
+const objString = JSON.stringify(json_string);
+```
+- Syntax:
+	```js
+	const jsonString = `{"name": "sue", "age": 23}`
+	```
+	- \`\` is used for strings
+---
+### Functions (important**)
+- *Functions are actually objects*  
+- **Ways of creating functions**:
+	- function delcaration
+	```js
+	function foo() {
+		alert("foo");
+	}
+	
+	function bar(abc) {
+		return abc;
+	}
+	
+	const xyz = bar; // This actually works
+	// Now, you can actually call xyz
+	let a = xyz("bruh");
+	let b = xyz(foo);
+	// lmao.
+	let c = b("bruh");
+	
+	// function expression
+	const foo = function(a, b) {
+			return a + b;
+		}
+	const x =foo(1, 2);
+	```
+-  Nested functions also exist
+ ```js
+ function foo() {
+	 const a;
+	 return bar(a);
+	 
+	 function bar(a) {
+		 return a + 2;
+	 }
+ }
+ ```
+- quite common, so get used to it
+- **Note**:
+	- nested function declarations are essentially "thrown" to the top of the parent function (so the above actually works)
+	- **function expressions** however, are not.
+---
+### Objects and Functions
+```js
+const obj = { 
+	name: "sue",
+	age: 23,
+	output: function() {
+		alert(`${name} bruh ${age}`)
+	}
+}
+obj.output()
+```
+- Kind of a method, but:
+	- its technically a property whose value is a function
+	- see the function expression definition
+	- 

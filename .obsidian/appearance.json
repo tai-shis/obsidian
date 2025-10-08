@@ -1,4 +1,7 @@
 {
-  "cssTheme": "",
-  "theme": "obsidian"
+  "cssTheme": "GitHub Theme",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Source Code Pro",
+  "textFontFamily": "Source Code Pro",
+  "monospaceFontFamily": "Source Code Pro"
 }
