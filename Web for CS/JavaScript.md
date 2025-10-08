@@ -293,4 +293,70 @@ obj.output()
 - Kind of a method, but:
 	- its technically a property whose value is a function
 	- see the function expression definition
-	- 
+- **Important**
+	- In context with arrow syntax
+	- you **cannot** use in conjunction with the *new* keyword
+	- (in constructor functions) because of the *this* keyword has a different meaning in an arrow function
+---
+### Constructor Functions/Function Constructors
+- *an alternate way to create objects*
+	- **object literal notation**
+	- several downsides
+		- consistency is not enforced
+		- mistakes are easy
+		- it is *terrible* when you need to create multiple objects with the same syntax
+		```js
+		const car1 = {
+			manufacturer: "Ford",
+			model: "Mustang"
+		}
+		
+		const car2 = {
+			manufacturer: "Honda",
+			model: "Civic",
+			output: function() => {
+				console.log(`${this.manufacturer} ${this.model}`)
+			}
+		}
+		```
+	- **solution 1** (just make a function)
+	```js
+	function makeCar(man, model) {
+		return {
+			man: man
+			model: model
+			output: function() {
+				console.log(`${this.man} ${this.model})
+			}
+		}
+	}
+	
+	const car1 = makeCar("Ford", "Mustang");
+	const car2 = makeCar("Honda", "Civic");
+	```
+	- **solution 2** (use constructor function) (note the convention)
+		- *constructor function names start with a capital*
+		- in JavaScript, `this` is contextual
+			- does not refer to itself. so its not lexical
+			- this is why we cant use arrow syntax
+	```js
+	// Note the captial C in Car (this is said convention)
+	function Car(man, model) {
+		this.man = man
+		this.model = model
+		this.output = function() {
+			console.log(`${man} ${model}`);
+		}
+	}
+	
+	// New creates an *empty object*
+	const c1 = new Car("Honda", "Civic");
+	const c2 = new Car("Ford", "F-150");
+	// The this.foo keyword references the empty object, rather than the constructor function itself
+	
+	// What will this output?
+	const c3 = Car("foo", "bar");
+	console.log(c3.model); // logs undefined
+	// this.foo in Car will reference the global namespace.
+	console.log(model); // logs foo (are you fucking serious)
+	```

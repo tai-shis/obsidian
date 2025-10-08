@@ -42,3 +42,9 @@ yarn add foo
 yarn remove foo
 ```
 That's it. Sometimes you add a little `-D` flag when you add packages, but when you look up the packages, it'll usually tell you to do it
+
+**Later**: Okay, i lied, dev dependencies `-D` packages are generally for things that are command line (e.g. `nodemon`, `typescript`) and recently, any typescript type stuff for your compiler/intellisense (e.g. `@types/foo`)
+
+
+
+[the goat video](https://www.youtube.com/watch?v=Be7X6QJusJA)
