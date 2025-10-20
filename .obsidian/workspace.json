@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "* Backend/1 Setting up packages.md",
+                "file": "Web for CS/Using JavaScript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1 Setting up packages"
+              "title": "Using JavaScript"
             }
           }
         ]
@@ -191,6 +191,7 @@
   "active": "2584a66c7cd04ed1",
   "lastOpenFiles": [
     "Web for CS/JavaScript.md",
+    "Web for CS/Using JavaScript.md",
     "* Backend/1 Setting up packages.md",
     "Untitled.base",
     "* Backend",

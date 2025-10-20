@@ -360,3 +360,20 @@ obj.output()
 	// this.foo in Car will reference the global namespace.
 	console.log(model); // logs foo (are you fucking serious)
 	```
+---
+### Set Timeout
+- just a built-in function that will invoke the passed function after a set time in milliseconds
+```js
+setTimeout(fn, delay);
+```
+---
+### Closures
+```js
+let abc = 34;
+setTimeout(() => { alert(abc) }, 3000);
+abc = 56;
+
+// This will output 34
+```
+- The function will 'remember' the state of the function when it was defined.
+- This is referred to as javascript closure.
