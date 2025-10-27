@@ -102,3 +102,185 @@ function $$(selector) {
 const node = $("#main");
 const nodeList = $$(".container p");
 ```
+---
+### Manipulating a Node
+- innerHTML vs textContent
+```js
+// <div id="box" class="box"> hello <span> world </span></div>
+const node = document.querySelector("#box");
+console.log(node.innerHTML)   // "hello <span> world </span>" 
+console.log(node.textContent) // "hello world"
+// Note how both are strings.
+
+node.innerHTML = "<h2> something </h2>"
+// innerHTML is now "<h2> something </h2>"
+node.textContent = "here"
+// innerHTML is now "here"
+```
+- There are a couple of reasons to avoid innerHTML
+	1. content added this way may not be part of the DOM tree
+		- i.e. can't manipulate them further in JS
+	2. security risks.
+		- XSS attacks / cross site attacks
+		- i.e. javascript injection.
+- So instead, we use DOM manipulation methods
+- Setting the className
+```js
+node.className = "card"
+// <div id="box" class="card"> -> which is replacing the previous class
+
+node.classList.add("visible")
+// <div id="box" class="card visible"> -> adds to the classes
+
+node.classList.remove("visible")
+// <div id="box" class="card"> -> removes it
+
+node.classList.toggle("main")
+// <div id="box" class="card main"> -> adds if non-existant
+
+node.classList.toggle("main")
+// <div id="box" class="card"> -> removes if exists
+```
+- Generally, we use *classList over className*
+```js
+node.style.[someCSSProperty] = something;
+
+// For example...
+node.style.backgroundColor = "something";
+```
+- But from a maintainability standpoint, just use classList and style in the css file.
+---
+### DOM Manipulation Methods
+- There are a few common methods:
+	- \*`appendChild()`
+	- \*`createElement()`
+	- \*`createTextNode()`
+	- `insertChild()`
+	- `removeChild()`
+	- `replaceChild()`
+	- `insertAdjacent()`
+	- etc.
+	- **These will be on exams/quizzes**
+```js
+const parent = document.querySelector("#box");
+const h2 = document.createElement("h2");
+
+h2.textContent = "hello";
+parent.appendChild(h2);
+
+// Result:
+// <div id="box"><h2>hello</h2></div>
+```
+- Example of use case(?)
+```js
+const data = [
+	{ id: 3, name: "pants" },
+	{ id: 4, name: "shirt" },
+	more stuff
+];
+
+// We now have a parent:
+// <ul id="list"></ul>
+
+// Now we can programmatically add to the list with our data
+
+// first we grab the parent element
+const list = document.querySelector("#list");
+// now we iterate
+for(item of data) {
+	// create list item
+	const li = document.createElement("li");
+	const div = document.createElement("div");
+	
+	// Now lets manipulate the div element
+	div.classList.add("card");
+	div.textContent = item.name;
+	
+	// Now lets make it a child of the li
+	li.appendChild(div);
+	
+	// Finally, add it to list
+	list.appendChild(li);
+}
+```
+- We can also take the approach of adding a text node so we can manipulate the text separate from the node.
+---
+### DOM Timing
+- There are a list of Browser Tasks that are done in order
+	1. HTML parsing
+	2. On a separate thread, download and parse styles
+	3. On a separate thread, parse **then** execute the JS
+- Consider the following code
+```html
+<html>
+<head>
+  <link src="styles.css" />
+  <script>
+	  // This script might actually try to select "x" before the html has been parsed
+	  // This can result in node being undefined, causing errors
+	  const node = document.querySelector("#x"); 
+	  
+	  node.appendChild(foo); // This might error.
+  </script>
+</head>
+<body>
+	<div id="x">foo</div>
+</body>
+</html>
+```
+- There are some solutions to this:
+	1. Putting all `<script>` elements at the end of the document
+		- i.e. just before `</body>`
+	2. **A better solution:**
+		- instead only execute the DOM code *after* the DOM is loaded
+		- *to do this, you must use the `DOMContentLoaded` event or `window.load` event*
+---
+### Event Handling
+- We handle events in JS by assigning a handler function to a particular event of a node
+- We can do this using the ***`addEventListener`*** method
+	- This is important*
+```js
+<button id="btn">Click me</button>
+
+// New, preferred method
+const node = document.querySelector("#btn");
+node.addEventListener("click", handlerFn);
+// "click" is the event name
+// handlerFn is a function that will be called when even si triggered
+
+
+// older approach:
+node.click = handleFn; // note, this is an object being passed, above too
+// not all events have a corresponding property
+// they will only have one handler
+```
+- handler functions do not return anything.
+- handler functions can take a parameter
+	- the event object (later)
+- They're pretty commonly defined through an anonymous function
+```js
+node.addEventListener("click", function() {
+	alert("clicked")
+});
+
+// or, elegantly :D
+document.querySelector("#box").addEventListener("click", () => { alert("clicked") });
+```
+- Let's look at an example:
+```js
+function foo() {
+	let abc = "whatever";
+	const node = doucment.querySelector("#box");
+	node.addEventListener("clicK", () => {
+		console.log(abc);
+	});
+}
+
+foo();
+// What will this output?
+
+// it will output "whatever", this is because of closures.
+```
+- closure makes JS work, because of the closure
+	- as in, the closure property of the function maintains its scope state when it is defined.
+---
