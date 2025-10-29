@@ -283,4 +283,140 @@ foo();
 ```
 - closure makes JS work, because of the closure
 	- as in, the closure property of the function maintains its scope state when it is defined.
+- **Continued below**
 ---
+### Templates (aside)
+- an alternate approach to modifying the DOM
+- mostly used when the markup being generated is complex
+	- e.g. many classes
+1. *Use the template tag in the markup to defined the structure*
+	```html
+	<!-- Card Template -->
+	<template id="sampleCard">
+		<div class="flex ...">
+			<div class="...">
+				<img class="...">
+				<h2></h2>
+				<p></p>
+			</div>
+		</div>
+	</tempalte>
+	```
+	- This template can appear anywhere in the html
+	- the browser will simply ignore it
+2. Use the clone method in JS to create a DOM structure that will mirror the template (note, not for exams, but for assignments)
+	```js
+	// First, select the template
+	const template = document.querySelector("#sampleCard");
+	// create a clone of it -> a DOM structure in memory
+	const clone = template.content.cloneNode(true); // no idea why its this
+	// now we can change the elements in the clone
+	const img = clone.querySelector("img") // note we use clone, not document
+	img.src = data.filename; // some value
+	const h2 = clone.querySelector("h2");
+	// ...
+	parent.appendChild(clone);
+   ```
+   - Now, this is normally done in a loop, to save time
+---
+### Event Handling, continued
+```js
+<button id="btn"> Click </button>
+const btn = document.querySelector("#btn")
+// Version 1
+btn.addEventListener("click", handler);
+function handler() {
+	alert("woo")
+}
+
+// Version 2
+btn.addEventListener("click", () => {alert("woo")});
+```
+- Quite common for handlers to be unique, depends on use case
+```js
+<div id="cart>
+	<div class="card">
+		...
+		<button>___</button>
+	</div>
+	<div class="card">
+		...
+		<button>___</button>
+	</div>
+	etc.
+</div>
+
+// To put a handler in these buttons, we have a few options.
+// Version 1
+const buttons = document.querySelectorAll("#cart button");
+for (let b of buttons) {
+	b.addEventListener("click", () => {
+		alert(b.textContent); // this works here, but not in ver 2...
+	});
+}
+
+// Version 2
+for (let b of buttons) {
+	b.addEventListener("click", handler)
+}
+
+// We use the event object
+function hander(e) {
+	alert(e.target.textContent)
+}
+```
+- JS will provide the data for this object if we include it in the definition of the handler function
+- **There are several common event object properties**
+	- `target` - the object that triggered the event
+	- `preventDefault()` - a method to stop default behaviour of the event
+		- useful for submit buttons and hyperlinks
+	- `clientX, clientY` - mouse position for mouse events
+```js
+const data = [
+	{ id: 36, name: "untitled" },
+	{ id: 45, name: "untitled" },
+	{ id: 18, name: "Sunset" },
+	etc.
+];
+
+<ul id="chosen"></ul>
+<div id="details">
+	<h2></h2>
+</div>
+
+// With the above information/code. lets populate with the titles
+//    :when list item (<li>) is clicked, then display the details
+//    (in this example, will simply redisplay the title)
+
+const ul = document.querySelector("#chosen");
+for(const d of data) {
+	const li = document.createElement("li");
+	li.textContent = d.name;
+	// Say there are additional fields in data
+	// to access them easily, we can add the data id to the element
+	li.dataset.id = d.id; // id is now used to acces the data array to search through easily.
+	// this makes: <li data-id=something>
+	
+	li.addEventListener("click", displayDetails);
+	ul.appendChild(ul)
+}
+
+function displayDetails(e) {
+	//
+	const h2 = document.querySelector("#details h2");
+	// we can now find the data value
+	// Option 1
+	for (const d of data) {
+		if(d.id == e.target.dataset.id) {
+			h2.textContent = d.name + d.artist + etc.
+		}
+	}
+	
+	// Option 2 (much better)
+	const match = data.find(d => d.id == e.target.dataset.id);
+	h2.textContent = match.name + match.artist + etc.
+	
+	//  then add it :D
+	details.appendChild(h2);
+}
+```
