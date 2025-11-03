@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web for CS/DOM.md",
+                "file": "Web for CS/Events.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DOM"
+              "title": "Events"
             }
           }
         ]
@@ -191,7 +191,7 @@
   "active": "2584a66c7cd04ed1",
   "lastOpenFiles": [
     "Web for CS/DOM.md",
-    "Web for CS/DOM.md",
+    "Web for CS/Events.md",
     "Web for CS/JavaScript.md",
     "Web for CS/CSS.md",
     "Web for CS/Semantic Elements in HTML5.md",
@@ -221,7 +221,6 @@
     "Computability",
     "Research/pandas/10 minutes to pandas.md",
     "Research/pandas/Preparing Data for ML using pandas.md",
-    "Research/pandas/pandas for Machine Learning.md",
     "Research/Week 1",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
