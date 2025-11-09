@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web for CS/Events.md",
+                "file": "Web for CS/DOM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Events"
+              "title": "DOM"
+            }
+          },
+          {
+            "id": "501dcdd91ca7bb16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web for CS/Miscellaneous.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Miscellaneous"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,11 +213,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2584a66c7cd04ed1",
+  "active": "501dcdd91ca7bb16",
   "lastOpenFiles": [
-    "Web for CS/DOM.md",
     "Web for CS/Events.md",
+    "Web for CS/DOM.md",
     "Web for CS/JavaScript.md",
+    "Web for CS/Miscellaneous.md",
+    "Untitled.md",
     "Web for CS/CSS.md",
     "Web for CS/Semantic Elements in HTML5.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
@@ -203,7 +230,6 @@
     "* Backend",
     "Computability/Language Theory.md",
     "Computability/Role of Theory in Computer Science.md",
-    "Untitled.md",
     "Computability/Introductory Topics.md",
     "Computing Machinery I/Computing Machinery Final Review/Assembling, Linker, and Loader.md",
     "Web for CS",
