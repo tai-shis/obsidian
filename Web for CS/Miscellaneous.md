@@ -197,3 +197,93 @@ selCountries.addEventListener("change",() => {
 	- its hard to maintain :/
 - We can make it less horrible by grouping many chunks into many functions
 - async + await (wed) can help a bit
+---
+### Not-so-different stuff
+- Loading animation
+```js
+#load {
+  display: none,
+  background-image: url(---)
+  position: etc.
+}
+
+const load = document.querySelector('#load');
+load.styles.display = "block";
+
+fetch(url)
+  .then(resp => resp.json())
+  .then(data => {
+    load.styles.display = none;
+    // do something with data
+  });
+// Might be better to use classList if we wanted an animation!
+```
+- Toaster example`
+```css
+.snackbar {
+	display: block;
+	width: 200px;
+	etc.
+}
+
+.snackbar.show {
+	display: block;
+	animation: fadein: 0.5sec fade-out: 0.5sec ...
+}
+
+@keyframes fadein {
+	from {top: 0; opacity; 0}
+	to {top: 50px; opacity: 1}
+}
+
+@keyframes fadeout {
+	...
+}
+```
+- but now we have an issue, we want to display this snackbar for only a set amount of time.
+```js
+function showSnackBar(msg) {
+  const bar = document.querySelector('.snackbar');
+  bar.textContent = msg;
+  bar.classList.add("show");
+  setTimeout(() => {
+    bar.classList.remove("show");
+  }, 2000);
+  
+}
+```
+--- 
+### Other HTTP Methods with Fetch
+- By default, `fetch()` makes a GET request
+	- you can actually specify what fetch should do through the options parameter (POST, PUT, DELETE)
+		- POST - create
+		- GET - retrieve
+		- PUT - update
+		- DELETE - delete
+		- or **CRUD operations**
+```js
+function addFavorite(e) {
+  if (e.target.nodeName == "BUTTON") {
+    // get product id from button
+    const id = e.target.dataset.id;
+    const name = e.target.dataset.name
+    
+    // now we create a querystring with the data
+    const qString = new FormData()
+    qString.set("id", id);
+    qString.set("title", name)
+    
+    // set fetch options
+    const options = {
+	  method: "POST",
+	  body: qString
+    }
+    
+    // now we can fetch post
+    fetch(url, options)
+      .then(resp => resp.json())
+      .then(data => { showSnackBar("item added") })
+      .catch( err => { showSnackBar("favorite request failed") })
+  }
+}
+```
