@@ -77,3 +77,123 @@ fetch(url)
 .then(data => { // do somethign with the data }) // data is a JS object
 .catch(err => { // if there is an error })
 ```
+---
+### Fetch + Promises
+- fetch returns a promise object
+	- a placeholder for a value that will eventually be received/available
+	- also can not (fetch failing)
+- this promise object has a small set of properties and methods
+	- `then()`
+	- `catch()`
+- Both of these functions are then passed callback functions.
+---
+### Fetching Data
+```js
+const url = "https://www.whatever.com/products"
+or
+const url = "data/something.json"
+
+fetch(url)
+  // Then returns a promise or returns nothing
+  .then(response => { // realistic callback function example
+    // check for response 
+    if (response.ok)
+	  // also returns a promise
+	  return response.json() // gets object within the JSON part of the response body
+	else
+	  throw new Error("fetch failed")
+  })
+  // after response.json is resolved, another callback with data is passed
+  // i.e. the data retrieved from the url
+  .then(data => {
+    // do something with retrieved data
+  })
+  // now we typically provide a catch
+  .catch(error -> {
+    // do something with error
+    // can modify DOM / put in connsole
+  });
+```
+- For labs/lectures/tests, we usually will just do this:
+```js
+fetch(url)
+  .then(resp => resp.json())
+  .then(data => {...});
+// with ... having actual code
+```
+- Example:
+```js
+{ // html
+<select id='selContinents'>
+	<option value=0>Select a Countinent</option>
+	<option value=NA>North American</option>
+	etc.
+</select>
+<select id='selCountries' disabled>
+	<option value=0>Select a Country</option>
+<Select>
+<ul id='listCities'></ul>
+}
+
+const url1 = "..."
+const url2 = "..."
+
+const selContinents = document.querySelector("#selContinents");
+const selCountries = document.querySelector("#setCountries");
+const listCities = document.querySelector('#listCities");
+
+selContinents.addEventListener("change", () => {
+  if(setContinents.value != 0) {
+    fetch(`${url1}/${selCountinents.value}`)
+	  .then(res => res.json())
+	  .then(data => {
+	    // now populate the country selector
+	    selCountries.innerHTML = '';
+	    let placeholder = document.createElement("option");
+	    placeholder.value = 0;
+	    placeholder.textContent = "Select a Country";
+	    selCountries.appendChild(placeholder);
+	    
+	    data.forEach(d => {
+	      let opt = document.createElement("option");
+	      opt.value = d.id;
+	      opt.textContent = d.name;
+	      selCountries.appendChild(opt);
+	    });
+	    
+        selCountries.setAttribute("disabled", false)
+	  })
+	  .catch(err => {
+	    throw new Error("Error while fetching countries");
+	  })
+	}
+  }
+})
+
+selCountries.addEventListener("change",() => {
+  if (selCountries.value != 0) {
+    fetch(`${url2}/${selCountries.value}`)
+      .then(resp => resp.json())
+      .then(cities => {
+	    listCities.innerHTML = '';
+	    cities.forEach(c => {
+	      const li = document.createElement("li");
+	      li.textContent = c.name;
+	      li.addEventListener("click", (e) => {
+		    bleh
+		  }  
+	    });
+	    listCities.appendChild(li);
+	  })
+	  .catch(err => {
+	    throw new Error("Error while fetching cities");
+	  })
+    })
+  }
+})
+```
+- This is **JS Callback hell.**
+	- it ends up being a massive triangle (deeply nested)
+	- its hard to maintain :/
+- We can make it less horrible by grouping many chunks into many functions
+- async + await (wed) can help a bit

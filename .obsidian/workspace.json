@@ -37,6 +37,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Web for CS/Events.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Events"
+            }
+          },
+          {
+            "id": "8524aef61691a7e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Web for CS/Miscellaneous.md",
                 "mode": "source",
                 "source": false,
@@ -56,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,12 +237,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "501dcdd91ca7bb16",
+  "active": "8524aef61691a7e2",
   "lastOpenFiles": [
+    "Web for CS/Miscellaneous.md",
+    "Web for CS/JavaScript.md",
     "Web for CS/Events.md",
     "Web for CS/DOM.md",
-    "Web for CS/JavaScript.md",
-    "Web for CS/Miscellaneous.md",
     "Untitled.md",
     "Web for CS/CSS.md",
     "Web for CS/Semantic Elements in HTML5.md",
