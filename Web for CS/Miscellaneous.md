@@ -287,3 +287,107 @@ function addFavorite(e) {
   }
 }
 ```
+---
+### async and await (not testable)
+- alternate syntax for working with promises
+- cleans up typical promise code by making the code look like synchronous code.
+```js
+fetch(url)
+  .then(resp => resp.json())
+  .then(data => { //do stuff })
+  .catch(err => { //:( })
+// vs 
+
+// anytime you use await keyword, it MUST be within an async function
+async function getData() {
+  const resp = await fetch(url); 
+  ...
+}
+```
+- an async function is executed on its *own* thread, so generally speaking, it doesn't return anything.
+```js
+async function getData() {
+  try {
+    const resp = await fetch(url);
+    const data = await resp.json();
+    // do something with data
+    console.log('data retrieved');
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+console.log('before getData');
+getData();
+console.log('after getData');
+
+// before getData
+// after getData
+// data retrieved
+```
+---
+### Browser APIs (could go into node section)
+- extra APIs provided by the browser
+- an example of one of these is the web storage API
+	- this provides you with *two* objects
+		- local storage and session storage
+		- these can be used to persist data
+	- `localStorage`
+		- persists until it is deleted
+	- `sessionStorage`
+		- persists until session ends
+		- i.e. tab closed or leave site or close browser
+	- for both, key=value pairs, where the *value must be a string*
+	```js
+	let aValue = "something";
+	localStorage.setItem("aKey", aValue); // key can be any string
+	
+	let aReturnedValue = localStorage.getItem("aKey");
+	// check if the value was there
+	if (!aReturnedValue) {
+	  // regenerate it
+	}
+	
+	// otherwise, use it.
+	```
+	```js
+	let cart = [];
+	...
+	
+	// setting array data to localstorage
+	addButton.addEventListener("click", (e) => {
+	  // add product to cart
+	  cart.push(new CartItem(prodId, quantity));
+	  // save to local storage.
+	  localStorage.setItem("cart", JSON.stringify(cart));
+	});
+	
+	// retrieving array data from localstorage
+	const retrievedCartString = localStorage.getItem("cart");
+	
+	if (!retrievedCartString) {
+	  // generate properly
+	}
+	
+	// this will output "string"
+	console.log(typeof retrievedCartString);
+	
+	cart = JSON.parse(retrievedCartString);
+	// Now, this is a js object array
+	console.log(typeof cart);
+	```
+	- if fetching data that changes infrequently, it is common to put it in `sessionStorage` or `localStorage`.
+	```js
+	const contriesStr = localStorage.getItem("contries");
+	if (!constriesStr) {
+     fetch(url)
+	   .then(resp => resp.json())
+	   .then(data => {
+	     localStorage.setItem("countries", JSON.stringify(data))
+	   })
+	}
+	```
+---
+### External APIs
+- JS libraries provided by a third-party to perform some task
+- 

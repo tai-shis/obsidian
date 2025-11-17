@@ -1,0 +1,14 @@
+### Server-Side Development (IMPORTANT*)
+- Everything in the course so far has been client-side
+	- i.e. on the browser.
+- of course, the browser requests content from a server
+- The browser requests from the server 
+	- which can be:
+		- simple file requests
+		- programs that must execute on the server
+			- node, php, asp.net, etc.
+- From around 1997 - 2012, most site content was programatically generated on the server
+	- browser requests to server which executes a program that generates html which is returned to the browser.
+- Nowadays, browsers dynamically generate content using data that was provided by the server.
+	- browser requests to server which generates JSON which the browser will dynamically generate the content using that JSON
+- 

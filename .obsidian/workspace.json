@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "29a3bee8040da8f9",
+        "id": "97c8ea5dd0c35eda",
         "type": "tabs",
         "children": [
           {
-            "id": "2584a66c7cd04ed1",
+            "id": "2b4d812dfb184511",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web for CS/DOM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DOM"
-            }
-          },
-          {
-            "id": "501dcdd91ca7bb16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web for CS/Events.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Events"
-            }
-          },
-          {
-            "id": "8524aef61691a7e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web for CS/Miscellaneous.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Miscellaneous"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,15 +174,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8524aef61691a7e2",
+  "active": "2b4d812dfb184511",
   "lastOpenFiles": [
+    "Web for CS/DOM.md",
+    "Web for CS/Events.md",
+    "Web for CS/Node.md",
+    "Web for CS/Miscellaneous.md",
+    "Web for CS/JavaScript.md",
     "Web for CS/CSS.md",
     "Untitled.base",
-    "Web for CS/Events.md",
-    "Web for CS/JavaScript.md",
     "Web for CS/Semantic Elements in HTML5.md",
-    "Web for CS/Miscellaneous.md",
-    "Web for CS/DOM.md",
     "Untitled.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
     "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
