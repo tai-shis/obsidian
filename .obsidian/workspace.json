@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Node"
             }
+          },
+          {
+            "id": "e99b568cad65e002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web for CS/Node.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Node"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,14 +213,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "181adc4ac8c888a2",
+  "active": "e99b568cad65e002",
   "lastOpenFiles": [
+    "Web for CS/JavaScript.md",
+    "Web for CS/Miscellaneous.md",
     "Web for CS/Node.md",
+    "Research/PyTorch/03 PyTorch Computer Vision.md",
+    "Research/Week 1/Three Paper Summary.md",
+    "Research/Research Resources.md",
+    "Research/PyTorch/02 PyTorch Neural Network Classification.md",
     "Web for CS/Node.js (Node).md",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/download.png",
     "Research/PyTorch/other/02-different-classification-problems.png",
-    "Research/PyTorch/02 PyTorch Neural Network Classification.md",
     "Research/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Research/PyTorch/00 PyTorch Fundamentals.md",
     "Research/pandas/10 minutes to pandas.md",
@@ -210,17 +240,12 @@
     "11-18.md",
     "Web for CS/DOM.md",
     "Web for CS/Events.md",
-    "Web for CS/Miscellaneous.md",
-    "Web for CS/JavaScript.md",
     "Web for CS/CSS.md",
     "Web for CS/Semantic Elements in HTML5.md",
     "Computing Machinery II/Notes/Sequential Circuits.md",
     "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
     "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
-    "* Backend/1 Setting up packages.md",
     "* Backend",
-    "Computability/Role of Theory in Computer Science.md",
-    "Computability/Introductory Topics.md",
     "Web for CS",
     "Technology and Society",
     "Computing Machinery I/Slides/Array Indexing.pdf",
