@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4a1b8b4f55dbc34b",
+        "id": "adc20bc178b107cc",
         "type": "tabs",
         "children": [
           {
-            "id": "181adc4ac8c888a2",
+            "id": "02b84057afb0a10d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web for CS/Node.md",
+                "file": "Programming Paradigms/01 Lambda Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Node"
-            }
-          },
-          {
-            "id": "e99b568cad65e002",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web for CS/Node.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Node"
+              "title": "01 Lambda Calculus"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,19 +188,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e99b568cad65e002",
+  "active": "02b84057afb0a10d",
   "lastOpenFiles": [
-    "Web for CS/JavaScript.md",
-    "Web for CS/Miscellaneous.md",
+    "#obsidian.css#",
+    "Programming Paradigms/00 Outline.md",
+    "Programming Paradigms/01 Lambda Calculus.md",
+    "Programming Paradigms",
     "Web for CS/Node.md",
+    "Web for CS/Node.js (Node).md",
+    "Web for CS/Miscellaneous.md",
+    "Web for CS/JavaScript.md",
+    "Web for CS/DOM.md",
+    "Web for CS/IMG_7751.webp",
+    "Web for CS/Events.md",
+    "Web for CS/Semantic Elements in HTML5.md",
+    "Research/PyTorch/other/02-different-classification-problems.png",
     "Research/PyTorch/03 PyTorch Computer Vision.md",
     "Research/Week 1/Three Paper Summary.md",
     "Research/Research Resources.md",
     "Research/PyTorch/02 PyTorch Neural Network Classification.md",
-    "Web for CS/Node.js (Node).md",
     "Research/PyTorch/other/download 1.png",
     "Research/PyTorch/other/download.png",
-    "Research/PyTorch/other/02-different-classification-problems.png",
     "Research/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Research/PyTorch/00 PyTorch Fundamentals.md",
     "Research/pandas/10 minutes to pandas.md",
@@ -238,13 +221,7 @@
     "Computability/Language Theory.md",
     "Untitled.base",
     "11-18.md",
-    "Web for CS/DOM.md",
-    "Web for CS/Events.md",
     "Web for CS/CSS.md",
-    "Web for CS/Semantic Elements in HTML5.md",
-    "Computing Machinery II/Notes/Sequential Circuits.md",
-    "Computing Machinery II/Notes/IO Hardware and Bus Basics.md",
-    "Computing Machinery II/Notes/Digital Logic and Boolean Logic.md",
     "* Backend",
     "Web for CS",
     "Technology and Society",
@@ -254,7 +231,6 @@
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Research/pandas",
     "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
-    "Computing Machinery II/Notes/Slides/DMA.pdf",
     "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png"
   ]
 }

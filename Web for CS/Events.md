@@ -57,7 +57,12 @@ function handler() {
 
 // Version 2
 btn.addEventListener("click", () => {alert("woo")});
-```
+node.addEventListener("click", function() {
+	alert("clicked")
+});
+
+// or, elegantly :D
+document.querySelector("#box").addEventListener("click", () => { alert("clicked") });```
 - Quite common for handlers to be unique, depends on use case
 ```js
 <div id="cart>

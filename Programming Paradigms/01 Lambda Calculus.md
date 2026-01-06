@@ -1,0 +1,11 @@
+- example; take a doubling function `def double(x): return x + x` 
+	- what this returns can actually be interpreted *differently* depending on how the programming language acts
+	- in $\lambda$-calculus: ($\lambda$n.n + n)
+		- $\lambda$ tells you that it is a function
+		- it is anonymous (no names are given)
+	- to apply the function:
+		- double(3) == ($\lambda$n.n+n)3 
+		- notice we apply it on the right
+		- our applied expression will result in 3+3
+			- this simplified, non-lambda expression is called *normal form*; cannot be simplified any more
+	- 
