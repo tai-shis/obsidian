@@ -1,0 +1,166 @@
+### Test Material
+- 8 regions of japan
+	- **Ho**kkaido (HOT)
+	- To**ho**ku (HOT)
+	- Kan**to** (Tokyo)
+	- Chubu (Mt. Fuji)
+	- Kansai (Kyoto)
+	- Chugoku (Hiroshima)
+	- Shikoku (Udon)
+	- Kyushu and Okinawa (Ramen and Hot Springs)
+- Basic information about Japan
+	- Size
+	- Population
+		- Japan
+		- Tokyo
+	- Captial
+	- Population density
+	- How many small islands
+	- 70% of japan is mountainous
+	- Where most people live
+	- Best known mountain in japan
+		- name
+		- height (meters)
+	- Number of active volcanoes in Japan
+	- % of volcanoes in the world which are in japan
+- Each region with the correct feature/festival
+	- Regions: see above
+	- Feature/Festival
+		- Hiroshima Peace Memorial
+		- Udon noodles
+		- Mt. Fuji
+		- Hot springs, Ryukyu culture
+		- Tokyo, Capital of Japan
+		- Snow Festival
+		- Kyoto temples and shrines
+		- Kamakura Festival
+---
+### 8 Regions of Japan
+- Hokkaido
+	- Northern-most area
+	- cold, many volcanoes and lakes
+	- **Sapporo Snow Festival**
+		- one week in feb
+		- snow and ice sculptures
+		- *Capital of Hokkaido*
+	- Shiretoko Pennisula
+		- Northernmost untouched point of Japan
+		- Natural heritage sight
+	- Ainu Indigenous people of Japan
+		- Live in Hokkaido/Northern Tohoku
+		- distinct language different from Japanese
+- Tohoku
+	- North of kanto (Toyko)
+	- Short summer, long, cold winters
+	- Mountainous terrain
+	- **Yokote Kamakura Festival**
+		- Every February
+		- Candle lit atmosphere
+		- Honor to gods to pray for the spring harvest as well as for community peace
+- Kanto
+	- Main dense area (where Tokyo is located)
+	- mild, 50% of the area is the Kanto plains
+	- **Tokyo Metropolitan Prefecture, Capital of Japan**
+		- 23 central city wards in Tokyo
+		- multiple cities, towns, and villages
+		- as well as islands belong inside of Kanto 
+			- (1000km south of Tokyo)
+		- *Population: 14 million*
+		- Former name: Edo
+		- East Capital (kanji)
+		- *About 11% of people live in Tokyo*
+	- Tokyo/Edo Castle
+		- Imperial Palace stands where the Edo Castle was built
+		- Ginza - most famous shopping/department/boutiques/galleries/restaurants store
+		- Many historical sights remain (such as walls and castles)
+	- Yokohama
+		- Kanagawa prefecture
+		- Second largest city by population (30-40min from Tokyo)
+		- One of the first harbor that opened to foreign trade
+		- Minato Mirai
+			- many areas for shopping/entertainment/enjoyment
+			- cup noodle museum 
+			- Red brick warehouse (Aka Renga)
+		- Chinatown (largest one in Japan)
+- Chubu
+	- North-east of kanto (contains mount fuji)
+	- north side has heavy snowfall
+	- south side has mild climate
+	- *Tateyama Kurobe Alpine Route*
+		- Toyama and Nagano prefecture
+		- Inaccessible from Dec to April
+		- Transportation only by cable cars, busses, and ropeway
+		- Japan Alps
+		- Snow corridor (19m in April)
+	- **Shizuoka Prefecture and Mt. Fuji**
+		- Mt. Fuji resides here
+		- Inbetween shizuoka and yamanshi pref.
+		- Famous green tea plantations and production
+- Kansai
+	- West of Kanto
+	- Similar to Chubu; north side has heavy rain/snow, south side has lots of rain in the summer
+	- **Kyoto Prefecture**
+		- used to be the capital of Japan before Tokyo (1000 years until 1800s)
+		- many shrines and temples
+			- 1700 shrines, 3000 temples
+			- compared to 1000 convenience stores
+			- usually for locals and general use
+		- *World Heritage Site
+			- 17 shrines and temples
+			- usually for tourists and more commonly visited by tourists
+			- Fushimi Inari Shrines
+				- 1,000+ Torii Gates
+	- Osaka Prefecture
+		- Second largest metropolitan area after tokyo
+		- Commercial city (various goods and products from other regions)
+			- main offices for companies for panasonic/glico
+		- Dotonbori
+			- entertainment district
+			- dining/shopping
+			- many many food shops
+				- eat until you go broke 
+- Chugoku
+	- Hiroshima area
+	- Mountainous, low rain, mild weather
+	- **Hiroshima**
+		- Atomic bomb dome
+		- In Hiroshima prefecture
+		- Aug 6. 1945 08:15
+		- Hiroshima Prefectural industrial Promotion Hall
+		- Peace Memorial/Museum 
+	- Itsukushima Shrine
+		- Located in the Miyajima Island
+		- One of Japan's three best views; the holy island
+		- Giant torii gate "floating" in the water during high tides
+		- World Heritage Sight
+- Shikoku
+	- Large Island mass in southern Japan
+	- North side (inland) has less rain
+	- South side (pacific facing) has lots of rain in the summer
+	- **Kagawa Prefecture Udon**
+		- famous for udon noodles
+		- great wheat
+		- Salt and Soy sauce have been produced for a long period of time so it is very high quality
+		- Highest number of udon restaurants per capita in Japan
+- Kyushu and Okinawa
+	- South-East Japan
+	- Nagasaki
+	- Very warm/hot
+	- A lot of active Volcanoes
+	- Many hot springs 
+	- **Beppu Hot springs**
+		- Located in the Oita Prefecture
+		- Most famous hot springs resort
+		- produces the most hot spring water in Japan
+		- Famous for its Hells(?)
+			- Attractions
+	- Okinawa
+		- Southmost japan
+		- Subtropical
+		- 60 small islands
+		- Lots of marine wildlife and sports
+		- Was independent in the past
+			- Ryukyu Kingdom
+			- existed between 15th to 19th century
+			- used to trade with south/east Asia until it was invaded by Satsuma
+		- After WWII, the US controlled Okinawa until 1972

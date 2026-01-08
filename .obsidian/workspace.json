@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Paradigms/01 Lambda Calculus.md",
+                "file": "Japanese Culture/01 Regions of Japan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 Lambda Calculus"
+              "title": "01 Regions of Japan"
             }
           }
         ],
@@ -215,9 +215,10 @@
   },
   "active": "363256bba640f24c",
   "lastOpenFiles": [
+    "Programming Paradigms/01 Lambda Calculus.md",
+    "Japanese Culture/01 Regions of Japan.md",
     "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
     "Algorithms and Complexity/01.md",
-    "Programming Paradigms/01 Lambda Calculus.md",
     "Algorithms and Complexity",
     "Spanish",
     "Japanese Culture",
@@ -250,7 +251,6 @@
     "Research/pandas/Data Manipulation Geeks for Geeks.md",
     "Computability/Language Theory.md",
     "Untitled.base",
-    "11-18.md",
     "* Backend",
     "Web for CS",
     "Technology and Society",
