@@ -1,3 +1,4 @@
+### Basics
 - example; take a doubling function `def double(x): return x + x` 
 	- what this returns can actually be interpreted *differently* depending on how the programming language acts
 	- in $\lambda$-calculus: ($\lambda$n.n + n)
@@ -8,4 +9,45 @@
 		- notice we apply it on the right
 		- our applied expression will result in 3+3
 			- this simplified, non-lambda expression is called *normal form*; cannot be simplified any more
-	- 
+- **formal definition**
+	- start with a countably infinite set of "variables"
+		- {a, b, c, ..., x, y, ...}
+	- grammar for $\lambda$-terms is:
+		- \<term> ::= \<id>            \<- variable
+		-         |  ($\lambda$\<id>.\<term>)  \<- abstraction
+		-         |  (\<term>\<term>)  <- application
+	- abstraction: captures the notion of a function
+	- application: captures the notion of applying a function to an argument
+	- then we can obtain a countably infinite set of terms inductively using these three properties
+---
+### Conventions
+- Parentheses are cringe, here are some conventions that are followed
+	- Outermost parentheses may be omitted
+	- Abstraction binds a variable to the longest possible body
+		- $\lambda$x.x **is** ($\lambda$x.(xx)) **not** (($\lambda$x.x)x)
+		- xyz **is** ((xy)z) **not** (x(yz))
+	- leftmost applied
+---
+### Introduction to Representation
+- Currently, we don't have:
+	- real recursion
+	- data types/representation
+		- **booleans**
+		- integers
+		- lists
+		- etc.
+- Preface:
+	- in $\lambda$-calculus, every term represents a function
+	- a variable also stands for a function
+	- when apply a function to another term/input, a function is still returned
+- Numbers and their operators aren't built in, so functions have to be represented beforehand
+---
+### Booleans
+- booleans represent binary alternatives
+- we can now construct the *church-boolean* representations
+	- **true** = ($\lambda$xy.x)
+	- **false** = ($\lambda$xy.y)
+	- if = ($\lambda$xyz.xyz)
+	- not = ($\lambda$b.b false true) or ($\lambda$b.b($\lambda$xy.y)($\lambda$xy.x))
+	- and = ($\lambda$ab.a b a) ie: if a is true, return b, else return a
+	- or = ($\lambda$ab.a a b), ie: if a is true, return a, else return b

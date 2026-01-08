@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "adc20bc178b107cc",
+        "id": "7666f4ca6f1ae1ea",
         "type": "tabs",
         "children": [
           {
-            "id": "02b84057afb0a10d",
+            "id": "44b4fe9b4cb3824f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "00 Complexity and Big-O Notation"
+            }
+          },
+          {
+            "id": "363256bba640f24c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +55,8 @@
               "title": "01 Lambda Calculus"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,11 +213,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02b84057afb0a10d",
+  "active": "363256bba640f24c",
   "lastOpenFiles": [
+    "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
+    "Algorithms and Complexity/01.md",
+    "Programming Paradigms/01 Lambda Calculus.md",
+    "Algorithms and Complexity",
+    "Spanish",
+    "Japanese Culture",
     "#obsidian.css#",
     "Programming Paradigms/00 Outline.md",
-    "Programming Paradigms/01 Lambda Calculus.md",
     "Programming Paradigms",
     "Web for CS/Node.md",
     "Web for CS/Node.js (Node).md",
@@ -221,16 +251,11 @@
     "Computability/Language Theory.md",
     "Untitled.base",
     "11-18.md",
-    "Web for CS/CSS.md",
     "* Backend",
     "Web for CS",
     "Technology and Society",
     "Computing Machinery I/Slides/Array Indexing.pdf",
-    "Computability",
-    "Research/Week 1",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
-    "Research/pandas",
-    "Computing Machinery II/Notes/Slides/I_O Hardware & Bus Basics.pdf",
     "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png"
   ]
 }
