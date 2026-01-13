@@ -51,3 +51,74 @@
 	- not = ($\lambda$b.b false true) or ($\lambda$b.b($\lambda$xy.y)($\lambda$xy.x))
 	- and = ($\lambda$ab.a b a) ie: if a is true, return b, else return a
 	- or = ($\lambda$ab.a a b), ie: if a is true, return a, else return b
+---
+### Natural Numbers
+- with natural numbers, we are able to do things a certain number of times (i.e. loops)
+- using this logic, we can represent basic numbers
+	- take 2 for example, it takes in a value (that is being repeated, lets say g) and returns two of them
+- consider an add function:
+	- this is essentially a concatenation of the two values
+- We can do all of this in **church numerals**
+- the number *n* is represented as:
+	- a function that takes another function $f$
+	- and iterates $f$ a total of *n* times
+	- example: $$3 = \lambda f.(\lambda x.f(f(fx)))$$
+	- so: $$3g = \lambda x.g(g(gx))$$
+	- following this pattern down, we compose these$$
+		\begin{aligned}
+		2 &= \lambda f.(\lambda x.f(f(x)))\\
+		1 &= \lambda f.(\lambda x.f(x)))\\
+		0 &= \lambda f.(\lambda x.x)\\
+		\end{aligned}
+	   $$
+- *Now, we can move on to representing arithmetic operators*
+- The successor or 'succ' function takes a natural number and returns its successor
+	- succ 0 -> 1
+	- succ 1 -> 2
+	- etc.
+- So, we can try defining it like so: $$ \text{succ} = \lambda n.(\lambda f.(\lambda x. f((nf)x))) $$
+- also, a zero check is useful: $$ \text{isZero} = \lambda n.n(\lambda x.\text{false})\text{true} $$
+	- we can see the reduction: $$
+	   \begin{aligned}
+		   \text{isZero 0} &= \text{0} (\lambda x.\text{false}) \text{true}\\
+		   &= (\lambda f.(\lambda (x.x))) (\lambda x.\text{false}) \\
+		   &= (\lambda(x.x))\text{true} \\
+		   &= \text{true} \\
+		   \\
+		   \text{isZero 2} &= 2(\lambda x.\text{false}) \text{true} \\
+		   &= \lambda f.(\lambda x.f(f(x))) (\lambda x.\text{false}) \text{true} \\
+		   &= (\lambda x. (\lambda x.\text{false})((\lambda x.\text{false})(x))) \text{true} \\
+		   &= (\lambda x.\text{false})((\lambda x.\text{false})(\text{true}))
+	   \end{aligned} 
+	$$
+- now add is simple with successor: $$\text{add} = \lambda m n. m \text{ succ }n$$
+	- essentially, repeat the successor function on m *n* times
+- multiplication is also super easy: $$\text{mult} =\lambda mn. m \text{ add } n $$
+---
+### Lists and Tuples
+- Pairs (also called 2-tuples) $$\begin{aligned} \text{pair} &= \lambda xyf. fxy\\
+\text{fst}&=\lambda p.p\text{ true}\\
+\text{snd}&=\lambda p.p\text{ false}\\
+\end{aligned}$$
+- practice:
+	- pair 1 2:$$
+	  \begin{aligned}
+		\text{pair 1 2} &= (\lambda x y f. fxy)\text{1 2}\\
+		&=_{x2} (\lambda f.f\text{ 1 2})\\
+		\\
+		&\text{now we can get the 1st} \\
+		&= \text{1st} (\lambda f.f \text{ 1 2}) \\
+		&= (\lambda p.p \text{ true})(\lambda f.f \text{ 1 2}) \\
+		&= (\lambda f.f \text{ 1 2}) \text{true} \\
+		&= \text{true 1 2} \\
+		&= 2
+	  \end{aligned}
+	$$
+- Now, we can intuitively find that lists can be represented as nested pairs, similar to numerals.
+	- essentially linked lists
+- we can represent the empty set '\[]' as: $$[] = (\text{true, \_} ) $$
+- the true being for emptyness. TODO add the rest of these $$
+\begin{aligned}
+3 = false, (3, [])
+\end{aligned}
+$$

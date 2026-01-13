@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
+                "file": "Programming Paradigms/01 Lambda Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00 Complexity and Big-O Notation"
-            }
-          },
-          {
-            "id": "363256bba640f24c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Japanese Culture/01 Regions of Japan.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "01 Regions of Japan"
+              "title": "01 Lambda Calculus"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,11 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "363256bba640f24c",
+  "active": "44b4fe9b4cb3824f",
   "lastOpenFiles": [
-    "Programming Paradigms/01 Lambda Calculus.md",
-    "Japanese Culture/01 Regions of Japan.md",
+    "Spanish/01 Los Saludos (Greetings).md",
     "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
+    "Japanese Culture/01 Regions of Japan.md",
+    "Programming Paradigms/01 Lambda Calculus.md",
     "Algorithms and Complexity/01.md",
     "Algorithms and Complexity",
     "Spanish",
@@ -249,7 +225,6 @@
     "Research/pandas/DataCamp pandas.md",
     "Research/pandas/Data Preparation with pandas.md",
     "Research/pandas/Data Manipulation Geeks for Geeks.md",
-    "Computability/Language Theory.md",
     "Untitled.base",
     "* Backend",
     "Web for CS",
