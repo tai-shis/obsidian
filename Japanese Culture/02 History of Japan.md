@@ -1,0 +1,161 @@
+### Timeline
+- Jomon
+- Yayoi
+- Kofun
+- Nara
+- Heian
+- Kamakura
+- Muromachi
+- Momoyama
+- edo
+- meiji
+- showa
+- heisei
+- reiwa
+---
+### Jomon Period
+- 12,000 BC - 300 BC
+- Jomon pottery vessels were manly used for cooking and rituals
+	- Jomon is the name of the cod markings found on the pottery during this period
+---
+### Yayoi Period
+- 300 BC - 300 AD
+- Rice farming/cultivation emerged during this period
+	- started in Kyushu, then spread north
+	- black rice was much more common in this era
+- Advanced pottery techniques with the use of bronze and iron started
+	- Yayoi clayware
+- Bronze
+	- ritual tools and weapons
+- Iron
+	- used for farming tools and weapons
+- Complex social structures were developed
+	- class system
+	- visible villages
+	- wealth through grain storage
+- **Yoshinogari ruins**
+	- famous archaelogical site
+	- largest ruin among all yayoi ruins excavated in Japan
+	- in Kyushu
+---
+### Kofun Period
+- 300 - 710
+- Central government was established
+	- centered in the Nara area
+- *Kofun Tombs* were built to serve as the tombs of the powerful
+- Yamato clan rose to power and formed the lineage of Japan's emperors
+- **Daisenryo-Kofun** Osaka 
+	- Largest Kofun
+	- 486m
+	- world heritage site
+	- the tomb for *Emperor Nintoku*
+	- why was it so big?
+		- reigned in the 5th century
+		- was kind, and cared for his people
+		- reduced taxes to help citizens live comfortably
+		- did not collect taxes when people struggled
+		- Tomb: Daisen Kofun, one of Japan's largest ancient burial mounds
+		- Seen as an ideal leader who put people first
+	- Keyhole-shaped tombs (senpo-koen-fun)
+		- Built for powerful leaders
+		- round part: burial
+		- square part: ceremonies
+		- shape shows status and may symbolize heaven and earth
+- lots of tombs (kofun) were built
+- **Seventeen-Article Constitution**
+	- established by **Prince Shotoku**
+	- outlined moral precepts for the ruling class
+	- structured a *political system centered on the emperor*
+		- period during prince shotoku was the 
+	- Points:
+		1. Emphasis on Harmony (Wa)
+			- harmony above all
+			- avoid conflict
+			- maintain cooperation and peace in society
+		2. Loyalty and Integrity
+			- Loyalty to rulers and superiors
+			- politicians and bureaucrats were expected to act honestly and faithfully
+		3. Rectifying Injustice
+			- it calls for strict action against wrongdoing
+			- importance of upholding the rule of law
+		4. Respect for Buddhist Teachings
+			- political actions should be upheld with buddhist teachings
+		5. Respect for the Emperor's Authority
+	- **Horyuji Temple** was also built by ***prince shotoku*** (important**)
+		- the oldest wooden building in the world
+		- on test
+---
+### Nara Period 
+- 710 - 794
+- Capital: Nara (Heijo-kyo)
+	- 1st "permanent" capital
+	- moved to nagaoka
+	- then to Kyoto (which lasted for 1000+ years)
+- Political system modeled after Chinese laws
+- Strengthened Imperial power
+- Buddhism strongly influenced politics and culture
+- An emperor promoted the construction of *provincial temples* through Japan
+	- Emperor Shomu
+	- Intended to address social unrest such as epidemics, disasters, and riots using the "power of Buddhism"
+	- He built the Great Buddha at Todai-ji Temple
+- The **great buddha** is located in the **Todai-Ji Temple**
+	- about 15m tall
+- **Envoys were sent to China** to get information
+	- buddhism and culture was strongly influenced by China
+	- spending 10-20 years
+	- taking 6 months to 1.5 years to travel there
+	- Culture
+		- Shosoin in the Todaiji Temple has many items brought back from Envoys
+---
+### Heian Period
+- 794 - 1185
+- Capital: **Kyoto**
+- Nobility power grew so great so one noble seized control by appointing his daughter as empress
+	- Fujiwara Clan
+	- Allowed him to exert influence over the imperial court through her position
+		- called regency politics
+		- regency politics involved powerful families using their control over the imperial family to govern indirectly
+- **one of the most culturally rich periods**
+	- adapted Chinese culture  to Japanese climate, lifestyle, and emotions
+	- Kana writing system was created
+	- 31 syllable waka poems were established
+	- Murasaki Shikibu's **The Tale of Genji** was written during this period
+		- world's oldest full-length novel
+		- MC: **Hikaru Genji**
+		- focuses on:
+			- Genji's love life and relationship
+			- detailed emotions and beautiful language
+		- portrays Genji's rise and fall
+		- contains Heian court life
+		- Insight into aristocratic society
+- *House of Nobility*
+- **Samurai Warriors**
+	- *initially emerged to provide security for nobility*
+	- over time, power gradually expanded
+		- political power for the *Taira Clan*
+	- The period ended when the Minamoto warriors defeated the Taira clan
+---
+### Kamakura Period
+- 1185 - 1333
+- **Minamoto Yorimoto became the first shogun (important\*\*)***, 
+- Japan entered a fuedal period, lasting 700 years
+- Hojo clan (Yorimoto's Wife) established a regency government
+- The emperor remained higher in position, but the Shogun maintained overwhelming power
+- Attempt by the **Mongolian Kublai Khan** to invade Japan
+	- stopped by shogunal forces
+	- two typhoons helped defend as it destroyed the Mongolian navy at Kyushu
+- many realistic Buddhist sculptures were created
+	- Buddhism became popular among ordinary people
+	- powerful guardians of the Buddja were built at the Todaiji
+---
+### Muromachi Period
+- 1333 - 1568
+- End of the kamakura period
+- Emperor Godaigo defeated the Kamakura shogunate with **Ashikaga Takauji's** help
+- **Ashikaga Takauji** establed a shogunate in the Muromachi area of Kyoto
+	- the Muromachi shogunate begins
+- nearing the end of the Muromachi period, war over shogunal succession among power daimyo occured
+	- conflict triggered the Sengoku and Azuchi-Momoyama periods
+- **Zen temples** were built
+	- such as the *Kinkakuji Temple*
+	- Noh, kyogen, tea ceremony, and ikebana (flower arrangement) were established during this period

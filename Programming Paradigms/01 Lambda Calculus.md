@@ -93,7 +93,12 @@
 	$$
 - now add is simple with successor: $$\text{add} = \lambda m n. m \text{ succ }n$$
 	- essentially, repeat the successor function on m *n* times
-- multiplication is also super easy: $$\text{mult} =\lambda mn. m \text{ add } n $$
+- multiplication is also super easy: $$\text{mult} =\lambda mn. m (\text{ add } n) 0 $$
+- **the pred function**
+	- pred will only go to zero, never below $$
+	\text{pred} = \lambda n . snd (n(\lambda (last,sndLast).(succ (last,last)))(0,0))
+	$$
+	- essentially, the pred function will recount from 0 to n, but omit the first count, which will effectively recount 0 to n-1 skipping the first number.
 ---
 ### Lists and Tuples
 - Pairs (also called 2-tuples) $$\begin{aligned} \text{pair} &= \lambda xyf. fxy\\
@@ -122,3 +127,12 @@
 3 = false, (3, [])
 \end{aligned}
 $$
+---
+### Recursion
+- **factorial example**
+	- since we cant define factorial recursively using lambda calculus, we must use the y combinator: $$ Y = \lambda f. f(\lambda x.xx)(\lambda x.xx) $$
+	- let fact: $$ \begin{aligned} fact' &= \lambda f n . \text{isZero n }1 (\text{mul n }(f (\text{pred n})))\\ fact &= Y fact' \end{aligned}$$
+		- this lets us expand our y combinator enough that it satisfies the amount of inner fact' 's needed to evaluate the number.
+- To write a recursive function,
+- first write an "invalid" recursive lambda expression, then replace any recursive invocations into an f as func prime
+	- next let the invocation be Y func'

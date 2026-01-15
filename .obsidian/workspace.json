@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7666f4ca6f1ae1ea",
+        "id": "6821815361d515c8",
         "type": "tabs",
         "children": [
           {
-            "id": "44b4fe9b4cb3824f",
+            "id": "04cb04317642461e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,13 +188,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44b4fe9b4cb3824f",
+  "active": "04cb04317642461e",
   "lastOpenFiles": [
     "Spanish/01 Los Saludos (Greetings).md",
     "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
-    "Japanese Culture/01 Regions of Japan.md",
-    "Programming Paradigms/01 Lambda Calculus.md",
     "Algorithms and Complexity/01.md",
+    "Japanese Culture/02 History of Japan.md",
+    "Programming Paradigms/01 Lambda Calculus.md",
+    "Japanese Culture/01 Regions of Japan.md",
     "Algorithms and Complexity",
     "Spanish",
     "Japanese Culture",
@@ -224,7 +225,6 @@
     "Research/pandas/GeeksforGeeks Library.md",
     "Research/pandas/DataCamp pandas.md",
     "Research/pandas/Data Preparation with pandas.md",
-    "Research/pandas/Data Manipulation Geeks for Geeks.md",
     "Untitled.base",
     "* Backend",
     "Web for CS",
