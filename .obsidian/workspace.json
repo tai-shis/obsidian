@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Paradigms/01 Lambda Calculus.md",
+                "file": "Japanese Culture/02 History of Japan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 Lambda Calculus"
+              "title": "02 History of Japan"
             }
           }
         ]
@@ -190,11 +190,11 @@
   },
   "active": "04cb04317642461e",
   "lastOpenFiles": [
+    "Japanese Culture/02 History of Japan.md",
+    "Programming Paradigms/01 Lambda Calculus.md",
     "Spanish/01 Los Saludos (Greetings).md",
     "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
     "Algorithms and Complexity/01.md",
-    "Japanese Culture/02 History of Japan.md",
-    "Programming Paradigms/01 Lambda Calculus.md",
     "Japanese Culture/01 Regions of Japan.md",
     "Algorithms and Complexity",
     "Spanish",

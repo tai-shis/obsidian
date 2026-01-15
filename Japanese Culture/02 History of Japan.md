@@ -159,3 +159,141 @@
 - **Zen temples** were built
 	- such as the *Kinkakuji Temple*
 	- Noh, kyogen, tea ceremony, and ikebana (flower arrangement) were established during this period
+---
+### Azuchi Momoyama Period
+- 1568 - 1600
+- shogun power diminished and lands of shogun emperor and nobles were *taken by samurai warriors*
+- **Gekokujou** - A phenomenon where those with greater ability overcame those of higher rank
+- Daimyo/feudal lords built powerful armies and castles
+- Large Samurai figures
+	- **Oda Nobunaga**
+		- destroyed muromachi shogunate and enryakuji temple
+		- tried to unify japan
+		- ruthless and vindictive
+		- Akechi Mitsuhide attacked him, but he took his own life
+		- *Battle of Nagashino*
+			- Nobunaga, the first samurai who used firearms in battle
+			- oda fired rotating volleys, continuous shots
+			- defeated takeda's cavalry (the strongest cavalry)
+	- **Toyotomi Hideyoshi**
+		- rose to power after Oda
+		- started as a peasant 
+			- nobunaga's servant then a daimyo
+		- took control after Nobunaga's death
+		- Clever strategist, skilled in politics
+		- careful and organized
+		- implemented:
+			- *land surveys*
+				- assessed the area and productivity of agricultural land
+			- *sword hunt *
+				- promoted separation of farmers and soldiers
+				- solidified the status system
+		- did not become a shogun
+- **portugese merchants introduced guns**
+- **spanish missionary introduced christianity**
+- ***Three Japanese Castles built in this era***
+	- **Azuchi Castle**
+		- Built by Oda Nobunaga (1576-1579)
+		- served as a military base and a symbol of power
+		- lavish decorations and gold leaf
+		- stone wall architecture
+		- moved to azuchi castle after living in Gify
+	- **Gifu Castle**
+		- Oda lived here until he moved to Azuchi Castle
+	- **Osaka Castle**
+		- great number of valuable historical materials 
+---
+### Edo Period
+- 1600 - 1868
+- last era controlled by samurai
+- **Tokugawa Ieyasu** defated the Toyotomi family in the *battle of Sekigahara*
+	- first shogunate of this era
+	- son of feudal lord
+	- wanted to end the long period of chaos and instability to create a peacful era 
+- period of relative peace and stability in Japan
+- allowed Daimyo to have direct control over their territories and farmers
+- Control measures:
+	- limited power of daimyo
+	- Sankin kotai system
+		- some way to monitor and control daimyo
+		- feudal lords were forced to rotate between edo and their home provinces
+		- so daimyo would waste resources on the travel and such to ensure shogunate stays in power
+- Social Hierarchy
+	- Samurai
+	- Peasants
+	- Artisans
+	- Merchants
+- **Self-Isolation policy**
+	- christianity was banned
+	- to maintain political stability
+	- netherlands and china were the only countries that Japan traded with
+	- Deijima Island was were trade took, a man-made island in Nagasaki
+	- allowed for japanese culture to develop
+	- Demanded to "end" or for Japan to open for foreign trade by Matthew C. Perry
+		- triggered events leading to the end of the Tokugawa Shogunate
+		- contributed to the restoration of imperial rule in Japan
+- **Odaiba Area**
+	- man-made island made for a shopping and entertainment district
+	- used for toyko olympic triathalon 
+	- *Daiba:
+		- fort or battery used for defense.
+- Culture:
+	- Isolation kept Jpaan away from internatonal relations
+	- Japanese Scholars nad intellectuals studied western philosophy, history, and medicine
+	- Western knowledge came through the Dutch at Dejima island
+	- Led the development of agriculture and other industries (soy sauce)
+	- Agriculture flourished due to the stable security situation
+	- Industries that flourished from then:
+		- Soy Sauce
+		- Sake Brewing
+		- Nishijin textiles
+	- Ukiyoe (wood print art)
+		- things like the Great Wave
+		- used to be prints (garbage)
+---
+### Meiji Period
+- 1868 - 1912
+- Choshu and Satsuma clans united to overthrow the Tokugawa Shogunate
+- Imperial Restoration declared under Emperor Meiji
+- Modernizations to realign with industrialized Western nations
+- Edo renamed as Tokyo and became the capital
+- *Major changes:*
+	- Abolition of the fuedal system
+	- adoption of a cabinet system
+- Japan reopened to western trade and influence
+- military power was strengthened
+- solar calendar was adopted
+- brick buildings were increased in cities, roads were lit with lamps and gas lamps
+- horse carriages were popularized
+- railroads using trains opened 
+- western influences led to new lifestyles:
+	- coats and hats/fashion
+	- eating beef became popular
+---
+### Taisho Period
+- 1912 - 1926
+- after death of emperor Meiji, his sickly son became the new Emperor, which only lasted 15 years
+- world war 1 broke out
+- japan joined the allies
+	- european trade disrupted
+	- japanese exports increased
+	- economic boom
+- industrial growth
+	- machinery, shipbuilding, chemicals, and pharmaceuticals
+- Taisho democracy spread
+	- more liberal and democratic ideas
+- Western influence increased:
+	- art, literature, architecture, fashion, education
+- Japan expanded influence in Asia
+- Western Clothing became popular
+	- emergence of women adopting western fashion and lifestyles
+- Western-inspired cafe and restaraunts
+- Yoshoku Cuisine
+	- served japanese-western fushion dishes like curry, tonkatsu, croquettes
+- **Taisho Architecture**
+	- blend of western and traditional styles
+---
+### Showa Period
+- 1926 - 1989
+- atomic bombs were dropped
+- test does not cover this period
