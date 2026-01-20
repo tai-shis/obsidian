@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Japanese Culture/02 History of Japan.md",
+                "file": "Japanese Culture/03 Religions in Japan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02 History of Japan"
+              "title": "03 Religions in Japan"
             }
           }
         ]
@@ -190,9 +190,11 @@
   },
   "active": "04cb04317642461e",
   "lastOpenFiles": [
+    "Spanish/01 Los Saludos (Greetings).md",
+    "Japanese Culture/03 Religions in Japan.md",
     "Japanese Culture/02 History of Japan.md",
     "Programming Paradigms/01 Lambda Calculus.md",
-    "Spanish/01 Los Saludos (Greetings).md",
+    "Programming Paradigms/02 Haskell.md",
     "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
     "Algorithms and Complexity/01.md",
     "Japanese Culture/01 Regions of Japan.md",
@@ -223,8 +225,6 @@
     "Research/pandas/Preparing Data for ML using pandas.md",
     "Research/pandas/pandas for Machine Learning.md",
     "Research/pandas/GeeksforGeeks Library.md",
-    "Research/pandas/DataCamp pandas.md",
-    "Research/pandas/Data Preparation with pandas.md",
     "Untitled.base",
     "* Backend",
     "Web for CS",

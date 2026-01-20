@@ -136,3 +136,10 @@ $$
 - To write a recursive function,
 - first write an "invalid" recursive lambda expression, then replace any recursive invocations into an f as func prime
 	- next let the invocation be Y func'
+---
+### Case Study
+- **Binary Search Trees**
+	-  binary trees are either: empty, or non-empty
+		- non-empty being, a left subtree and a right subtree
+		- how can we represent this?$$\begin{aligned}nil &= (true,\_) \\ node &= (false,(left,value,right)) \\ isEmpty &= \lambda (tag,x).tag\end{aligned}$$
+	- now, we can easily write the recursive algorithm for summing a tree: $$\begin{aligned} sumTree&= Y(\lambda ft.(\text{isEmpty t})0(\text{add (value t)}(add (f (\text{left t})(f (\text{right t}))))) \end{aligned}$$

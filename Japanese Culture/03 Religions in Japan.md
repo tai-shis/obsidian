@@ -1,0 +1,156 @@
+### Shinto
+- Shinto is the **indigenous** faith of the japanese people
+- Shinto does not have a founder
+- Kami are believed to dwell in *everything in nature*
+	- eight million Shinto deities
+	- the core of the Shinto spirit is *Honesty and Purity*
+	- No religious texts, simply practicing the spirit.
+- The top Shinto Diety is the **the sun goddess** or **Amaterasu**
+- Spirit of Kami is enshrined, and Shinto rituals and festivals are performed there
+	- Shrines are the Shinto buildings, whereas temples are Buhddist
+- *Many Kami*
+	- derived from nature
+	- from Japanese mythology
+	- Tokogawa Ieyasu
+		- enshrined as a person (who performed great acts)
+		- *the first shogun of the edo period*
+		- wanted to protect the edo area after he died
+- ***Shrine precinct*** 
+	- **Important**** ***aspects of Shinto Shrines***
+		- torii gate, shinto maiden, guardian dogs, sacred tree
+	- Torii gate to symbolize entrance
+		- marks the sacred space from the secular
+	- **Ablution Station** for purification
+		- washing hands with sacred water
+	- main gate
+	- Worship Hall
+		- people pray here, some shrines have their main hall and worship hall in the same building
+	- Main Hall
+		- where Kami resides, not seen; usually residing in some object or place.
+	- Sacred Tree
+		- this object is holy
+	- Guardian dogs
+		- Foxes instead are also common
+	- Shinto Priests/Maiden
+		- performs sacred dances
+- *Ise Shrine
+	- Mie, Kansai
+	- **Amaterasu Omikami**, the sun goddess is the main deity
+		- Japan's emperors are the descendants
+		- imperial family will visit on special occasions
+	- top of all shrines in japan
+	- consists of *125 shrines*
+	- two main shrines
+		- **Na**iku: Inner Shrine
+		- **Ge**ku: Outer Shrine
+	- Shikinen sengu ceremony
+		- rebuilding shrine buildings
+		- done every 20 years
+		- maintains purity in perpetuity
+			- also passes building techniques from one generation to the next
+- *Hirou Shrine*
+	- Wakayama, Kansai
+	- **Okuninushi**, god of medicine and healing is the main deity
+	- Waterfalls have been an object of nature worship
+	- **This shrine does not have a main hall**
+		- this is because the deity resides in the waterfall
+- *Dazaifu Tenmangu Shrine*
+	- Fukuoka, Kyushu
+	- Sugawara Michizana is the main deity
+		- a human being
+		- noble, scholar and politician in the Heian era
+		- was unfairly exiled by his political rivals and died in Kyushu
+		- Shrine was build on the burial site of Sugawara Michizane
+		- Very intelligent, therefore he is enshrined as Tenjin
+			- the deity of leaning, culture, and the arts
+	- *Jujutsu*
+		- widely practiced during the Heian Period
+		- people believed that illness, disasters, and misfortune were caused by angry spirits
+		- Onmyodo (yin-yang divination)
+			- practiced by diviners (onmyoji)
+			- used for fortune-telling, exorcism, and avoiding bad directions
+			- Famous: abe no seimei
+		- Buddhist Rituals
+			- monks performed prayers and fire rituals
+			- aimed at healing illness and protecting the state
+		- Appeasing Angry Spirits
+			- spirits of unjustly treated people were worshipped as gods
+			- example: *Sugawara Michizane* $\rightarrow$ Tenjin
+				- lots of disasters occurred after he died
+---
+### Buddhism
+- **Shakyamuni Gautama**, the founder (Shaka)
+- Origin:
+	- originated in India around the 5th century, spreading throughout southeast asia to China to Japan
+	- monks who studied in China founded new sects in Japan
+		- around 13 main sects
+- Object of Faith:
+	- **Enlightened Buddha**
+- Belief:
+	- life is full of suffering
+	- overcome suffering through spiritual enlightenment
+	- the path to enlightenment is attained by utilizing morality, meditation, and wisdom
+- Temples:
+	- *Honzon, the principal image of worship* as well as other Buddhist statues are kept
+		- The honzon is like the great buddha
+- **Temple Precinct**
+	- gate has ***statues of guardians***
+	- three or five storied pagpda
+		- what is said to be the remains of the buddha (where it is stored)
+	- main hall:
+		- images of Buddha are kept, rest is open to public
+	- Lecture hall:
+		- buddhist doctrines are preached here
+	- ***Hanging Bell***
+		- only in Buddhist tempels
+		- To tell the time, the voice of Buddha
+	- Monks
+- Two Temples:
+	- **Enryakuji Temple**
+		- Shiga, Kansai
+		- *Yakushinyorai, Buddha to cure all ills*
+			- principle buddha
+			- **holds a medicine container**
+				- identifying factor
+			- shape of the right had (no need to fear)
+		- *Head temple of the Tendai sect*
+		- Consists of 100 temple halls
+		- many monks study here
+		- one of the locations of the Kyoto World Heritage Sites
+	- **Sanjusangendo Temple**
+		- Kyoto, Kansai
+		- *Senju Kannon Bosatu*, Thousand-Armed Goddess of Mercy
+		- Famous for its one thousand statues surrounding the main Kannon Bosatsu
+		- Statues, has many arms
+---
+### Life Rituals
+- When a child is a month old, families **visit a shrine** for a blessing
+- 3 and 7 year old girls and 5 year old boys also visit a shrine to pray to the kami for protection and healthy growth of the children
+	- children wear kimono
+	- turning point of a child's growth around this age
+- Entrance Exam prayer
+	- students and families visit shrines so they pass entrance exams
+	- usually they get little amulets
+- Weddings
+	- Christian style: 46.7%
+	- Civil style 31.0%
+- Shinto style 18.0%
+- Unlucky years
+	- three ages to be unlucky
+	- go to shrines and temples to pray (getting talismans
+- Funerals
+	- Buddhist style 91.5%
+	- Non-religions 4%
+	- Christian style 1.7%
+	- Shinto style 1.4%
+---
+### Festivals, Matsuri
+- connecting people with kami
+- rituals, then events
+- celebrating seasons, harvests, and nature
+- shows shinto values; harmony, gratitude, community
+---
+### Power spots
+- locations believed to be imbued with special energies
+- thought to provide healing and strength to visitors
+- found in nature, shrines, temples, and other sacred sites
