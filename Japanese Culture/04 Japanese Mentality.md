@@ -1,0 +1,90 @@
+### Harmony (Wa)
+- Society places a strong emphasis on maintaining peace and harmony
+	- avoid expressing strong opinions and confrontations
+- Historically, the culture of group harmony has been valued
+	- (Yayoi period -> rice cultivation)
+- *Cherish the harmony among people* - Prince Shotoku
+	- "Wa o motte toutoshi to nasu"
+- In a workplace:
+	- Team harmony is valued over individual opinions in corporate culture
+		- maintaining smooth relationships with superiors and colleagues is essential
+		- one should respect others opinions without forcing their own
+		- those who stand out or assert themselves are often object to criticism or suppression
+		- **"Deru kui wa utareru** - the nail that sticks out gets hammered down 
+			- keep to yourself, follow the superior
+### Gratitude (On)
+- gratitude and reciprocity
+- it is expected that one cherishes received kindness, never forgetting the feeling of gratitude and repaying it in kind
+- Historically:
+	- strongly influenced by Buddhism
+	- to recognize kindness and repay it is the essence of human heart
+- Ex.
+	- students will show thanks to their teachers later in life when achieving success
+	- after growing up and receiving care and support, a child supports their parents in return, showing gratitude when they get married or succeed in life
+	- when receiving career support from a boss or colleague, they work hard to repay that kindness after succeeding in their job.
+### Obligation (Giri)
+- Fulfilling social obligations and responsibilities
+	- meeting expectations and duties in relationships
+- Historically:
+	- rooted in the *samurai code of conduct, Bushido*
+- Ex.
+	- Obligated to bring gifts to a wedding or monetary contribution
+	- Women give obligatory chocolates on valentines to friends or colleagues
+	- Farewell party for a boss you don't like due to obligation
+### Modesty/Humility (Kenkyo)
+- Being humble and respecting others
+	- not excessively boasting about oneself and valuing humility
+- Historically:
+	- Zen/Buddhism: Self-restraint and respect for others 
+		- closely examine one's own actions and to introspectively look at oneself
+	- Confucianism
+		- A gentleman is calm and expansive
+		- If you are proud and confident in your accomplishments, you will naturally become calm and composed
+- Ex.
+	- Instead of highlighting personal achievements, praise team efforts
+	- If someone compliments you, express gratitude sincerely without overemphasizing your own achievements
+### Diligence (Kinben) 
+- Emphasizes importance of effort and diligence
+	- commitment toward work and studies is valued
+- Historically:
+	- rooted in the lives of farmers and townspeople during the dei
+	- hard work was needed to sustain the towns/lives
+	- to catch up to western countries
+- Ex.
+	- Students put in the necessary effort without hesitation for their studies/exams
+	- Completing tasks on time and taking initiative to perform additional work is expected
+	- Commitment to regular practice or study when learning a new skill/hobby, aiming for improvement
+	- **Shudan Kodo** (Important**)
+		- synchronized group movement
+		- precise marching and group coordination
+		- actively emphasizes teamwork, discipline, and unity
+		- flawless performance
+		- requires high levels of training and concentration
+### Manners/Etiquette (Reigi)
+- importance of manners and respect
+	- Showing respect through actions and language and adhering to social norms and expectations in interactions with others
+- Historically:
+	- Heian period
+		- customs and etiquette in ceremonies
+	- Azuchi Momoyama
+	- Edo
+		- strict manners (bushido)
+### Inside and Outside (Uchi to Soto) (important)
+- internal (family and close friends)
+- external (people outside the immediate circle and society at large)
+- adjusting behaviours and attitudes accordingly depending on the distinguished groups
+- Historically:
+	- society used to be organized into strict classes
+	- people within the same classed worked closely, others outside were not
+	- related to the isolation where japan was the inside, and outside japan was outside
+- ex.
+	- within the family, you can be relaxed and express emotions and opinions openly
+	- in the workplace, respectful language is used during meetings 
+		- being polite and respectful
+- **Honne to Tatemae** (true thoughts vs front-facing)
+	- Honne: True feelings/thoughts
+		- usually shared with people who are trusted (family and friends)
+	- Tatemae: Outward behavior and statements made in public or formal settings
+		- Politeness, social niceties, and responses that meet social expectation, often not aligning with home
+		- essential for maintaining social harmony and politeness in relationships
+	- Ex. putting up a front, lying to preserve the atmosphere or their feelings.

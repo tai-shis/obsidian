@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6821815361d515c8",
+        "id": "89c9b119beb07492",
         "type": "tabs",
         "children": [
           {
-            "id": "04cb04317642461e",
+            "id": "8ff199d5edb33410",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Japanese Culture/03 Religions in Japan.md",
+                "file": "Japanese Culture/04 Japanese Mentality.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03 Religions in Japan"
+              "title": "04 Japanese Mentality"
             }
           }
         ]
@@ -188,13 +188,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04cb04317642461e",
+  "active": "8ff199d5edb33410",
   "lastOpenFiles": [
-    "Spanish/01 Los Saludos (Greetings).md",
+    "Programming Paradigms/02 Haskell.md",
+    "Japanese Culture/04 Japanese Mentality.md",
     "Japanese Culture/03 Religions in Japan.md",
+    "Spanish/01 Los Saludos (Greetings).md",
     "Japanese Culture/02 History of Japan.md",
     "Programming Paradigms/01 Lambda Calculus.md",
-    "Programming Paradigms/02 Haskell.md",
     "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
     "Algorithms and Complexity/01.md",
     "Japanese Culture/01 Regions of Japan.md",
@@ -224,7 +225,6 @@
     "Research/pandas/10 minutes to pandas.md",
     "Research/pandas/Preparing Data for ML using pandas.md",
     "Research/pandas/pandas for Machine Learning.md",
-    "Research/pandas/GeeksforGeeks Library.md",
     "Untitled.base",
     "* Backend",
     "Web for CS",
