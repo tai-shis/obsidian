@@ -1,0 +1,14 @@
+### Interrupts
+- Interupts are happening continually in a computer system
+- **Hardware Interrupts**
+	- There are physical connections (wires) in the hardware that carry the interrupt signal
+	- the timer is one of them (an interrup every timer tick/signal)
+	- CPU notified via an external IRQ hardware signal
+	- essentially, the interrupts give a signal that must be handled 
+- **Software Interrupts**
+	- still needs to be handled once an interrupt is sent
+	- e.g. an execution of the most recently fetched instruction
+		- like a divide by 0
+	- CPU detects the interrupt condition by itself with built-in detection systems
+- The CPU will be pushing context onto a stack, then jumps to an ISR
+	- the ISR is what handles the code, and may return to the interrupted code (popping the CPU context)

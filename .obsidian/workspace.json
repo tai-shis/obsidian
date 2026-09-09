@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Japanese Culture/04 Japanese Mentality.md",
+                "file": "Operating Systems/01 Kernel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04 Japanese Mentality"
+              "title": "01 Kernel"
             }
           }
         ]
@@ -51,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -190,14 +192,20 @@
   },
   "active": "8ff199d5edb33410",
   "lastOpenFiles": [
+    "Operating Systems/00.md",
+    "Operating Systems/01 Kernel.md",
     "Programming Paradigms/02 Haskell.md",
+    "Programming Paradigms/01 Lambda Calculus.md",
+    "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
+    "Algorithms and Complexity/01.md",
+    "Untitled.base",
+    "Operating Systems",
+    "Untitled.canvas",
+    "Untitled 1.base",
     "Japanese Culture/04 Japanese Mentality.md",
     "Japanese Culture/03 Religions in Japan.md",
     "Spanish/01 Los Saludos (Greetings).md",
     "Japanese Culture/02 History of Japan.md",
-    "Programming Paradigms/01 Lambda Calculus.md",
-    "Algorithms and Complexity/00 Complexity and Big-O Notation.md",
-    "Algorithms and Complexity/01.md",
     "Japanese Culture/01 Regions of Japan.md",
     "Algorithms and Complexity",
     "Spanish",
@@ -223,13 +231,8 @@
     "Research/PyTorch/01 PyTorch Workflow Fundamentals.md",
     "Research/PyTorch/00 PyTorch Fundamentals.md",
     "Research/pandas/10 minutes to pandas.md",
-    "Research/pandas/Preparing Data for ML using pandas.md",
-    "Research/pandas/pandas for Machine Learning.md",
-    "Untitled.base",
     "* Backend",
     "Web for CS",
-    "Technology and Society",
-    "Computing Machinery I/Slides/Array Indexing.pdf",
     "Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
     "Software Eng/38f0e971a4b569a59c7871921b1f5a87.png"
   ]

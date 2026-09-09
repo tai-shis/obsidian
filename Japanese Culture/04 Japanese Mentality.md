@@ -1,4 +1,4 @@
-### Harmony (Wa)
+`### Harmony (Wa)
 - Society places a strong emphasis on maintaining peace and harmony
 	- avoid expressing strong opinions and confrontations
 - Historically, the culture of group harmony has been valued
