@@ -1,0 +1,38 @@
+### Agents and Intelligent Agents
+- An **Agent**:
+	- Interacts with some task or "*environment*"
+	- Preceives an environment through "*sensors*"
+	- Acts in the environment through actuators
+- Example:
+	- ChatGPT:
+		- Environment: chat interface
+		- Sensors: text inputs, prompts, context
+		- Actuators: response text, tool calls
+	- Algorithmic Trader:
+		- Environment: stock market
+		- Sensors: prices, volumes, trades
+		- Actuators: Buying/Selling
+	- Thermostat:
+		- Environment: House
+		- Sensors: Temperature Sensor
+		- Actuators: Call heat
+- Note, that not all of these are really "intelligent" agents
+- What is an *intelligent* agent?
+	- we can compare in 2 dimensions:
+		- throught
+		- action, or behaviour
+- *Describing the agent's task*
+	- P.E.A.S.
+		- Performance
+			- what measures agent perfromance?
+		- Environment
+			- this can be categorized in several dimensions
+			- fully observable vs partially observable
+				- chess vs LoL
+			- Single vs Multiagent
+			- Deterministic vs Stochastic
+				- does an action always produce the same outcome?
+			- Sequential vs Episodic
+				- does each decision lead to more decisions, or is each decision a one-off
+			- Static vs Dynamic
+			- Known vs Unknown
