@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/02 OS Design Goals.md",
+                "file": "Web 3/01 Advanced JS Lanugage Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02 OS Design Goals"
+              "title": "01 Advanced JS Lanugage Features"
             }
           }
         ]
@@ -192,18 +192,19 @@
   },
   "active": "8ff199d5edb33410",
   "lastOpenFiles": [
-    "Operating Systems/01 Kernel.md",
+    "Web 3/00 Outline.md",
+    "temp.md",
+    "Web 3/01 Advanced JS Lanugage Features.md",
     "Operating Systems/02 OS Design Goals.md",
+    "Untitled.base",
+    "Operating Systems/01 Kernel.md",
     "AI/01 Intelligent Agents.md",
     "old/Web for CS/Miscellaneous.md",
     "AI",
     "old",
     "old/Web for CS/JavaScript.md",
     "old/Web for CS/Events.md",
-    "Web 3/00 Outline.md",
-    "Untitled.base",
     "Web 3",
-    "Untitled.md",
     "Operating Systems/00.md",
     "old/Programming Paradigms/02 Haskell.md",
     "old/Programming Paradigms/01 Lambda Calculus.md",
@@ -229,8 +230,6 @@
     "old/Web for CS/Semantic Elements in HTML5.md",
     "old/Research/PyTorch/other/02-different-classification-problems.png",
     "old/Research/PyTorch/03 PyTorch Computer Vision.md",
-    "old/Research/Week 1/Three Paper Summary.md",
-    "old/Research/Research Resources.md",
     "old/Research/PyTorch/other/download 1.png",
     "old/Research/PyTorch/other/download.png",
     "old/Research/PyTorch/other/01-pytorch-training-loop-annotated.png",
