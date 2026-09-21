@@ -104,3 +104,55 @@ export { cde, fgh } // conventionally at the bottom of the file for readability
 			}
 		}
 		```
+---
+### Asynchronous Coding with Async/Await
+- will skip most things here, most of it is covered in [[Miscellaneous#Asynchronous Coding with Fetch (IMPORTANT**)]]
+- Just remember that things like `fetch()` return a **promise object**
+```js
+const resp = await fetch(url);
+
+const data = await resp.json();
+```
+- this is the equivalent to the big fetch().then() indentation stuff
+	- this must be wrapped in an async function though
+- Sometimes you have multiple asynchronous activities that your application requires (e.g. multiple fetches)
+	- you can do this via `Promise.all()`
+	```js
+		Promise.all([fetch(url1), fetch(url2)])
+			.then(results => { ... })
+	```
+---
+### Generator Functions
+- allows you to define functions in which you can "leave" the function and then return to it(??)
+- marked with an asterisk
+	```js
+	function* generator() {
+		yield "first value"
+		yield "second value"
+		yield "third value"
+	}
+	
+	const g = generator();
+	console.log(g.next());
+	console.log(g.next());
+	console.log(g.next());
+	```
+	- we can return all three values eventually
+- why do we need this?
+	- async loops
+	- **pagination**
+```js
+for await(...) {
+	fetchProducts.next()
+}
+
+async function* fetchProducts(skip, limit) {
+	let totalProducts = 0;
+	do {
+		const response = await fetch(`${url}?skip=${skip}&limit=${limit});
+		// ...
+		yield stuff
+	}
+}
+```
+- something like the above ^

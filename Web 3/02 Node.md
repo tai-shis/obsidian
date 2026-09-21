@@ -1,0 +1,34 @@
+- the server environment that uses JS
+- flow example:
+	- request -> node
+	- node -> executes (and compiles if not compiled)
+	- executed code -> interacts with resources
+	- which then gives a response
+- node runs on a **single execution thread**
+	- isn't actually that bad
+	- it can handle more requests than the typical multi-threaded environment (PHP)
+		- in PHP, each request runs on its own thread
+		- when there are a lot of threads, the CPU spends most of its time context switching rather than executing the threads (server is unresponsive around 1000-3000 requests)
+### Node Benefits/Disadvantages
+- **Benefits**
+	- speed of execution (V8 compiles)
+	- Google support of V8
+	- single-threaded execution
+		- more requests handled per server
+	- JS on client and server means its easier for developers
+		- easier to hire too
+	- push-based architectures (typically using the websocket standard) are more easily created in Node since JS supports asynchronosity 
+	- rich ecosystem of code and tools
+		- npm
+	- many cloud providers provide node-based bindings to access their resources
+		- cloud databases
+		- cloud file storage
+		- cloud functions
+		- your node server will interact with the cloud.
+	- very popular, widely used
+- **Disadvantages**
+	- since its single execution thread, its poor for applications that contain a lot of "calculations" that cant be delegated to separate threads
+		- ie. doesn't do well with computationally-heavy apps
+	- without JS experience, Node's asynchronous nature can be hard
+		- async nature can be hard to design/maintain
+	- node isn't ideal for HTML generation - rather its better for implementing APIs that "return" data to the browser (JSON)
