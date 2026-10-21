@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web 3/02 Node.md",
+                "file": "Web 3/03 Databases.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": true,
+                  "collapseAll": false,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02 Node"
+              "title": "03 Databases"
             }
           }
         ]
@@ -192,10 +192,16 @@
   },
   "active": "8ff199d5edb33410",
   "lastOpenFiles": [
-    "Operating Systems/02 OS Design Goals.md",
     "Web 3/02 Node.md",
-    "Operating Systems/03 Boot Process.md",
+    "Web 3/03 Databases.md",
     "Web 3/01 Advanced JS Lanugage Features.md",
+    "old/Japanese Culture/03 Religions in Japan.md",
+    "old/Japanese Culture/02 History of Japan.md",
+    "old/Japanese Culture/01 Regions of Japan.md",
+    "old/Web for CS/IMG_7751.webp",
+    "Operating Systems/01 Kernel.md",
+    "Operating Systems/02 OS Design Goals.md",
+    "Operating Systems/03 Boot Process.md",
     "old/Web for CS/Miscellaneous.md",
     "Asynchronous Coding with Fetch (IMPORTANT**).md",
     "old/Web for CS/Semantic Elements in HTML5.md",
@@ -208,7 +214,6 @@
     "Web 3/00 Outline.md",
     "temp.md",
     "Untitled.base",
-    "Operating Systems/01 Kernel.md",
     "AI/01 Intelligent Agents.md",
     "AI",
     "old",
@@ -221,15 +226,10 @@
     "Operating Systems",
     "Untitled.canvas",
     "Untitled 1.base",
-    "old/Japanese Culture/04 Japanese Mentality.md",
-    "old/Japanese Culture/03 Religions in Japan.md",
-    "Spanish/01 Los Saludos (Greetings).md",
-    "old/Japanese Culture/02 History of Japan.md",
     "old/Algorithms and Complexity",
     "Spanish",
     "old/Japanese Culture",
     "#obsidian.css#",
-    "old/Web for CS/IMG_7751.webp",
     "old/Research/PyTorch/other/02-different-classification-problems.png",
     "old/Research/PyTorch/other/download 1.png",
     "old/Research/PyTorch/other/download.png",
