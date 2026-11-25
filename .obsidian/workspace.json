@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web 3/03 Databases.md",
+                "file": "Web 3/05 More React.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03 Databases"
+              "title": "05 More React"
+            }
+          },
+          {
+            "id": "3c3b9050f4c15222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web 3/06 Typescript.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "06 Typescript"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,6 +206,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "realclaudian:Open Claudian": false,
       "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
@@ -190,10 +216,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ff199d5edb33410",
+  "active": "3c3b9050f4c15222",
   "lastOpenFiles": [
-    "Web 3/02 Node.md",
+    "Web 3/05 More React.md",
+    "Web 3/06 Typescript.md",
+    "Web 3/04 React + JS Frameworks.md",
+    "Untitled.base",
     "Web 3/03 Databases.md",
+    "Web 3/02 Node.md",
     "Web 3/01 Advanced JS Lanugage Features.md",
     "old/Japanese Culture/03 Religions in Japan.md",
     "old/Japanese Culture/02 History of Japan.md",
@@ -213,16 +243,12 @@
     "old/Web for CS/Events.md",
     "Web 3/00 Outline.md",
     "temp.md",
-    "Untitled.base",
     "AI/01 Intelligent Agents.md",
     "AI",
     "old",
     "Web 3",
     "Operating Systems/00.md",
     "old/Programming Paradigms/02 Haskell.md",
-    "old/Programming Paradigms/01 Lambda Calculus.md",
-    "old/Algorithms and Complexity/00 Complexity and Big-O Notation.md",
-    "old/Algorithms and Complexity/01.md",
     "Operating Systems",
     "Untitled.canvas",
     "Untitled 1.base",
